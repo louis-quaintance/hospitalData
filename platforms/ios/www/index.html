@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html >
 <head>
 
     <!-- Meta -->
@@ -13,8 +13,15 @@
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+    <script type="text/javascript"
+        src="js/angular.min.js"></script>
+    <script type="text/javascript"
+        src="js/count-to.js"></script>
+    <script type="text/javascript"
+        src="js/app.js"></script>
+
 </head>
-<body>
+<body ng-app="HospitalDataApp" ng-controller="HospitalDataController">
 
     <div id="site-wrapper">
 
@@ -83,11 +90,11 @@
                 </div>
                 
                 <div class="third">
-                <h1>Hospital Name</h1>
+                <h1>{{hospitalName}}</h1>
                 </div>
 
                 <div class="third">
-                <p>Hospital Trust</p>
+                <p >{{hospitalName}}</p>
                 </div>
             </div>
             <div class="left">
@@ -97,168 +104,45 @@
                         <ul class="bxslider">
                           
                           <!-- Procedure One -->
-                          <li>
+                          <li ng-repeat="procedureStat in procedureStats">
                             <div class="procedures-div-holder">
                                 <h2>Procedure Name</h2>
 
                                 <div class="hospital-codes">
-                                    <span class="lower-third">OPCS: H51.3</span>
-                                    <span class="lower-third">HRG: FZ22A</span>
-                                    <span class="lower-third">Tariff: £1539.00</span>
+                                    <span class="lower-third">OPCS: {{procedureStat.opcs}}</span>
+                                    <span class="lower-third">HRG: {{procedureStat.hrg}}</span>
+                                    <span class="lower-third">Tariff: £{{procedureStat.tariffNow}}</span>
                                 </div>
                                 
                                 <div class="procedure-third">
                                     <h3>No. of Procedures</h3>
                                     <p>Current</p>
-                                    <span class="number-field before">1</span>
+                                    <span class="number-field before" count-to="{{procedureStat.frequency}}" value="0" duration="3"></span>
 
                                     <p>Forecast</p>
-                                    <span class="number-field after">45.25</span>
+                                    <span class="number-field after">{{procedureStat.frequencyForecast}}</span>
                                 </div>
                                 
                                 <div class="procedure-third">
                                     <h3>Total Revenue</h3>
                                     <p>Current</p>
-                                    <span class="number-field before">£1539.00</span>
+                                    <span class="number-field before">£{{procedureStat.revenue}}</span>
 
                                     <p>Forecast</p>
-                                    <span class="number-field after">£69639.75</span>
+                                    <span class="number-field after">£{{procedureStat.revenueForecast}}</span>
                                 </div>
                                 
                                 <div class="procedure-third">
                                     <h3>Cost of Consumables</h3>
                                     <p>Current</p>
-                                    <span class="number-field before">£360</span>
+                                    <span class="number-field before">£{{procedureStat.costOfConsumerablesNow}}</span>
 
                                     <p>Forecast</p>
-                                    <span class="number-field after">£16290</span>
+                                    <span class="number-field after">£{{procedureStat.costOfConsumerablesForecast}}</span>
                                 </div>
                             </div>
                           </li>
-                          <!-- End Procedure One -->
-
-                          <!-- Procedure Two -->
-                          <li>
-                            <div class="procedures-div-holder">
-                                <h2>Procedure Name</h2>
-
-                                <div class="hospital-codes">
-                                    <span class="lower-third">OPCS: H51.3</span>
-                                    <span class="lower-third">HRG: FZ22A</span>
-                                    <span class="lower-third">Tariff: £1539.00</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>No. of Procedures</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">X</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">XX.XX</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>Total Revenue</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">£XXX.XX</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">£XXXX.XX</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>Cost of Consumables</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">£XX</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">£XXXX</span>
-                                </div>
-                            </div>
-                          </li>
-                          <!-- End Procedure Two -->
-
-                            <!-- Procedure Three -->
-                          <li>
-                            <div class="procedures-div-holder">
-                                <h2>Procedure Name</h2>
-
-                                <div class="hospital-codes">
-                                    <span class="lower-third">OPCS: H51.3</span>
-                                    <span class="lower-third">HRG: FZ22A</span>
-                                    <span class="lower-third">Tariff: £1539.00</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>No. of Procedures</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">XX</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">XXX</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>Total Revenue</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">£XXX.XX</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">£XXX.XX</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>Cost of Consumables</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">£XX</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">£XXXX</span>
-                                </div>
-                            </div>
-                          </li>
-                          <!-- End Procedure Three -->
-
-                        <!-- Procedure Four -->
-                          <li>
-                            <div class="procedures-div-holder">
-                                <h2>Procedure Name</h2>
-
-                                <div class="hospital-codes">
-                                    <span class="lower-third">OPCS: H51.3</span>
-                                    <span class="lower-third">HRG: FZ22A</span>
-                                    <span class="lower-third">Tariff: £1539.00</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>No. of Procedures</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">XX</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">XXX.XX</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>Total Revenue</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">£XXXX.00</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">£XXXX.XX</span>
-                                </div>
-                                
-                                <div class="procedure-third">
-                                    <h3>Cost of Consumables</h3>
-                                    <p>Current</p>
-                                    <span class="number-field before">£XXXX</span>
-
-                                    <p>Forecast</p>
-                                    <span class="number-field after">£XXXX.XX</span>
-                                </div>
-                            </div>
-                          </li>
-                          <!-- End Procedure Four -->
+                          
 
                         </ul>
 
@@ -277,14 +161,14 @@
 
                         <div class="totals-third">
                             <h3>Overall Revenue</h3>
-                            <span class="number-field before">£46822.00</span>
-                            <span class="number-field after">£809960.50</span>
+                            <span class="number-field before">£{{overallRevenue}}</span>
+                            <span class="number-field after">£{{overallRevenueForecast}}</span>
                         </div>
 
                         <div class="totals-third">
                             <h3>Total cost of<br>Consumables</h3>
-                            <span class="number-field before">£360</span>
-                            <span class="number-field after">£16290</span>
+                            <span class="number-field before">£{{overallConsumerables}}</span>
+                            <span class="number-field after">£{{overallConsumerablesForecast}}</span>
                         </div>
                     </div>
                 </div>
@@ -293,10 +177,10 @@
                     <div class="net-revenue">
                         <h3>Net Revenues</h3>
                         <p>Current</p>
-                        <span class="number-field before">£XXXX</span>
+                        <span class="number-field before">£{{netRevenue}}</span>
 
                         <p>Forecast</p>
-                        <span class="number-field after">£XXXX.XX</span>
+                        <span class="number-field after">£{{netRevenueForecast}}</span>
                          <div class="net-revenue-graph">
 
                             <!-- GRAPH - Financial line graph -->
@@ -309,8 +193,8 @@
                     <div class="income">
                         <div class="i-left">
                             <h3>Uplift in income</h3>
-                            <span class="number-field">£18208.50</span>
-                            <span class="number-field percent">39%</span>
+                            <span class="number-field">£{{upliftInIncome}}</span>
+                            <span class="number-field percent">{{upliftInIncomePercentage}}%</span>
                         </div>
 
                         <div class="i-right">
@@ -332,13 +216,12 @@
 
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
     <script src="js/thd.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
 
     <script>
-    $('.bxslider').bxSlider({
-    pager: false
-    });
+    
     </script>
 
 </body>
