@@ -9,14 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/angucomplete.css">
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+    <script type="text/javascript" charset="utf-8" src="cordova-2.0.0.js"></script>
+    <script type='application/javascript' src='js/fastclick.js'></script>
     <script type="text/javascript"
         src="js/angular.min.js"></script>
     <script type="text/javascript"
         src="js/count-to.js"></script>
+     <script type="text/javascript"
+        src="js/angucomplete.js"></script>
+    <script type="text/javascript"
+        src="js/moment.js"></script>
     <script type="text/javascript"
         src="js/app.js"></script>
 
@@ -30,58 +37,18 @@
             
 
             <div id="site-menu">
-                <input type="search" name="sitesearch" value="search">
-                <ul>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    <li><a href="#">Hospital name to go here</a></li>
-                    v
-                </ul>
+
+                <angucomplete id="searchHospitalsInput"
+              placeholder="Search hospitals"
+              pause="100"
+              selectedobject="selectedHospital"
+              localdata="hospitals"
+              searchfields="name"
+              titlefield="name"
+              minlength="1"
+              inputclass="form-control form-control-small"/>
+
+                
              </div>
 
              <div class="header">
@@ -117,28 +84,28 @@
                                 <div class="procedure-third">
                                     <h3>No. of Procedures</h3>
                                     <p>Current</p>
-                                    <span class="number-field before" count-to="{{procedureStat.frequency}}" value="0" duration="3"></span>
+                                    <span class="number-field before">{{procedureStat.frequency| number:0}}</span>
 
                                     <p>Forecast</p>
-                                    <span class="number-field after">{{procedureStat.frequencyForecast}}</span>
+                                    <span class="number-field after">{{procedureStat.frequencyForecast | number:0}}</span>
                                 </div>
                                 
                                 <div class="procedure-third">
                                     <h3>Total Revenue</h3>
                                     <p>Current</p>
-                                    <span class="number-field before">£{{procedureStat.revenue}}</span>
+                                    <span class="number-field before">£{{procedureStat.revenue | number:2}}</span>
 
                                     <p>Forecast</p>
-                                    <span class="number-field after">£{{procedureStat.revenueForecast}}</span>
+                                    <span class="number-field after">£{{procedureStat.revenueForecast | number:2}}</span>
                                 </div>
                                 
                                 <div class="procedure-third">
                                     <h3>Cost of Consumables</h3>
                                     <p>Current</p>
-                                    <span class="number-field before">£{{procedureStat.costOfConsumerablesNow}}</span>
+                                    <span class="number-field before">£{{procedureStat.costOfConsumerablesNow | number:2}}</span>
 
                                     <p>Forecast</p>
-                                    <span class="number-field after">£{{procedureStat.costOfConsumerablesForecast}}</span>
+                                    <span class="number-field after">£{{procedureStat.costOfConsumerablesForecast | number:2}}</span>
                                 </div>
                             </div>
                           </li>
@@ -153,22 +120,22 @@
                             <h3>Total no. of Procedures</h3>
 
                             <!-- GRAPH - bars to go up and down -->
-                            <span class="number-field before barmore">60</span>
-                            <span class="number-field after barless">30</span>
+                            <span class="number-field before barmore">{{totalNumberOfProcs}}</span>
+                            <span class="number-field after barless">{{totalNumberOfProcsForecast}}</span>
                             <!-- GRAPH - End -->
 
                         </div>
 
                         <div class="totals-third">
                             <h3>Overall Revenue</h3>
-                            <span class="number-field before">£{{overallRevenue}}</span>
-                            <span class="number-field after">£{{overallRevenueForecast}}</span>
+                            <span class="number-field before">£{{overallRevenue | number:2}}</span>
+                            <span class="number-field after">£{{overallRevenueForecast | number:2}}</span>
                         </div>
 
                         <div class="totals-third">
                             <h3>Total cost of<br>Consumables</h3>
-                            <span class="number-field before">£{{overallConsumerables}}</span>
-                            <span class="number-field after">£{{overallConsumerablesForecast}}</span>
+                            <span class="number-field before">£{{overallConsumerables | number:2}}</span>
+                            <span class="number-field after">£{{overallConsumerablesForecast | number:2}}</span>
                         </div>
                     </div>
                 </div>
@@ -177,10 +144,10 @@
                     <div class="net-revenue">
                         <h3>Net Revenues</h3>
                         <p>Current</p>
-                        <span class="number-field before">£{{netRevenue}}</span>
+                        <span class="number-field before">£{{netRevenue | number:2}}</span>
 
                         <p>Forecast</p>
-                        <span class="number-field after">£{{netRevenueForecast}}</span>
+                        <span class="number-field after">£{{netRevenueForecast | number:2}}</span>
                          <div class="net-revenue-graph">
 
                             <!-- GRAPH - Financial line graph -->
@@ -193,8 +160,8 @@
                     <div class="income">
                         <div class="i-left">
                             <h3>Uplift in income</h3>
-                            <span class="number-field">£{{upliftInIncome}}</span>
-                            <span class="number-field percent">{{upliftInIncomePercentage}}%</span>
+                            <span class="number-field">£{{upliftInIncome | number:2}}</span>
+                            <span class="number-field percent">{{upliftInIncomePercentage | number:0}}%</span>
                         </div>
 
                         <div class="i-right">
