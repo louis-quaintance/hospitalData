@@ -6,9 +6,10 @@ window.addEventListener('load', function() {
 //**, HospitalDataProcessor, HospitalAppCache*/
 //count-to="{{procedureStat.frequency | number:0}}" value="0" duration="3"
 
-angular.module('HospitalDataApp', ['countTo', "angucomplete"]).controller('HospitalDataController', ['$scope', '$http', function($scope, $http) {
-
-
+angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataController', ['$scope', '$http', function($scope, $http) {
+	
+	var spinner;
+	
     function cache(data){
 
         function populateDB(tx) {
@@ -50,21 +51,27 @@ angular.module('HospitalDataApp', ['countTo', "angucomplete"]).controller('Hospi
 
         openDb().transaction(function(tx){
 
-            tx.executeSql('SELECT DISTINCT dateOfCache FROM CACHEDDATA', [], function(tx, results){
+                tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
+            
+                tx.executeSql('SELECT DISTINCT dateOfCache FROM CACHEDDATA', [], function(tx, results){
 
-                for(var i = 0; i < results.rows.length; i++){
-
-                    var row = results.rows.item(i);
-    
-                    if(row.dateOfCache === moment().format("YYYY[-]MM[-]DD")){
-                        bindModelToView();
-                    } else {
+                    if(results.rows.length === 0){
                         httpFetchCallback();
-                    }
+                    } else {
+                        for(var i = 0; i < results.rows.length; i++){
 
-                    break;
-                }
-            })
+                            var row = results.rows.item(i);
+       
+                            if(row.dateOfCache === moment().format("YYYY[-]MM[-]DD")){
+                                bindModelToView();
+                            } else {
+                                httpFetchCallback();
+                            }
+
+                            break;
+                        }
+                    }                    
+                });  
         });
     }
 
@@ -77,15 +84,22 @@ angular.module('HospitalDataApp', ['countTo', "angucomplete"]).controller('Hospi
                 var hospitalNames = [];
 
                 for(var i = 0; i < results.rows.length; i++){
-                    hospitalNames.push({ name: results.rows.item(i).hospitalName })
+                    hospitalNames.push(results.rows.item(i).hospitalName);
                 }
-
-                $scope.hospitals = hospitalNames;
-
-
-                    $scope.$apply();
-
-            })
+                $('.typeahead').typeahead({
+                        	  hint: true,
+                        	  highlight: true,
+                        	  minLength: 1
+                        	},
+                        	{
+                        	  name: 'hospitalNames',
+                        	  displayKey: 'value',
+                        	  source: substringMatcher(hospitalNames)
+               }).on('typeahead:selected', function($e, datum){
+            	   	bindModelToView(datum.value);
+	              }
+	           );
+            });
         });
     }
 
@@ -93,14 +107,16 @@ angular.module('HospitalDataApp', ['countTo', "angucomplete"]).controller('Hospi
         return window.openDatabase("HospitalData", "1.0", "HospitalData", 200000);
     }
 
-    function bindModelToView(){
+    function bindModelToView(hospitalNameSelected){
 
         var querySuccess = function(tx, results){
-
-            var hospitalNameList = [];
-            var firstHospitalSet = false;
-
-            var hospitalName = results.rows.item(0).hospitalName;  
+        	
+            var hospitalName;
+            if(hospitalNameSelected){
+            	hospitalName = hospitalNameSelected;
+            } else {
+            	hospitalName = results.rows.item(0).hospitalName;  
+            }
 
             var hospitalRows = [];
 
@@ -116,19 +132,16 @@ angular.module('HospitalDataApp', ['countTo', "angucomplete"]).controller('Hospi
 
             $scope.hospitalName = hospitalName;
 
-                    $scope.procedureStats = hospitalRows;
+            $scope.procedureStats = hospitalRows;
                     
+            lookupTotals(hospitalName, $scope);
 
-                    lookupTotals(hospitalName, $scope);
+            lookupHospitalNames();
 
-                    lookupHospitalNames();
+            $scope.$apply();
 
-                    $scope.$apply();
-
-                    resetSlider();  
+            resetSlider();  
         };       
-
-        
 
         function queryDB(tx){
             tx.executeSql('SELECT * FROM CACHEDDATA order by hospitalName', [], querySuccess, errorCB);
@@ -178,44 +191,36 @@ angular.module('HospitalDataApp', ['countTo', "angucomplete"]).controller('Hospi
 
                     $( ".barmore" ).animate({
                         width: (row.f * 100 / (row.ff + row.f)) + "%"
-                      }, 3000, function() {
-                        $( ".barless" ).animate({
-                        width: (row.ff * 100 / (row.ff + row.f)) + "%"
-                      }, 3000, function() {
-                        // Animation complete.
-                      });
-                      });
-
-                    
-
+                    }, 1500, function() {
+                          $( ".barless" ).animate({
+                            width: (row.ff * 100 / (row.ff + row.f)) + "%"
+                          }, 1500, function() {
+                            // Animation complete.
+                          });
+                    });                  
                 }
-
             }, errorCB);
-
-
         }, errorCB);
     }
 
 
 
-    
-
-    isDataCached(function(){
-
+    isDataCached(function(){  
+    	
+    	spinner = new Spinner().spin(document.getElementById('preview'));
+    	
         $http({method: 'GET', url: 'http://localhost:8111/'}).
             success(function(data, status, headers, config) {
-
-                cache(data.data);
-
-                bindModelToView();                 
+            	cache(data.data);
+                bindModelToView();
+                spinner.stop();
             }).
             error(function(data, status, headers, config) {
-              alert("todo")
+            	spinner.stop();
+            	alert("We are currently unable to retrieve the data from the server, please try again later");
             }
         );
-
     });
-
 }]);
 
 
@@ -321,3 +326,27 @@ var aModel = {
         }]
     }
 };
+
+var substringMatcher = function(strs) {
+	  return function findMatches(q, cb) {
+	    var matches, substrRegex;
+	 
+	    // an array that will be populated with substring matches
+	    matches = [];
+	 
+	    // regex used to determine if a string contains the substring `q`
+	    substrRegex = new RegExp(q, 'i');
+	 
+	    // iterate through the pool of strings and for any string that
+	    // contains the substring `q`, add it to the `matches` array
+	    $.each(strs, function(i, str) {
+	      if (substrRegex.test(str)) {
+	        // the typeahead jQuery plugin expects suggestions to a
+	        // JavaScript object, refer to typeahead docs for more info
+	        matches.push({ value: str });
+	      }
+	    });
+	 
+	    cb(matches);
+	  };
+	};

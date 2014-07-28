@@ -2039,3 +2039,970 @@ You could find it at the following address https://developer.apple.com/icloud/do
 
 2014-07-20 20:19:42.133 HospitalData[22847:70b] Resetting plugins due to page load.
 2014-07-20 20:19:42.523 HospitalData[22847:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/4C9ABF93-41E6-4E07-BAE4-58DAE8520629/HospitalData.app/www/index.html
+objc[34486]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:08:09.857 HospitalData[34486:70b] Cannot find executable for CFBundle 0xa552830 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:08:09.863 HospitalData[34486:70b] Cannot find executable for CFBundle 0xa42b880 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:08:10.598 HospitalData[34486:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:08:10.642 HospitalData[34486:70b] Unlimited access to network resources
+2014-07-28 10:08:10.667 HospitalData[34486:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:08:12.776 HospitalData[34486:70b] Resetting plugins due to page load.
+2014-07-28 10:08:13.703 HospitalData[34486:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5A121443-239F-4473-86FA-FA147D1561DF/HospitalData.app/www/index.html
+objc[34626]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:08:32.727 HospitalData[34626:70b] Cannot find executable for CFBundle 0xa39be40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:08:32.732 HospitalData[34626:70b] Cannot find executable for CFBundle 0xa5aa280 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:08:32.751 HospitalData[34626:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:08:32.756 HospitalData[34626:70b] Unlimited access to network resources
+2014-07-28 10:08:32.758 HospitalData[34626:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:08:32.809 HospitalData[34626:70b] Resetting plugins due to page load.
+2014-07-28 10:08:33.122 HospitalData[34626:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5A121443-239F-4473-86FA-FA147D1561DF/HospitalData.app/www/index.html
+objc[34764]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:09:10.903 HospitalData[34764:70b] Cannot find executable for CFBundle 0xa566a30 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:09:10.908 HospitalData[34764:70b] Cannot find executable for CFBundle 0xa34c180 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:09:10.929 HospitalData[34764:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:09:10.933 HospitalData[34764:70b] Unlimited access to network resources
+2014-07-28 10:09:10.936 HospitalData[34764:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:09:10.985 HospitalData[34764:70b] Resetting plugins due to page load.
+2014-07-28 10:09:11.283 HospitalData[34764:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5A121443-239F-4473-86FA-FA147D1561DF/HospitalData.app/www/index.html
+objc[34919]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:10:18.942 HospitalData[34919:70b] Cannot find executable for CFBundle 0xa446e60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:10:18.946 HospitalData[34919:70b] Cannot find executable for CFBundle 0xa48af30 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:10:18.966 HospitalData[34919:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:10:18.971 HospitalData[34919:70b] Unlimited access to network resources
+2014-07-28 10:10:18.974 HospitalData[34919:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:10:19.025 HospitalData[34919:70b] Resetting plugins due to page load.
+2014-07-28 10:10:19.348 HospitalData[34919:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5A121443-239F-4473-86FA-FA147D1561DF/HospitalData.app/www/index.html
+objc[35069]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:11:03.951 HospitalData[35069:70b] Cannot find executable for CFBundle 0xa378170 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:11:03.955 HospitalData[35069:70b] Cannot find executable for CFBundle 0xa29b8b0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:11:03.996 HospitalData[35069:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:11:04.001 HospitalData[35069:70b] Unlimited access to network resources
+2014-07-28 10:11:04.003 HospitalData[35069:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:11:04.088 HospitalData[35069:70b] Resetting plugins due to page load.
+2014-07-28 10:11:04.443 HospitalData[35069:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/22B461E3-80F4-45B2-87FE-D0765D50C2E8/HospitalData.app/www/index.html
+objc[35340]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:12:07.074 HospitalData[35340:70b] Cannot find executable for CFBundle 0xa39bc80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:12:07.079 HospitalData[35340:70b] Cannot find executable for CFBundle 0xa2e4150 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:12:07.113 HospitalData[35340:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:12:07.118 HospitalData[35340:70b] Unlimited access to network resources
+2014-07-28 10:12:07.120 HospitalData[35340:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:12:07.189 HospitalData[35340:70b] Resetting plugins due to page load.
+2014-07-28 10:12:07.540 HospitalData[35340:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/22B461E3-80F4-45B2-87FE-D0765D50C2E8/HospitalData.app/www/index.html
+objc[35511]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:12:37.723 HospitalData[35511:70b] Cannot find executable for CFBundle 0xa33f850 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:12:37.730 HospitalData[35511:70b] Cannot find executable for CFBundle 0xa23eb30 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:12:37.753 HospitalData[35511:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:12:37.759 HospitalData[35511:70b] Unlimited access to network resources
+2014-07-28 10:12:37.761 HospitalData[35511:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:12:38.116 HospitalData[35511:70b] Resetting plugins due to page load.
+2014-07-28 10:12:38.549 HospitalData[35511:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[35657]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:13:36.890 HospitalData[35657:70b] Cannot find executable for CFBundle 0xa252a20 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:13:36.894 HospitalData[35657:70b] Cannot find executable for CFBundle 0xa470060 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:13:36.915 HospitalData[35657:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:13:36.919 HospitalData[35657:70b] Unlimited access to network resources
+2014-07-28 10:13:36.921 HospitalData[35657:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:13:36.971 HospitalData[35657:70b] Resetting plugins due to page load.
+2014-07-28 10:13:43.575 HospitalData[35657:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[35788]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:13:59.629 HospitalData[35788:70b] Cannot find executable for CFBundle 0xa2a92e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:13:59.633 HospitalData[35788:70b] Cannot find executable for CFBundle 0xa2c0b60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:13:59.654 HospitalData[35788:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:13:59.658 HospitalData[35788:70b] Unlimited access to network resources
+2014-07-28 10:13:59.660 HospitalData[35788:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:13:59.711 HospitalData[35788:70b] Resetting plugins due to page load.
+2014-07-28 10:14:00.038 HospitalData[35788:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[35929]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:14:32.353 HospitalData[35929:70b] Cannot find executable for CFBundle 0xa47fe50 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:14:32.357 HospitalData[35929:70b] Cannot find executable for CFBundle 0xa691060 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:14:32.380 HospitalData[35929:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:14:32.385 HospitalData[35929:70b] Unlimited access to network resources
+2014-07-28 10:14:32.387 HospitalData[35929:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:14:32.437 HospitalData[35929:70b] Resetting plugins due to page load.
+2014-07-28 10:14:33.036 HospitalData[35929:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[36091]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:16:21.040 HospitalData[36091:70b] Cannot find executable for CFBundle 0xa242db0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:16:21.045 HospitalData[36091:70b] Cannot find executable for CFBundle 0xa25b9d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:16:21.066 HospitalData[36091:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:16:21.071 HospitalData[36091:70b] Unlimited access to network resources
+2014-07-28 10:16:21.073 HospitalData[36091:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:16:21.125 HospitalData[36091:70b] Resetting plugins due to page load.
+2014-07-28 10:16:21.432 HospitalData[36091:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[36364]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:17:06.223 HospitalData[36364:70b] Cannot find executable for CFBundle 0xa496640 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:17:06.227 HospitalData[36364:70b] Cannot find executable for CFBundle 0xa2b3aa0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:17:06.246 HospitalData[36364:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:17:06.252 HospitalData[36364:70b] Unlimited access to network resources
+2014-07-28 10:17:06.254 HospitalData[36364:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:17:06.304 HospitalData[36364:70b] Resetting plugins due to page load.
+2014-07-28 10:17:06.657 HospitalData[36364:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[36500]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:17:26.477 HospitalData[36500:70b] Cannot find executable for CFBundle 0xa2b05c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:17:26.481 HospitalData[36500:70b] Cannot find executable for CFBundle 0xa46b610 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:17:26.501 HospitalData[36500:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:17:26.506 HospitalData[36500:70b] Unlimited access to network resources
+2014-07-28 10:17:26.508 HospitalData[36500:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:17:26.557 HospitalData[36500:70b] Resetting plugins due to page load.
+2014-07-28 10:17:31.497 HospitalData[36500:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[36686]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:20:32.596 HospitalData[36686:70b] Cannot find executable for CFBundle 0xb92f180 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:20:32.600 HospitalData[36686:70b] Cannot find executable for CFBundle 0xa280f30 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:20:32.622 HospitalData[36686:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:20:32.627 HospitalData[36686:70b] Unlimited access to network resources
+2014-07-28 10:20:32.629 HospitalData[36686:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:20:32.679 HospitalData[36686:70b] Resetting plugins due to page load.
+2014-07-28 10:20:33.073 HospitalData[36686:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[36824]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:20:51.479 HospitalData[36824:70b] Cannot find executable for CFBundle 0xa23da10 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:20:51.483 HospitalData[36824:70b] Cannot find executable for CFBundle 0xa44d0d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:20:51.504 HospitalData[36824:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:20:51.510 HospitalData[36824:70b] Unlimited access to network resources
+2014-07-28 10:20:51.512 HospitalData[36824:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:20:51.563 HospitalData[36824:70b] Resetting plugins due to page load.
+2014-07-28 10:20:51.878 HospitalData[36824:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[36961]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:21:30.134 HospitalData[36961:70b] Cannot find executable for CFBundle 0xb9b6f40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:21:30.138 HospitalData[36961:70b] Cannot find executable for CFBundle 0xb9ce8d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:21:30.160 HospitalData[36961:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:21:30.165 HospitalData[36961:70b] Unlimited access to network resources
+2014-07-28 10:21:30.167 HospitalData[36961:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:21:30.216 HospitalData[36961:70b] Resetting plugins due to page load.
+objc[37091]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:21:46.340 HospitalData[37091:70b] Cannot find executable for CFBundle 0xa390070 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:21:46.344 HospitalData[37091:70b] Cannot find executable for CFBundle 0xa3b9a20 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:21:46.368 HospitalData[37091:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:21:46.373 HospitalData[37091:70b] Unlimited access to network resources
+2014-07-28 10:21:46.375 HospitalData[37091:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:21:46.429 HospitalData[37091:70b] Resetting plugins due to page load.
+2014-07-28 10:21:46.733 HospitalData[37091:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[37336]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:25:10.391 HospitalData[37336:70b] Cannot find executable for CFBundle 0xb15efe0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:25:10.395 HospitalData[37336:70b] Cannot find executable for CFBundle 0xa26c210 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:25:10.417 HospitalData[37336:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:25:10.422 HospitalData[37336:70b] Unlimited access to network resources
+2014-07-28 10:25:10.424 HospitalData[37336:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:25:10.481 HospitalData[37336:70b] Resetting plugins due to page load.
+2014-07-28 10:25:10.857 HospitalData[37336:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[37493]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:26:05.685 HospitalData[37493:70b] Cannot find executable for CFBundle 0xa4487e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:26:05.690 HospitalData[37493:70b] Cannot find executable for CFBundle 0xa64ca00 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:26:05.712 HospitalData[37493:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:26:05.717 HospitalData[37493:70b] Unlimited access to network resources
+2014-07-28 10:26:05.719 HospitalData[37493:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:26:05.771 HospitalData[37493:70b] Resetting plugins due to page load.
+2014-07-28 10:26:06.157 HospitalData[37493:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+2014-07-28 10:26:19.142 HospitalData[37493:3f07] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+objc[37631]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:26:48.760 HospitalData[37631:70b] Cannot find executable for CFBundle 0xa36a150 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:26:48.765 HospitalData[37631:70b] Cannot find executable for CFBundle 0xa4b4290 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:26:48.786 HospitalData[37631:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:26:48.791 HospitalData[37631:70b] Unlimited access to network resources
+2014-07-28 10:26:48.793 HospitalData[37631:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:26:48.851 HospitalData[37631:70b] Resetting plugins due to page load.
+2014-07-28 10:26:53.773 HospitalData[37631:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[37767]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:27:12.199 HospitalData[37767:70b] Cannot find executable for CFBundle 0xa2785e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:27:12.204 HospitalData[37767:70b] Cannot find executable for CFBundle 0xa29a520 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:27:12.224 HospitalData[37767:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:27:12.229 HospitalData[37767:70b] Unlimited access to network resources
+2014-07-28 10:27:12.232 HospitalData[37767:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:27:12.280 HospitalData[37767:70b] Resetting plugins due to page load.
+2014-07-28 10:27:35.895 HospitalData[37767:3f07] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-07-28 10:27:35.913 HospitalData[37767:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[37904]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:27:41.983 HospitalData[37904:70b] Cannot find executable for CFBundle 0xa2d1c10 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:27:41.988 HospitalData[37904:70b] Cannot find executable for CFBundle 0xa2e9fd0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:27:42.007 HospitalData[37904:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:27:42.012 HospitalData[37904:70b] Unlimited access to network resources
+2014-07-28 10:27:42.014 HospitalData[37904:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:27:42.064 HospitalData[37904:70b] Resetting plugins due to page load.
+2014-07-28 10:27:48.539 HospitalData[37904:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[38037]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:28:01.251 HospitalData[38037:70b] Cannot find executable for CFBundle 0xa49fcc0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:28:01.255 HospitalData[38037:70b] Cannot find executable for CFBundle 0xa2671e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:28:01.318 HospitalData[38037:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:28:01.322 HospitalData[38037:70b] Unlimited access to network resources
+2014-07-28 10:28:01.325 HospitalData[38037:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:28:01.381 HospitalData[38037:70b] Resetting plugins due to page load.
+2014-07-28 10:28:01.708 HospitalData[38037:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[38175]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:28:28.519 HospitalData[38175:70b] Cannot find executable for CFBundle 0xa268c40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:28:28.523 HospitalData[38175:70b] Cannot find executable for CFBundle 0xa283fb0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:28:28.543 HospitalData[38175:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:28:28.548 HospitalData[38175:70b] Unlimited access to network resources
+2014-07-28 10:28:28.550 HospitalData[38175:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:28:28.603 HospitalData[38175:70b] Resetting plugins due to page load.
+2014-07-28 10:28:29.155 HospitalData[38175:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[38355]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:30:51.834 HospitalData[38355:70b] Cannot find executable for CFBundle 0xa3b3a40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:30:51.839 HospitalData[38355:70b] Cannot find executable for CFBundle 0xa3d6340 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:30:51.862 HospitalData[38355:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:30:51.866 HospitalData[38355:70b] Unlimited access to network resources
+2014-07-28 10:30:51.868 HospitalData[38355:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:30:51.921 HospitalData[38355:70b] Resetting plugins due to page load.
+2014-07-28 10:30:52.227 HospitalData[38355:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[38492]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:31:19.741 HospitalData[38492:70b] Cannot find executable for CFBundle 0xa4861c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:31:19.746 HospitalData[38492:70b] Cannot find executable for CFBundle 0xa2934a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:31:19.781 HospitalData[38492:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:31:19.786 HospitalData[38492:70b] Unlimited access to network resources
+2014-07-28 10:31:19.789 HospitalData[38492:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:31:19.853 HospitalData[38492:70b] Resetting plugins due to page load.
+2014-07-28 10:31:20.244 HospitalData[38492:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E4E85D2-3D37-4065-BAA8-870E90E29EEF/HospitalData.app/www/index.html
+objc[38628]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:31:59.829 HospitalData[38628:70b] Cannot find executable for CFBundle 0xa299850 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:31:59.834 HospitalData[38628:70b] Cannot find executable for CFBundle 0xa5d0130 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:31:59.879 HospitalData[38628:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:31:59.885 HospitalData[38628:70b] Unlimited access to network resources
+2014-07-28 10:31:59.887 HospitalData[38628:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:31:59.996 HospitalData[38628:70b] Resetting plugins due to page load.
+2014-07-28 10:32:00.364 HospitalData[38628:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[38768]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:32:42.344 HospitalData[38768:70b] Cannot find executable for CFBundle 0xa5d4af0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:32:42.349 HospitalData[38768:70b] Cannot find executable for CFBundle 0xa5f0a60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:32:42.381 HospitalData[38768:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:32:42.388 HospitalData[38768:70b] Unlimited access to network resources
+2014-07-28 10:32:42.391 HospitalData[38768:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:32:42.451 HospitalData[38768:70b] Resetting plugins due to page load.
+2014-07-28 10:32:47.310 HospitalData[38768:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[38905]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:33:12.058 HospitalData[38905:70b] Cannot find executable for CFBundle 0xa2a0360 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:33:12.063 HospitalData[38905:70b] Cannot find executable for CFBundle 0xa2d1410 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:33:12.083 HospitalData[38905:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:33:12.088 HospitalData[38905:70b] Unlimited access to network resources
+2014-07-28 10:33:12.090 HospitalData[38905:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:33:12.142 HospitalData[38905:70b] Resetting plugins due to page load.
+2014-07-28 10:33:19.436 HospitalData[38905:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[39048]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 10:34:07.469 HospitalData[39048:70b] Cannot find executable for CFBundle 0xa3797d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 10:34:07.474 HospitalData[39048:70b] Cannot find executable for CFBundle 0xa467150 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 10:34:07.497 HospitalData[39048:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 10:34:07.502 HospitalData[39048:70b] Unlimited access to network resources
+2014-07-28 10:34:07.504 HospitalData[39048:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 10:34:07.564 HospitalData[39048:70b] Resetting plugins due to page load.
+2014-07-28 10:34:07.888 HospitalData[39048:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[40334]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:44:42.704 HospitalData[40334:70b] Cannot find executable for CFBundle 0xa343910 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:44:42.709 HospitalData[40334:70b] Cannot find executable for CFBundle 0xa2b22e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:44:42.831 HospitalData[40334:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:44:42.837 HospitalData[40334:70b] Unlimited access to network resources
+2014-07-28 13:44:42.852 HospitalData[40334:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:44:42.947 HospitalData[40334:70b] Resetting plugins due to page load.
+2014-07-28 13:44:43.412 HospitalData[40334:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[40652]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:54:00.259 HospitalData[40652:70b] Cannot find executable for CFBundle 0xa39a0d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:54:00.265 HospitalData[40652:70b] Cannot find executable for CFBundle 0xa676100 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:54:00.284 HospitalData[40652:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:54:00.290 HospitalData[40652:70b] Unlimited access to network resources
+2014-07-28 13:54:00.292 HospitalData[40652:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:54:00.343 HospitalData[40652:70b] Resetting plugins due to page load.
+2014-07-28 13:54:00.667 HospitalData[40652:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[40811]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:55:28.502 HospitalData[40811:70b] Cannot find executable for CFBundle 0xa33df90 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:55:28.507 HospitalData[40811:70b] Cannot find executable for CFBundle 0xa28a010 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:55:28.528 HospitalData[40811:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:55:28.533 HospitalData[40811:70b] Unlimited access to network resources
+2014-07-28 13:55:28.535 HospitalData[40811:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:55:28.585 HospitalData[40811:70b] Resetting plugins due to page load.
+2014-07-28 13:55:28.884 HospitalData[40811:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[40949]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:56:05.582 HospitalData[40949:70b] Cannot find executable for CFBundle 0xa36f7e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:56:05.586 HospitalData[40949:70b] Cannot find executable for CFBundle 0xa38da70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:56:05.609 HospitalData[40949:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:56:05.613 HospitalData[40949:70b] Unlimited access to network resources
+2014-07-28 13:56:05.615 HospitalData[40949:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:56:05.665 HospitalData[40949:70b] Resetting plugins due to page load.
+2014-07-28 13:56:05.957 HospitalData[40949:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[41086]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:56:37.440 HospitalData[41086:70b] Cannot find executable for CFBundle 0xa296db0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:56:37.445 HospitalData[41086:70b] Cannot find executable for CFBundle 0xa3d8b00 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:56:37.492 HospitalData[41086:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:56:37.497 HospitalData[41086:70b] Unlimited access to network resources
+2014-07-28 13:56:37.499 HospitalData[41086:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:56:37.590 HospitalData[41086:70b] Resetting plugins due to page load.
+2014-07-28 13:56:38.179 HospitalData[41086:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[41225]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:56:55.771 HospitalData[41225:70b] Cannot find executable for CFBundle 0xb18e530 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:56:55.775 HospitalData[41225:70b] Cannot find executable for CFBundle 0xa387640 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:56:55.795 HospitalData[41225:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:56:55.800 HospitalData[41225:70b] Unlimited access to network resources
+2014-07-28 13:56:55.802 HospitalData[41225:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:56:55.855 HospitalData[41225:70b] Resetting plugins due to page load.
+2014-07-28 13:56:56.140 HospitalData[41225:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[41369]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:57:54.121 HospitalData[41369:70b] Cannot find executable for CFBundle 0xa5c2910 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:57:54.126 HospitalData[41369:70b] Cannot find executable for CFBundle 0xa563a20 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:57:54.146 HospitalData[41369:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:57:54.151 HospitalData[41369:70b] Unlimited access to network resources
+2014-07-28 13:57:54.153 HospitalData[41369:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:57:54.203 HospitalData[41369:70b] Resetting plugins due to page load.
+2014-07-28 13:57:54.929 HospitalData[41369:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[41519]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:59:06.582 HospitalData[41519:70b] Cannot find executable for CFBundle 0xc046a90 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:59:06.587 HospitalData[41519:70b] Cannot find executable for CFBundle 0xa284cd0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:59:06.608 HospitalData[41519:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:59:06.613 HospitalData[41519:70b] Unlimited access to network resources
+2014-07-28 13:59:06.615 HospitalData[41519:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:59:06.666 HospitalData[41519:70b] Resetting plugins due to page load.
+2014-07-28 13:59:06.919 HospitalData[41519:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[41657]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 13:59:36.007 HospitalData[41657:70b] Cannot find executable for CFBundle 0xb99d590 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 13:59:36.012 HospitalData[41657:70b] Cannot find executable for CFBundle 0xa2af660 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 13:59:36.031 HospitalData[41657:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 13:59:36.037 HospitalData[41657:70b] Unlimited access to network resources
+2014-07-28 13:59:36.039 HospitalData[41657:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 13:59:36.093 HospitalData[41657:70b] Resetting plugins due to page load.
+2014-07-28 13:59:36.316 HospitalData[41657:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2EF1079E-0DC3-46AF-96D7-A9332033836A/HospitalData.app/www/index.html
+objc[41794]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:00:08.194 HospitalData[41794:70b] Cannot find executable for CFBundle 0xa47c560 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:00:08.198 HospitalData[41794:70b] Cannot find executable for CFBundle 0xa496fc0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:00:08.242 HospitalData[41794:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:00:08.248 HospitalData[41794:70b] Unlimited access to network resources
+2014-07-28 14:00:08.250 HospitalData[41794:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:00:08.389 HospitalData[41794:70b] Resetting plugins due to page load.
+2014-07-28 14:00:08.627 HospitalData[41794:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[41937]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:00:54.739 HospitalData[41937:70b] Cannot find executable for CFBundle 0xa2bcd10 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:00:54.747 HospitalData[41937:70b] Cannot find executable for CFBundle 0xa5bac80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:00:54.773 HospitalData[41937:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:00:54.778 HospitalData[41937:70b] Unlimited access to network resources
+2014-07-28 14:00:54.780 HospitalData[41937:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:00:54.833 HospitalData[41937:70b] Resetting plugins due to page load.
+2014-07-28 14:00:55.136 HospitalData[41937:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[42088]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:02:01.612 HospitalData[42088:70b] Cannot find executable for CFBundle 0xa441c30 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:02:01.617 HospitalData[42088:70b] Cannot find executable for CFBundle 0xa44c030 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:02:01.649 HospitalData[42088:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:02:01.654 HospitalData[42088:70b] Unlimited access to network resources
+2014-07-28 14:02:01.656 HospitalData[42088:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:02:01.708 HospitalData[42088:70b] Resetting plugins due to page load.
+2014-07-28 14:02:01.984 HospitalData[42088:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[42261]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:04:27.732 HospitalData[42261:70b] Cannot find executable for CFBundle 0xa2a7750 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:04:27.737 HospitalData[42261:70b] Cannot find executable for CFBundle 0xa2c1f40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:04:27.759 HospitalData[42261:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:04:27.764 HospitalData[42261:70b] Unlimited access to network resources
+2014-07-28 14:04:27.766 HospitalData[42261:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:04:27.818 HospitalData[42261:70b] Resetting plugins due to page load.
+2014-07-28 14:04:28.125 HospitalData[42261:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[42406]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:05:13.976 HospitalData[42406:70b] Cannot find executable for CFBundle 0xa5580f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:05:13.980 HospitalData[42406:70b] Cannot find executable for CFBundle 0xa579500 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:05:14.002 HospitalData[42406:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:05:14.007 HospitalData[42406:70b] Unlimited access to network resources
+2014-07-28 14:05:14.009 HospitalData[42406:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:05:14.059 HospitalData[42406:70b] Resetting plugins due to page load.
+2014-07-28 14:05:14.410 HospitalData[42406:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[42574]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:07:25.113 HospitalData[42574:70b] Cannot find executable for CFBundle 0xa4206d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:07:25.118 HospitalData[42574:70b] Cannot find executable for CFBundle 0xa343260 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:07:25.140 HospitalData[42574:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:07:25.145 HospitalData[42574:70b] Unlimited access to network resources
+2014-07-28 14:07:25.148 HospitalData[42574:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:07:25.201 HospitalData[42574:70b] Resetting plugins due to page load.
+2014-07-28 14:07:25.522 HospitalData[42574:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[42723]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:08:42.738 HospitalData[42723:70b] Cannot find executable for CFBundle 0xa36f240 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:08:42.743 HospitalData[42723:70b] Cannot find executable for CFBundle 0xa455930 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:08:42.767 HospitalData[42723:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:08:42.775 HospitalData[42723:70b] Unlimited access to network resources
+2014-07-28 14:08:42.777 HospitalData[42723:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:08:42.844 HospitalData[42723:70b] Resetting plugins due to page load.
+2014-07-28 14:08:43.156 HospitalData[42723:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[42870]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:09:37.371 HospitalData[42870:70b] Cannot find executable for CFBundle 0xa384500 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:09:37.376 HospitalData[42870:70b] Cannot find executable for CFBundle 0xa26ef60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:09:37.397 HospitalData[42870:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:09:37.402 HospitalData[42870:70b] Unlimited access to network resources
+2014-07-28 14:09:37.404 HospitalData[42870:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:09:37.456 HospitalData[42870:70b] Resetting plugins due to page load.
+2014-07-28 14:09:37.846 HospitalData[42870:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[43007]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:10:11.860 HospitalData[43007:70b] Cannot find executable for CFBundle 0xb874890 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:10:11.864 HospitalData[43007:70b] Cannot find executable for CFBundle 0xb88e690 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:10:11.884 HospitalData[43007:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:10:11.889 HospitalData[43007:70b] Unlimited access to network resources
+2014-07-28 14:10:11.891 HospitalData[43007:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:10:11.941 HospitalData[43007:70b] Resetting plugins due to page load.
+2014-07-28 14:10:12.227 HospitalData[43007:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[43144]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:10:39.780 HospitalData[43144:70b] Cannot find executable for CFBundle 0xa2adeb0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:10:39.784 HospitalData[43144:70b] Cannot find executable for CFBundle 0xa2bc210 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:10:39.806 HospitalData[43144:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:10:39.811 HospitalData[43144:70b] Unlimited access to network resources
+2014-07-28 14:10:39.813 HospitalData[43144:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:10:39.863 HospitalData[43144:70b] Resetting plugins due to page load.
+2014-07-28 14:10:40.121 HospitalData[43144:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[43303]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:11:59.306 HospitalData[43303:70b] Cannot find executable for CFBundle 0xa29cb80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:11:59.311 HospitalData[43303:70b] Cannot find executable for CFBundle 0xa2b7330 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:11:59.332 HospitalData[43303:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:11:59.337 HospitalData[43303:70b] Unlimited access to network resources
+2014-07-28 14:11:59.339 HospitalData[43303:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:11:59.389 HospitalData[43303:70b] Resetting plugins due to page load.
+2014-07-28 14:11:59.722 HospitalData[43303:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[43435]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:12:14.935 HospitalData[43435:70b] Cannot find executable for CFBundle 0xa5589e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:12:14.940 HospitalData[43435:70b] Cannot find executable for CFBundle 0xa59d0d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:12:14.960 HospitalData[43435:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:12:14.964 HospitalData[43435:70b] Unlimited access to network resources
+2014-07-28 14:12:14.966 HospitalData[43435:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:12:15.017 HospitalData[43435:70b] Resetting plugins due to page load.
+2014-07-28 14:12:15.301 HospitalData[43435:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[43573]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:12:41.325 HospitalData[43573:70b] Cannot find executable for CFBundle 0xb9b8950 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:12:41.331 HospitalData[43573:70b] Cannot find executable for CFBundle 0xa4a5f70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:12:41.351 HospitalData[43573:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:12:41.356 HospitalData[43573:70b] Unlimited access to network resources
+2014-07-28 14:12:41.358 HospitalData[43573:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:12:41.414 HospitalData[43573:70b] Resetting plugins due to page load.
+2014-07-28 14:12:41.824 HospitalData[43573:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[43750]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:15:23.047 HospitalData[43750:70b] Cannot find executable for CFBundle 0xa594700 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:15:23.052 HospitalData[43750:70b] Cannot find executable for CFBundle 0xa396850 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:15:23.073 HospitalData[43750:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:15:23.078 HospitalData[43750:70b] Unlimited access to network resources
+2014-07-28 14:15:23.080 HospitalData[43750:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:15:23.134 HospitalData[43750:70b] Resetting plugins due to page load.
+2014-07-28 14:15:23.553 HospitalData[43750:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[43956]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:17:34.117 HospitalData[43956:70b] Cannot find executable for CFBundle 0xa241d90 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:17:34.122 HospitalData[43956:70b] Cannot find executable for CFBundle 0xa259750 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:17:34.143 HospitalData[43956:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:17:34.148 HospitalData[43956:70b] Unlimited access to network resources
+2014-07-28 14:17:34.150 HospitalData[43956:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:17:34.204 HospitalData[43956:70b] Resetting plugins due to page load.
+2014-07-28 14:17:34.509 HospitalData[43956:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[44157]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:21:23.178 HospitalData[44157:70b] Cannot find executable for CFBundle 0xa35b000 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:21:23.186 HospitalData[44157:70b] Cannot find executable for CFBundle 0xa5571c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:21:23.213 HospitalData[44157:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:21:23.218 HospitalData[44157:70b] Unlimited access to network resources
+2014-07-28 14:21:23.220 HospitalData[44157:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:21:23.272 HospitalData[44157:70b] Resetting plugins due to page load.
+2014-07-28 14:21:23.705 HospitalData[44157:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[44363]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:23:21.655 HospitalData[44363:70b] Cannot find executable for CFBundle 0xd07d0a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:23:21.660 HospitalData[44363:70b] Cannot find executable for CFBundle 0xa2a22d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:23:21.682 HospitalData[44363:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:23:21.687 HospitalData[44363:70b] Unlimited access to network resources
+2014-07-28 14:23:21.689 HospitalData[44363:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:23:21.743 HospitalData[44363:70b] Resetting plugins due to page load.
+2014-07-28 14:23:22.035 HospitalData[44363:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[44533]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:25:45.291 HospitalData[44533:70b] Cannot find executable for CFBundle 0xa25c250 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:25:45.297 HospitalData[44533:70b] Cannot find executable for CFBundle 0xa276190 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:25:45.318 HospitalData[44533:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:25:45.323 HospitalData[44533:70b] Unlimited access to network resources
+2014-07-28 14:25:45.325 HospitalData[44533:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:25:45.381 HospitalData[44533:70b] Resetting plugins due to page load.
+2014-07-28 14:25:45.640 HospitalData[44533:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[44672]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:26:09.850 HospitalData[44672:70b] Cannot find executable for CFBundle 0xa5e3ae0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:26:09.856 HospitalData[44672:70b] Cannot find executable for CFBundle 0xa2a8a40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:26:09.876 HospitalData[44672:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:26:09.881 HospitalData[44672:70b] Unlimited access to network resources
+2014-07-28 14:26:09.883 HospitalData[44672:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:26:09.934 HospitalData[44672:70b] Resetting plugins due to page load.
+2014-07-28 14:26:10.217 HospitalData[44672:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[44826]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:27:36.221 HospitalData[44826:70b] Cannot find executable for CFBundle 0xb82d0a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:27:36.225 HospitalData[44826:70b] Cannot find executable for CFBundle 0xa375870 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:27:36.248 HospitalData[44826:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:27:36.253 HospitalData[44826:70b] Unlimited access to network resources
+2014-07-28 14:27:36.255 HospitalData[44826:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:27:36.320 HospitalData[44826:70b] Resetting plugins due to page load.
+2014-07-28 14:27:36.730 HospitalData[44826:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[45089]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:31:24.369 HospitalData[45089:70b] Cannot find executable for CFBundle 0xa2ccb40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:31:24.374 HospitalData[45089:70b] Cannot find executable for CFBundle 0xa4c51f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:31:24.394 HospitalData[45089:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:31:24.399 HospitalData[45089:70b] Unlimited access to network resources
+2014-07-28 14:31:24.401 HospitalData[45089:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:31:24.452 HospitalData[45089:70b] Resetting plugins due to page load.
+2014-07-28 14:31:24.753 HospitalData[45089:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[45366]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:33:59.419 HospitalData[45366:70b] Cannot find executable for CFBundle 0xc066b00 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:33:59.424 HospitalData[45366:70b] Cannot find executable for CFBundle 0xa4ac3c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:33:59.445 HospitalData[45366:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:33:59.450 HospitalData[45366:70b] Unlimited access to network resources
+2014-07-28 14:33:59.452 HospitalData[45366:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:33:59.503 HospitalData[45366:70b] Resetting plugins due to page load.
+2014-07-28 14:33:59.782 HospitalData[45366:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[45537]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:36:08.629 HospitalData[45537:70b] Cannot find executable for CFBundle 0xa3921e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:36:08.634 HospitalData[45537:70b] Cannot find executable for CFBundle 0xa2caff0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:36:08.654 HospitalData[45537:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:36:08.659 HospitalData[45537:70b] Unlimited access to network resources
+2014-07-28 14:36:08.661 HospitalData[45537:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:36:08.716 HospitalData[45537:70b] Resetting plugins due to page load.
+2014-07-28 14:36:09.000 HospitalData[45537:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[45793]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:40:52.377 HospitalData[45793:70b] Cannot find executable for CFBundle 0xb93b880 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:40:52.382 HospitalData[45793:70b] Cannot find executable for CFBundle 0xa346e70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:40:52.402 HospitalData[45793:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:40:52.407 HospitalData[45793:70b] Unlimited access to network resources
+2014-07-28 14:40:52.410 HospitalData[45793:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:40:52.465 HospitalData[45793:70b] Resetting plugins due to page load.
+2014-07-28 14:40:53.182 HospitalData[45793:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[45997]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:44:34.132 HospitalData[45997:70b] Cannot find executable for CFBundle 0xb039510 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:44:34.136 HospitalData[45997:70b] Cannot find executable for CFBundle 0xa247b50 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:44:34.158 HospitalData[45997:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:44:34.163 HospitalData[45997:70b] Unlimited access to network resources
+2014-07-28 14:44:34.165 HospitalData[45997:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:44:34.214 HospitalData[45997:70b] Resetting plugins due to page load.
+2014-07-28 14:44:34.470 HospitalData[45997:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[46136]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:45:08.713 HospitalData[46136:70b] Cannot find executable for CFBundle 0xa3aa590 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:45:08.718 HospitalData[46136:70b] Cannot find executable for CFBundle 0xb98b090 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:45:08.743 HospitalData[46136:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:45:08.750 HospitalData[46136:70b] Unlimited access to network resources
+2014-07-28 14:45:08.752 HospitalData[46136:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:45:08.813 HospitalData[46136:70b] Resetting plugins due to page load.
+2014-07-28 14:45:09.081 HospitalData[46136:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[46274]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:45:31.564 HospitalData[46274:70b] Cannot find executable for CFBundle 0xa3c6740 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:45:31.569 HospitalData[46274:70b] Cannot find executable for CFBundle 0xa57ce80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:45:31.591 HospitalData[46274:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:45:31.596 HospitalData[46274:70b] Unlimited access to network resources
+2014-07-28 14:45:31.598 HospitalData[46274:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:45:31.650 HospitalData[46274:70b] Resetting plugins due to page load.
+2014-07-28 14:45:31.912 HospitalData[46274:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[46414]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:45:56.132 HospitalData[46414:70b] Cannot find executable for CFBundle 0xa553c40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:45:56.139 HospitalData[46414:70b] Cannot find executable for CFBundle 0xa3548f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:45:56.164 HospitalData[46414:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:45:56.168 HospitalData[46414:70b] Unlimited access to network resources
+2014-07-28 14:45:56.170 HospitalData[46414:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:45:56.221 HospitalData[46414:70b] Resetting plugins due to page load.
+2014-07-28 14:45:56.538 HospitalData[46414:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[46583]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:48:14.669 HospitalData[46583:70b] Cannot find executable for CFBundle 0xa350d60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:48:14.676 HospitalData[46583:70b] Cannot find executable for CFBundle 0xa2b45f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:48:14.696 HospitalData[46583:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:48:14.702 HospitalData[46583:70b] Unlimited access to network resources
+2014-07-28 14:48:14.705 HospitalData[46583:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:48:14.757 HospitalData[46583:70b] Resetting plugins due to page load.
+2014-07-28 14:48:15.047 HospitalData[46583:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
+objc[46722]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-07-28 14:48:37.390 HospitalData[46722:70b] Cannot find executable for CFBundle 0xa398970 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-07-28 14:48:37.397 HospitalData[46722:70b] Cannot find executable for CFBundle 0xa46b510 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-07-28 14:48:37.431 HospitalData[46722:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-28 14:48:37.439 HospitalData[46722:70b] Unlimited access to network resources
+2014-07-28 14:48:37.441 HospitalData[46722:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-07-28 14:48:37.507 HospitalData[46722:70b] Resetting plugins due to page load.
+2014-07-28 14:48:37.853 HospitalData[46722:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3A5951B4-B59E-4514-BB37-08D77C6A78A0/HospitalData.app/www/index.html
