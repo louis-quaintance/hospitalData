@@ -1,249 +1,283 @@
 window.addEventListener('load', function() {
-    FastClick.attach(document.body);
+	FastClick.attach(document.body);
 }, false);
 
-//cordova emulate ios --target="iPad" 
-//**, HospitalDataProcessor, HospitalAppCache*/
-//count-to="{{procedureStat.frequency | number:0}}" value="0" duration="3"
+// cordova emulate ios --target="iPad"
+// **, HospitalDataProcessor, HospitalAppCache*/
+// count-to="{{procedureStat.frequency | number:0}}" value="0" duration="3"
 
 angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataController', ['$scope', '$http', function($scope, $http) {
-	
+
 	var spinner;
-	
-    function cache(data){
 
-        function populateDB(tx) {
-             tx.executeSql('DROP TABLE IF EXISTS CACHEDDATA');
-             tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
-             
-             var count = 0;
+	function cache(data) {
 
-             var dateOfCache = moment().format("YYYY[-]MM[-]DD");
+		function populateDB(tx) {
+			tx.executeSql('DROP TABLE IF EXISTS CACHEDDATA');
+			tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
 
-             for(var hospitalName in data){
+			var count = 0;
 
-                data[hospitalName].forEach(function(record){
-                   
-                    tx.executeSql('INSERT INTO CACHEDDATA (id, dateOfCache, hospitalName,trust,description,opcs,hrg,tariffNow,tariffForecast,frequency,frequencyForecast,revenue,revenueForecast,costOfConsumerablesNow,costOfConsumerablesForecast)' + 
-                        'VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', [count, dateOfCache, hospitalName, hospitalName, record.description, record.opcs,record.hrg,parseFloat(record.tariffNow),
-                        parseFloat(record.tariffForecast),parseInt(record.frequency),parseInt(record.frequencyForecast),
-                        parseFloat(record.revenue),parseFloat(record.revenueForecast),
-                        parseFloat(record.costOfConsumerablesNow),parseFloat(record.costOfConsumerablesForecast)]);
+			var dateOfCache = moment().format("YYYY[-]MM[-]DD");
 
-                    count++;
+			for ( var hospitalName in data) {
 
-                });
-             }
-        }
+				data[hospitalName].forEach(function(record) {
 
-        function errorCB(err) {
-            alert("Error processing SQL: "+err.message);
-        }
+					tx.executeSql('INSERT INTO CACHEDDATA (id, dateOfCache, hospitalName,trust,description,opcs,hrg,tariffNow,tariffForecast,frequency,frequencyForecast,revenue,revenueForecast,costOfConsumerablesNow,costOfConsumerablesForecast)' + 'VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', [count, dateOfCache, hospitalName, hospitalName, record.description, record.opcs, record.hrg, parseFloat(record.tariffNow), parseFloat(record.tariffForecast), parseInt(record.frequency), parseInt(record.frequencyForecast), parseFloat(record.revenue), parseFloat(record.revenueForecast), parseFloat(record.costOfConsumerablesNow), parseFloat(record.costOfConsumerablesForecast)]);
 
-        function successCB() {
-            
-        }
+					count++;
 
-        openDb().transaction(populateDB, errorCB, successCB);
-    }
+				});
+			}
+		}
 
-    function isDataCached(httpFetchCallback){
+		function errorCB(err) {
+			alert("Error processing SQL: " + err.message);
+		}
 
-        openDb().transaction(function(tx){
+		function successCB() {
 
-                tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
-            
-                tx.executeSql('SELECT DISTINCT dateOfCache FROM CACHEDDATA', [], function(tx, results){
+		}
 
-                    if(results.rows.length === 0){
-                        httpFetchCallback();
-                    } else {
-                        for(var i = 0; i < results.rows.length; i++){
+		openDb().transaction(populateDB, errorCB, successCB);
+	}
 
-                            var row = results.rows.item(i);
-       
-                            if(row.dateOfCache === moment().format("YYYY[-]MM[-]DD")){
-                                bindModelToView();
-                            } else {
-                                httpFetchCallback();
-                            }
+	function isDataCached(httpFetchCallback) {
 
-                            break;
-                        }
-                    }                    
-                });  
-        });
-    }
+		openDb().transaction(function(tx) {
 
-    function lookupHospitalNames(){
+			tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
 
-        openDb().transaction(function(tx){
+			tx.executeSql('SELECT DISTINCT dateOfCache FROM CACHEDDATA', [], function(tx, results) {
 
-            tx.executeSql('SELECT DISTINCT hospitalName FROM CACHEDDATA', [], function(tx, results){
+				if (results.rows.length === 0) {
+					httpFetchCallback();
+				} else {
+					for ( var i = 0; i < results.rows.length; i++) {
 
-                var hospitalNames = [];
+						var row = results.rows.item(i);
 
-                for(var i = 0; i < results.rows.length; i++){
-                    hospitalNames.push(results.rows.item(i).hospitalName);
-                }
-                $('.typeahead').typeahead({
-                        	  hint: true,
-                        	  highlight: true,
-                        	  minLength: 1
-                        	},
-                        	{
-                        	  name: 'hospitalNames',
-                        	  displayKey: 'value',
-                        	  source: substringMatcher(hospitalNames)
-                        	}).on('typeahead:selected', function($e, datum){
-                        		bindModelToView(datum.value);
-                        	}
-                        	);
-            });
-        });
-    }
+						if (row.dateOfCache === moment().format("YYYY[-]MM[-]DD")) {
+							bindModelToView();
+						} else {
+							httpFetchCallback();
+						}
 
-    function openDb(){
-        return window.openDatabase("HospitalData", "1.0", "HospitalData", 200000);
-    }
+						break;
+					}
+				}
+			});
+		});
+	}
 
-    function bindModelToView(hospitalNameSelected){
+	function lookupHospitalNames() {
 
-        var querySuccess = function(tx, results){
-        	
-            var hospitalName;
-            if(hospitalNameSelected){
-            	hospitalName = hospitalNameSelected;
-            } else {
-            	hospitalName = results.rows.item(0).hospitalName;  
-            }
+		openDb().transaction(function(tx) {
 
-            var hospitalRows = [];
+			tx.executeSql('SELECT DISTINCT hospitalName FROM CACHEDDATA', [], function(tx, results) {
 
-            for(var i = 0; i < results.rows.length; i++){
+				var hospitalNames = [];
 
-                var row = results.rows.item(i);
+				for ( var i = 0; i < results.rows.length; i++) {
+					hospitalNames.push(results.rows.item(i).hospitalName);
+				}
 
-                if(row.hospitalName != hospitalName){
-                    break;
-                }
-                hospitalRows.push(row);
-            }
+				$('.typeahead').typeahead({
+					hint : true,
+					highlight : true,
+					minLength : 1
+				}, {
+					name : 'hospitalNames',
+					displayKey : 'value',
+					source : substringMatcher(hospitalNames)
+				}).on('typeahead:selected', function($e, datum) {
+					toggleNav();
+					bindModelToView(datum.value);
+				});
+			});
+		});
+	}
 
-            $scope.hospitalName = hospitalName;
+	function openDb() {
+		return window.openDatabase("HospitalData", "1.0", "HospitalData", 200000);
+	}
 
-            $scope.procedureStats = hospitalRows;
-                    
-            lookupTotals(hospitalName, $scope);
+	var searchInitialised = false;
 
-            lookupHospitalNames();
+	function bindModelToView(hospitalNameSelected) {
 
-            $scope.$apply();
+		openDb().transaction(function(tx) {
 
-            resetSlider();  
-        };       
+			tx.executeSql('SELECT * FROM CACHEDDATA order by hospitalName', [], function(tx, results) {
 
-        function queryDB(tx){
-            tx.executeSql('SELECT * FROM CACHEDDATA order by hospitalName', [], querySuccess, errorCB);
-        }
+				var hospitalName;
+				if (hospitalNameSelected) {
+					hospitalName = hospitalNameSelected;
+				} else {
+					hospitalName = results.rows.item(0).hospitalName;
+				}
 
-        openDb().transaction(queryDB, errorCB);
-    }
+				var hospitalRows = [];
 
-    function errorCB(err) {
-            alert("Error processing SQL: " + err.message);
-        }
+				for ( var i = 0; i < results.rows.length; i++) {
 
-    function resetSlider(){
-            setTimeout(function(){
-                        $('.bxslider').bxSlider({
-                            pager: false
-                        });
-                }, 1500);
-        }
+					var row = results.rows.item(i);
 
-    function lookupTotals(hospitalName, $scope){
+					if (row.hospitalName != hospitalName) {
+						break;
+					}
+					hospitalRows.push(row);
+				}
 
-        openDb().transaction(function(tx){
+				$scope.hospitalName = hospitalName;
 
-            tx.executeSql('SELECT SUM(frequency) as f, SUM(frequencyForecast) as ff, SUM(revenue) as r, SUM(revenueForecast) as rf, SUM(costOfConsumerablesNow) as ccn, SUM(costOfConsumerablesForecast) as ccf FROM CACHEDDATA where hospitalName = ?', [hospitalName], function(tx, results){
+				$scope.procedureStats = hospitalRows;
 
-                for(var i = 0; i < results.rows.length; i++){
+				lookupTotals(hospitalName, $scope);
 
-                    var row = results.rows.item(i);
+				if (!searchInitialised) {
+					lookupHospitalNames();
+					searchInitialised = true;
+				}
 
-                    $scope.overallRevenue = row.r;
-                    $scope.overallRevenueForecast = row.rf;
+				$scope.$apply();
 
-                    $scope.overallConsumerables = row.ccn;
-                    $scope.overallConsumerablesForecast = row.ccf;
+				resetSlider();
 
-                    $scope.netRevenue = row.r - row.ccn;
-                    $scope.netRevenueForecast = row.rf - row.ccf;
+			}, errorCB);
 
-                    $scope.totalNumberOfProcs = row.f;
-                    $scope.totalNumberOfProcsForecast = row.ff;
+		}, errorCB);
+	}
 
-                    $scope.upliftInIncome = $scope.netRevenueForecast - $scope.netRevenue;
-                    $scope.upliftInIncomePercentage = ($scope.upliftInIncome * 100) / $scope.netRevenue;
+	function errorCB(err) {
+		alert("Error processing SQL: " + err.message);
+	}
 
-                    $scope.$apply();
+	var slider = null;
 
-                    $( ".barmore" ).animate({
-                        width: (row.f * 100 / (row.ff + row.f)) + "%"
-                    }, 1500, function() {
-                          $( ".barless" ).animate({
-                            width: (row.ff * 100 / (row.ff + row.f)) + "%"
-                          }, 1500, function() {
-                            // Animation complete.
-                          });
-                    });                  
-                }
-            }, errorCB);
-        }, errorCB);
-    }
+	function resetSlider() {
+		slider = $('.bxslider').bxSlider({
+			pager : false
+		});
+	}
 
+	function lookupTotals(hospitalName, $scope) {
 
+		openDb().transaction(function(tx) {
 
-    isDataCached(function(){  
-    	
-    	spinner = new Spinner().spin(document.getElementById('preview'));
-    	
-        $http({method: 'GET', url: 'http://localhost:8111/'}).
-            success(function(data, status, headers, config) {
-            	cache(data.data);
-                bindModelToView();
-                spinner.stop();
-            }).
-            error(function(data, status, headers, config) {
-            	spinner.stop();
-            	alert("We are currently unable to retrieve the data from the server, please try again later");
-            }
-        );
-    });
+			tx.executeSql('SELECT SUM(frequency) as f, SUM(frequencyForecast) as ff, SUM(revenue) as r, SUM(revenueForecast) as rf, SUM(costOfConsumerablesNow) as ccn, SUM(costOfConsumerablesForecast) as ccf FROM CACHEDDATA where hospitalName = ?', [hospitalName], function(tx, results) {
+
+				for ( var i = 0; i < results.rows.length; i++) {
+
+					var row = results.rows.item(i);
+
+					$scope.overallRevenue = row.r;
+					$scope.overallRevenueForecast = row.rf;
+
+					$scope.overallConsumerables = row.ccn;
+					$scope.overallConsumerablesForecast = row.ccf;
+
+					$scope.netRevenue = row.r - row.ccn;
+					$scope.netRevenueForecast = row.rf - row.ccf;
+
+					var barChartData = {
+						labels : [""],
+						datasets : [{
+							fillColor : "green",
+							strokeColor : "rgba(220,220,220,0.8)",
+							highlightFill : "green",
+							highlightStroke : "rgba(220,220,220,1)",
+							data : [$scope.netRevenue]
+						}, {
+							fillColor : "red",
+							strokeColor : "rgba(220,220,220,0.8)",
+							highlightFill : "red",
+							highlightStroke : "rgba(220,220,220,1)",
+							data : [$scope.netRevenueForecast]
+						}]
+					};
+					var ctx = document.getElementById("bar-canvas").getContext("2d");
+					new Chart(ctx).Bar(barChartData, {
+						responsive : true
+					});
+
+					$scope.totalNumberOfProcs = row.f;
+					$scope.totalNumberOfProcsForecast = row.ff;
+
+					$scope.upliftInIncome = $scope.netRevenueForecast - $scope.netRevenue;
+					$scope.upliftInIncomePercentage = ($scope.upliftInIncome * 100) / $scope.netRevenue;
+
+					$scope.$apply();
+
+					$(".barmore").animate({
+						width : (row.f * 100 / (row.ff + row.f)) + "%"
+					}, 1500, function() {
+						$(".barless").animate({
+							width : (row.ff * 100 / (row.ff + row.f)) + "%"
+						}, 1500, function() {
+							// Animation complete.
+						});
+					});
+
+					var pieData = [{
+						value : $scope.netRevenue,
+						color : "green",
+						label : "Current"
+					}, {
+						value : $scope.netRevenueForecast,
+						color : "red",
+						label : "Forecast"
+					}];
+
+					var ctx = document.getElementById("chart-area").getContext("2d");
+					window.myPie = new Chart(ctx).Pie(pieData);
+				}
+			}, errorCB);
+		}, errorCB);
+	}
+
+	isDataCached(function() {
+
+		spinner = new Spinner().spin(document.getElementById('preview'));
+
+		$http({
+			method : 'GET',
+			url : 'http://localhost:8111/'
+		}).success(function(data, status, headers, config) {
+			cache(data.data);
+			bindModelToView();
+			spinner.stop();
+		}).error(function(data, status, headers, config) {
+			spinner.stop();
+			alert("We are currently unable to retrieve the data from the server, please try again later");
+		});
+	});
 }]);
 
 var substringMatcher = function(strs) {
-	
-	  return function findMatches(q, cb) {
-	    var matches, substrRegex;
-	 
-	    // an array that will be populated with substring matches
-	    matches = [];
-	 
-	    // regex used to determine if a string contains the substring `q`
-	    substrRegex = new RegExp(q, 'i');
-	 
-	    // iterate through the pool of strings and for any string that
-	    // contains the substring `q`, add it to the `matches` array
-	    $.each(strs, function(i, str) {
-	      if (substrRegex.test(str)) {
-	        // the typeahead jQuery plugin expects suggestions to a
-	        // JavaScript object, refer to typeahead docs for more info
-	        matches.push({ value: str });
-	      }
-	    });
-	 
-	    cb(matches);
-	  };
+
+	return function findMatches(q, cb) {
+		var matches, substrRegex;
+
+		// an array that will be populated with substring matches
+		matches = [];
+
+		// regex used to determine if a string contains the substring `q`
+		substrRegex = new RegExp(q, 'i');
+
+		// iterate through the pool of strings and for any string that
+		// contains the substring `q`, add it to the `matches` array
+		$.each(strs, function(i, str) {
+			if (substrRegex.test(str)) {
+				// the typeahead jQuery plugin expects suggestions to a
+				// JavaScript object, refer to typeahead docs for more info
+				matches.push({
+					value : str
+				});
+			}
+		});
+
+		cb(matches);
 	};
+};
