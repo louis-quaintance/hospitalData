@@ -21,7 +21,7 @@
 		<div id="site-canvas">
 
 			<div id="site-menu">
-				<input class="typeahead" placeholder="Enter a hospital name"
+				<input class="search-input typeahead" placeholder="Enter a hospital name"
 					name="sitesearch" autocorrect="off" autocomplete="off">
 			</div>
 
@@ -40,61 +40,8 @@
 				</div>
 			</div>
 			<div class="left">
-				<div class="procedures">
-
-					<!-- Scrollable content -->
-					<ul class="bxslider">
-
-						<!-- Procedure One -->
-						<li ng-repeat="procedureStat in procedureStats">
-							<div class="procedures-div-holder">
-								<h2>Procedure Name</h2>
-
-								<div class="hospital-codes">
-									<span class="lower-third">OPCS: {{procedureStat.opcs}}</span> <span
-										class="lower-third">HRG: {{procedureStat.hrg}}</span> <span
-										class="lower-third">Tariff:
-										£{{procedureStat.tariffNow}}</span>
-								</div>
-
-								<div class="procedure-third">
-									<h3>No. of Procedures</h3>
-									<p>Current</p>
-									<span class="number-field before">{{procedureStat.frequency|
-										number:0}}</span>
-
-									<p>Forecast</p>
-									<span class="number-field after">{{procedureStat.frequencyForecast
-										| number:0}}</span>
-								</div>
-
-								<div class="procedure-third">
-									<h3>Total Revenue</h3>
-									<p>Current</p>
-									<span class="number-field before">£{{procedureStat.revenue
-										| number:2}}</span>
-
-									<p>Forecast</p>
-									<span class="number-field after">£{{procedureStat.revenueForecast
-										| number:2}}</span>
-								</div>
-
-								<div class="procedure-third">
-									<h3>Cost of Consumables</h3>
-									<p>Current</p>
-									<span class="number-field before">£{{procedureStat.costOfConsumerablesNow
-										| number:2}}</span>
-
-									<p>Forecast</p>
-									<span class="number-field after">£{{procedureStat.costOfConsumerablesForecast
-										| number:2}}</span>
-								</div>
-							</div>
-						</li>
-
-
-					</ul>
-
+				<div id="procedures-div" class="procedures">
+					<ng-include src="'sliderLoop.html'"></ng-include>
 				</div>
 
 				<div class="totals">
@@ -136,7 +83,7 @@
 					<span class="number-field after">£{{netRevenueForecast |
 						number:2}}</span>
 					<div class="net-revenue-graph">
-						<canvas id="bar-canvas" height="200" width="200"></canvas>
+						<canvas id="bar-canvas" height="180" width="200"></canvas>
 					</div>
 				</div>
 

@@ -1,0 +1,43 @@
+<ul class="bxslider">
+	<li ng-repeat="procedureStat in procedureStats">
+		<div class="procedures-div-holder">
+			<h2>Procedure Name</h2>
+			<div class="hospital-codes">
+				<span class="lower-third">OPCS: {{procedureStat.opcs}}</span> <span
+					class="lower-third">HRG: {{procedureStat.hrg}}</span> <span
+					class="lower-third">Tariff: {{procedureStat.tariffNow | currency:"&#163;"}}</span>
+			</div>
+			<div class="procedure-third">
+				<h3>No. of Procedures</h3>
+				<p>Current</p>
+				<span class="number-field before">{{procedureStat.frequency|
+					number:0}}</span>
+
+				<p>Forecast</p>
+				<span class="number-field after">{{procedureStat.frequencyForecast
+					| number:0}}</span>
+			</div>
+
+			<div class="procedure-third">
+				<h3>Total Revenue</h3>
+				<p>Current</p>
+				<span class="number-field before">{{procedureStat.revenue |
+					number:2 | currency:"&#163;"}}</span>
+
+				<p>Forecast</p>
+				<span class="number-field after">{{procedureStat.revenueForecast
+					| number:2 | currency:"&#163;"}}</span>
+			</div>
+			<div class="procedure-third">
+				<h3>Cost of Consumables</h3>
+				<p>Current</p>
+				<span class="number-field before">{{procedureStat.costOfConsumerablesNow
+					| number:2 | currency:"&#163;"}}</span>
+
+				<p>Forecast</p>
+				<span class="number-field after">{{procedureStat.costOfConsumerablesForecast
+					| number:2 | currency:"&#163;"}}</span>
+			</div>
+		</div>
+	</li>
+</ul>

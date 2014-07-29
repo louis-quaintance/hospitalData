@@ -154,7 +154,7 @@ textarea {
     left: -300px;
     background: #428bca;
     padding: 15px;
-    padding-top: 40px;
+    padding-top: 30px;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -228,6 +228,10 @@ textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.search-input {
+	height: 30px; width: 180px;
 }
 
 .totals {
@@ -350,7 +354,7 @@ textarea {
 
 .net-revenue-graph {
 	float: left;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 
@@ -561,7 +565,6 @@ ul.bxslider {
     outline: 0;
     background: url(../img/controls.png) -86px -44px no-repeat;
     margin: 0 3px;
-    margin-top: 100px;
 }
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
