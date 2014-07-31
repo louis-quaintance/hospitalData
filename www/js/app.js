@@ -6,12 +6,12 @@ window.addEventListener('load', function() {
 	FastClick.attach(document.body);
 }, false);
 
-Chart.defaults.global.showScale = false;
-Chart.defaults.global.showTooltips = false;
+//Chart.defaults.global.showScale = false;
+//Chart.defaults.global.showTooltips = false;
 
 var HApp = {
-		
-	DATA_URL: "http://localhost:8111/",
+
+	DATA_URL : "http://localhost:8111/",
 
 	substringMatcher : function(strs) {
 
@@ -119,7 +119,10 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 					source : HApp.substringMatcher(hospitalNames)
 				}).on('typeahead:selected', function($e, datum) {
 					toggleNav();
-					HApp.bindModelToView(datum.value);
+					if (HApp.hospitalCurrentlySelected !== datum.value) {
+						HApp.bindModelToView(datum.value);
+						HApp.hospitalCurrentlySelected = datum.value;
+					}
 				});
 			});
 		});
@@ -131,9 +134,28 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 	HApp.bindModelToView = function(hospitalNameSelected) {
 
-		if (!hospitalNameSelected) {
-			hospitalNameSelected = "Ealing";
+		if (hospitalNameSelected) {
+
+			HApp.lookupDataForHospital(hospitalNameSelected);
+
+		} else {
+
+			HApp.openDb().transaction(function(tx) {
+
+				tx.executeSql('SELECT DISTINCT hospitalName FROM CACHEDDATA order by hospitalName', [], function(tx, results) {
+					// grab first hospital and init everything with that
+					var hospitalName = results.rows.item(0).hospitalName;
+					HApp.lookupDataForHospital(hospitalName);
+					HApp.hospitalCurrentlySelected = hospitalName;
+					return;
+
+				}, HApp.errorCB);
+
+			}, HApp.errorCB);
 		}
+	};
+
+	HApp.lookupDataForHospital = function(hospitalNameSelected) {
 
 		HApp.openDb().transaction(function(tx) {
 
@@ -167,6 +189,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 	HApp.errorCB = function(err) {
 		alert("Error processing SQL: " + err.message);
+		return false;
 	};
 
 	HApp.resetSlider = function() {
@@ -186,7 +209,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	};
 
 	HApp.lookupTotals = function(hospitalName, $scope) {
-
+		
 		HApp.openDb().transaction(function(tx) {
 
 			tx.executeSql('SELECT SUM(frequency) as f, SUM(frequencyForecast) as ff, SUM(revenue) as r, SUM(revenueForecast) as rf, SUM(costOfConsumerablesNow) as ccn, SUM(costOfConsumerablesForecast) as ccf FROM CACHEDDATA where hospitalName = ?', [hospitalName], function(tx, results) {
@@ -203,12 +226,14 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 					$scope.netRevenue = row.r - row.ccn;
 					$scope.netRevenueForecast = row.rf - row.ccf;
-
+					
 					var canvas = document.getElementById("bar-canvas");
 					var ctx = canvas.getContext("2d");
+
 					if (HApp.barChart) {
-						HApp.barChart.removeData();
+						//HApp.barChart.removeData();
 					}
+					
 					HApp.barChart = new Chart(ctx).Bar({
 						labels : [""],
 						datasets : [{
@@ -250,19 +275,34 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 					var ctx = canvas.getContext("2d");
 
 					if (HApp.pieChart) {
-						HApp.pieChart.removeData();
+						//HApp.pieChart.removeData();
+					}
+					
+					var nowRev = ($scope.netRevenue > 0) ? $scope.netRevenue : 0; 
+					var forecastRev = ($scope.netRevenueForecast > 0) ? $scope.netRevenueForecast : 0; 
+					
+					var upliftPortionNow, upliftPortionForecast;
+					
+					if($scope.upliftInIncomePercentage === 0){
+						upliftPortionNow = 1;
+						upliftPortionForecast = 1;
+					} else if($scope.upliftInIncomePercentage > 0){
+						upliftPortionNow = 1;
+						upliftPortionForecast = 1 + ($scope.upliftInIncomePercentage / 100);
+					} else {
+						upliftPortionNow = 1 + (($scope.upliftInIncomePercentage * -1) / 100);
+						upliftPortionForecast = 1;
 					}
 
 					HApp.pieChart = new Chart(ctx).Pie([{
-						value : $scope.netRevenue,
+						value : nowRev,
 						color : "green",
 						label : "Current"
 					}, {
-						value : $scope.netRevenueForecast,
+						value : forecastRev,
 						color : "red",
 						label : "Forecast"
 					}]);
-					
 				}
 			}, HApp.errorCB);
 		}, HApp.errorCB);
