@@ -67,7 +67,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 		});
 	};
 
-	HApp.isDataCached = function(httpFetchCallback) {
+	HApp.isDataCached = function() {
 
 		HApp.openDb().transaction(function(tx) {
 
@@ -76,7 +76,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 			tx.executeSql('SELECT DISTINCT dateOfCache FROM CACHEDDATA', [], function(tx, results) {
 
 				if (results.rows.length === 0) {
-					httpFetchCallback();
+					HApp.loadDataFromServer();
 				} else {
 					for ( var i = 0; i < results.rows.length; i++) {
 
@@ -85,7 +85,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 						if (row.dateOfCache === moment().format("YYYY[-]MM[-]DD")) {
 							HApp.bindModelToView();
 						} else {
-							httpFetchCallback();
+							HApp.loadDataFromServer();
 						}
 						break;
 					}
@@ -299,32 +299,33 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 						label : "Forecast"
 					}]);
 					
-					$(".number-field").css("-webkit-animation", "fade-in-figures 6s");
+					$(".number-field").css("-webkit-animation", "fade-in-figures 7s");
 				}
 			}, HApp.errorCB);
 		}, HApp.errorCB);
 	};
 
 	HApp.init = function() {
+		HApp.isDataCached();
+	};
+	
+	HApp.loadDataFromServer = function(){
+		
+		HApp.spinner = new Spinner().spin(document.getElementById('preview'));
 
-		HApp.isDataCached(function() {
-
-			HApp.spinner = new Spinner().spin(document.getElementById('preview'));
-
-			$http({
-				method : 'GET',
-				url : HApp.DATA_URL
-			}).success(function(data, status, headers, config) {
-				HApp.cache(data.data);
-				HApp.bindModelToView();
-				HApp.spinner.stop();
-			}).error(function(data, status, headers, config) {
-				HApp.spinner.stop();
-				alert("We are currently unable to retrieve the data from the server, please check your internet connection and click the refresh button or try again later");
-			});
+		$http({
+			method : 'GET',
+			url : HApp.DATA_URL
+		}).success(function(data, status, headers, config) {
+			HApp.cache(data.data);
+			HApp.bindModelToView();
+			HApp.spinner.stop();
+		}).error(function(data, status, headers, config) {
+			HApp.spinner.stop();
+			alert("We are currently unable to retrieve the data from the server, please check your internet connection and click the refresh button in the top right hand corner or try again later");
 		});
 	};
-
+	
 	HApp.init();
 
 }]);
