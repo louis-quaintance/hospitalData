@@ -42,6 +42,7 @@
 		B5681FBF83464F2FAB1C3F12 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 892C1E6F85A74645B0949D84 /* CDVReachability.m */; };
 		204A6A103116428983CAB8A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C968C73D2F20423BB98DE393 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DDA4754005B944569C07A621 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A1179B946FC846078A3D3D78 /* CDVLogger.m */; };
+		7AC9C79ABFC84496A186CF4C /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B9034ED3DB4A709B153E89 /* CDVSplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,8 @@
 		C968C73D2F20423BB98DE393 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		A1179B946FC846078A3D3D78 /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		59E3EEB6479747D18676D520 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		53B9034ED3DB4A709B153E89 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A2D9DACB001D462488D4F9BB /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +244,8 @@
 				63EA5E46BFAC457EAAAB70C7 /* CDVReachability.h */,
 				A1179B946FC846078A3D3D78 /* CDVLogger.m */,
 				59E3EEB6479747D18676D520 /* CDVLogger.h */,
+				53B9034ED3DB4A709B153E89 /* CDVSplashScreen.m */,
+				A2D9DACB001D462488D4F9BB /* CDVSplashScreen.h */,
 			);
 			name = Plugins;
 			path = "HospitalData/Plugins";
@@ -438,6 +443,7 @@
 				95E013F712934F6DACDA510E /* CDVConnection.m in Sources */,
 				B5681FBF83464F2FAB1C3F12 /* CDVReachability.m in Sources */,
 				DDA4754005B944569C07A621 /* CDVLogger.m in Sources */,
+				7AC9C79ABFC84496A186CF4C /* CDVSplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -124,6 +124,17 @@ textarea {
     padding: 0.2em 0;
 }
 
+@-webkit-keyframes fade-in-figures {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.number-field {
+  /*-webkit-animation: fade-in-figures 5s;*/
+  animation-iteration-count: 1;
+  opacity: 0;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */

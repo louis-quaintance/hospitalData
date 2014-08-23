@@ -28,13 +28,21 @@ module.exports = [
         "clobbers": [
             "cordova.logger"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "org.apache.cordova.network-information": "0.2.9",
-    "org.apache.cordova.console": "0.2.9"
+    "org.apache.cordova.console": "0.2.9",
+    "org.apache.cordova.splashscreen": "0.3.3-dev"
 }
 // BOTTOM OF METADATA
 });

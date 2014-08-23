@@ -6,9 +6,6 @@ window.addEventListener('load', function() {
 	FastClick.attach(document.body);
 }, false);
 
-//Chart.defaults.global.showScale = false;
-//Chart.defaults.global.showTooltips = false;
-
 var HApp = {
 
 	DATA_URL : "http://localhost:8111/",
@@ -134,6 +131,8 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 	HApp.bindModelToView = function(hospitalNameSelected) {
 
+		//$(".number-field").css("-webkit-animation", "");
+
 		if (hospitalNameSelected) {
 
 			HApp.lookupDataForHospital(hospitalNameSelected);
@@ -160,7 +159,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 		HApp.openDb().transaction(function(tx) {
 
 			tx.executeSql('SELECT * FROM CACHEDDATA where hospitalName = ? order by hospitalName', [hospitalNameSelected], function(tx, results) {
-
+				
 				var hospitalRows = [];
 
 				for ( var i = 0; i < results.rows.length; i++) {
@@ -178,14 +177,17 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 					HApp.searchInitialised = true;
 				}
 
-				$scope.$apply();
-
 				HApp.resetSlider();
 
 			}, HApp.errorCB);
 
 		}, HApp.errorCB);
 	};
+	
+	$(window).bind("webkitAnimationEnd", function(){
+		$(".number-field").css("-webkit-animation", "");
+		$(".number-field").css("opacity", "1");
+	});
 
 	HApp.errorCB = function(err) {
 		alert("Error processing SQL: " + err.message);
@@ -209,7 +211,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	};
 
 	HApp.lookupTotals = function(hospitalName, $scope) {
-		
+
 		HApp.openDb().transaction(function(tx) {
 
 			tx.executeSql('SELECT SUM(frequency) as f, SUM(frequencyForecast) as ff, SUM(revenue) as r, SUM(revenueForecast) as rf, SUM(costOfConsumerablesNow) as ccn, SUM(costOfConsumerablesForecast) as ccf FROM CACHEDDATA where hospitalName = ?', [hospitalName], function(tx, results) {
@@ -226,14 +228,10 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 					$scope.netRevenue = row.r - row.ccn;
 					$scope.netRevenueForecast = row.rf - row.ccf;
-					
+
 					var canvas = document.getElementById("bar-canvas");
 					var ctx = canvas.getContext("2d");
 
-					if (HApp.barChart) {
-						//HApp.barChart.removeData();
-					}
-					
 					HApp.barChart = new Chart(ctx).Bar({
 						labels : [""],
 						datasets : [{
@@ -274,19 +272,16 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 					var canvas = document.getElementById("chart-area");
 					var ctx = canvas.getContext("2d");
 
-					if (HApp.pieChart) {
-						//HApp.pieChart.removeData();
-					}
-					
-					var nowRev = ($scope.netRevenue > 0) ? $scope.netRevenue : 0; 
-					var forecastRev = ($scope.netRevenueForecast > 0) ? $scope.netRevenueForecast : 0; 
-					
+
+					var nowRev = ($scope.netRevenue > 0) ? $scope.netRevenue : 0;
+					var forecastRev = ($scope.netRevenueForecast > 0) ? $scope.netRevenueForecast : 0;
+
 					var upliftPortionNow, upliftPortionForecast;
-					
-					if($scope.upliftInIncomePercentage === 0){
+
+					if ($scope.upliftInIncomePercentage === 0) {
 						upliftPortionNow = 1;
 						upliftPortionForecast = 1;
-					} else if($scope.upliftInIncomePercentage > 0){
+					} else if ($scope.upliftInIncomePercentage > 0) {
 						upliftPortionNow = 1;
 						upliftPortionForecast = 1 + ($scope.upliftInIncomePercentage / 100);
 					} else {
@@ -303,25 +298,33 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 						color : "red",
 						label : "Forecast"
 					}]);
+					
+					$(".number-field").css("-webkit-animation", "fade-in-figures 6s");
 				}
 			}, HApp.errorCB);
 		}, HApp.errorCB);
 	};
 
-	HApp.isDataCached(function() {
+	HApp.init = function() {
 
-		HApp.spinner = new Spinner().spin(document.getElementById('preview'));
+		HApp.isDataCached(function() {
 
-		$http({
-			method : 'GET',
-			url : HApp.DATA_URL
-		}).success(function(data, status, headers, config) {
-			HApp.cache(data.data);
-			HApp.bindModelToView();
-			HApp.spinner.stop();
-		}).error(function(data, status, headers, config) {
-			HApp.spinner.stop();
-			alert("We are currently unable to retrieve the data from the server, please try again later");
+			HApp.spinner = new Spinner().spin(document.getElementById('preview'));
+
+			$http({
+				method : 'GET',
+				url : HApp.DATA_URL
+			}).success(function(data, status, headers, config) {
+				HApp.cache(data.data);
+				HApp.bindModelToView();
+				HApp.spinner.stop();
+			}).error(function(data, status, headers, config) {
+				HApp.spinner.stop();
+				alert("We are currently unable to retrieve the data from the server, please check your internet connection and click the refresh button or try again later");
+			});
 		});
-	});
+	};
+
+	HApp.init();
+
 }]);

@@ -9,4 +9,9 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+    <feature name="SplashScreen">
+    	<param name="ios-package" value="CDVSplashScreen" />
+    </feature>
+
 </widget>
