@@ -7271,3 +7271,380 @@ You could find it at the following address https://developer.apple.com/icloud/do
 2014-08-23 14:39:48.315 HospitalData[54657:70b] [CDVTimer][TotalPluginStartup] 8.157015ms
 2014-08-23 14:39:48.358 HospitalData[54657:70b] Resetting plugins due to page load.
 2014-08-23 14:39:48.652 HospitalData[54657:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:19:39.207 HospitalData[11341:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:19:39.309 HospitalData[11341:70b] Unlimited access to network resources
+2014-09-13 19:19:39.330 HospitalData[11341:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:19:40.541 HospitalData[11341:70b] [CDVTimer][splashscreen] 185.068965ms
+2014-09-13 19:19:40.542 HospitalData[11341:70b] [CDVTimer][TotalPluginStartup] 185.498953ms
+2014-09-13 19:19:41.122 HospitalData[11341:70b] Resetting plugins due to page load.
+2014-09-13 19:19:42.161 HospitalData[11341:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:29:53.030 HospitalData[11707:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:29:53.058 HospitalData[11707:70b] Unlimited access to network resources
+2014-09-13 19:29:53.091 HospitalData[11707:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:29:53.189 HospitalData[11707:70b] [CDVTimer][splashscreen] 85.512996ms
+2014-09-13 19:29:53.189 HospitalData[11707:70b] [CDVTimer][TotalPluginStartup] 86.015046ms
+2014-09-13 19:29:53.554 HospitalData[11707:70b] Resetting plugins due to page load.
+2014-09-13 19:29:53.973 HospitalData[11707:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:32:33.622 HospitalData[11954:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:32:33.628 HospitalData[11954:70b] Unlimited access to network resources
+2014-09-13 19:32:33.630 HospitalData[11954:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:32:33.669 HospitalData[11954:70b] [CDVTimer][splashscreen] 24.447024ms
+2014-09-13 19:32:33.669 HospitalData[11954:70b] [CDVTimer][TotalPluginStartup] 24.939954ms
+2014-09-13 19:32:33.871 HospitalData[11954:70b] Resetting plugins due to page load.
+2014-09-13 19:32:34.488 HospitalData[11954:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:33:01.769 HospitalData[12107:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:33:01.797 HospitalData[12107:70b] Unlimited access to network resources
+2014-09-13 19:33:01.800 HospitalData[12107:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:33:01.847 HospitalData[12107:70b] [CDVTimer][splashscreen] 34.741998ms
+2014-09-13 19:33:01.848 HospitalData[12107:70b] [CDVTimer][TotalPluginStartup] 35.172999ms
+2014-09-13 19:33:02.014 HospitalData[12107:70b] Resetting plugins due to page load.
+2014-09-13 19:33:02.276 HospitalData[12107:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:33:43.322 HospitalData[12262:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:33:43.343 HospitalData[12262:70b] Unlimited access to network resources
+2014-09-13 19:33:43.356 HospitalData[12262:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:33:43.410 HospitalData[12262:70b] [CDVTimer][splashscreen] 39.757013ms
+2014-09-13 19:33:43.411 HospitalData[12262:70b] [CDVTimer][TotalPluginStartup] 40.358961ms
+2014-09-13 19:33:43.579 HospitalData[12262:70b] Resetting plugins due to page load.
+2014-09-13 19:33:43.884 HospitalData[12262:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:35:56.914 HospitalData[12452:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:35:56.962 HospitalData[12452:70b] Unlimited access to network resources
+2014-09-13 19:35:56.965 HospitalData[12452:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:35:57.005 HospitalData[12452:70b] [CDVTimer][splashscreen] 26.477993ms
+2014-09-13 19:35:57.005 HospitalData[12452:70b] [CDVTimer][TotalPluginStartup] 26.916027ms
+2014-09-13 19:35:57.324 HospitalData[12452:70b] Resetting plugins due to page load.
+2014-09-13 19:35:57.594 HospitalData[12452:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:36:18.198 HospitalData[12597:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:36:18.203 HospitalData[12597:70b] Unlimited access to network resources
+2014-09-13 19:36:18.206 HospitalData[12597:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:36:18.226 HospitalData[12597:70b] [CDVTimer][splashscreen] 7.541001ms
+2014-09-13 19:36:18.227 HospitalData[12597:70b] [CDVTimer][TotalPluginStartup] 7.947028ms
+2014-09-13 19:36:18.377 HospitalData[12597:70b] Resetting plugins due to page load.
+2014-09-13 19:36:18.551 HospitalData[12597:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:36:45.898 HospitalData[12747:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:36:45.904 HospitalData[12747:70b] Unlimited access to network resources
+2014-09-13 19:36:45.906 HospitalData[12747:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:36:45.926 HospitalData[12747:70b] [CDVTimer][splashscreen] 7.578969ms
+2014-09-13 19:36:45.927 HospitalData[12747:70b] [CDVTimer][TotalPluginStartup] 8.001029ms
+2014-09-13 19:36:46.056 HospitalData[12747:70b] Resetting plugins due to page load.
+2014-09-13 19:36:46.348 HospitalData[12747:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:37:31.560 HospitalData[12906:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:37:31.566 HospitalData[12906:70b] Unlimited access to network resources
+2014-09-13 19:37:31.569 HospitalData[12906:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:37:31.589 HospitalData[12906:70b] [CDVTimer][splashscreen] 6.892025ms
+2014-09-13 19:37:31.589 HospitalData[12906:70b] [CDVTimer][TotalPluginStartup] 7.359982ms
+2014-09-13 19:37:31.627 HospitalData[12906:70b] Resetting plugins due to page load.
+2014-09-13 19:37:31.809 HospitalData[12906:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:37:44.353 HospitalData[13049:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:37:44.359 HospitalData[13049:70b] Unlimited access to network resources
+2014-09-13 19:37:44.362 HospitalData[13049:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:37:44.384 HospitalData[13049:70b] [CDVTimer][splashscreen] 8.323014ms
+2014-09-13 19:37:44.384 HospitalData[13049:70b] [CDVTimer][TotalPluginStartup] 8.726001ms
+2014-09-13 19:37:44.534 HospitalData[13049:70b] Resetting plugins due to page load.
+2014-09-13 19:37:44.834 HospitalData[13049:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:37:57.488 HospitalData[13195:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:37:57.494 HospitalData[13195:70b] Unlimited access to network resources
+2014-09-13 19:37:57.497 HospitalData[13195:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:37:57.522 HospitalData[13195:70b] [CDVTimer][splashscreen] 8.808017ms
+2014-09-13 19:37:57.522 HospitalData[13195:70b] [CDVTimer][TotalPluginStartup] 9.268999ms
+2014-09-13 19:37:57.648 HospitalData[13195:70b] Resetting plugins due to page load.
+2014-09-13 19:37:57.926 HospitalData[13195:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:38:11.909 HospitalData[13344:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:38:11.915 HospitalData[13344:70b] Unlimited access to network resources
+2014-09-13 19:38:11.918 HospitalData[13344:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:38:11.938 HospitalData[13344:70b] [CDVTimer][splashscreen] 7.569015ms
+2014-09-13 19:38:11.938 HospitalData[13344:70b] [CDVTimer][TotalPluginStartup] 7.990003ms
+2014-09-13 19:38:12.065 HospitalData[13344:70b] Resetting plugins due to page load.
+2014-09-13 19:38:12.399 HospitalData[13344:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:38:24.009 HospitalData[13487:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:38:24.015 HospitalData[13487:70b] Unlimited access to network resources
+2014-09-13 19:38:24.018 HospitalData[13487:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:38:24.039 HospitalData[13487:70b] [CDVTimer][splashscreen] 7.791996ms
+2014-09-13 19:38:24.040 HospitalData[13487:70b] [CDVTimer][TotalPluginStartup] 8.255005ms
+2014-09-13 19:38:24.146 HospitalData[13487:70b] Resetting plugins due to page load.
+2014-09-13 19:38:24.393 HospitalData[13487:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:39:43.200 HospitalData[13813:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:39:43.218 HospitalData[13813:70b] Unlimited access to network resources
+2014-09-13 19:39:43.232 HospitalData[13813:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:39:43.263 HospitalData[13813:70b] [CDVTimer][splashscreen] 18.060982ms
+2014-09-13 19:39:43.264 HospitalData[13813:70b] [CDVTimer][TotalPluginStartup] 18.662035ms
+2014-09-13 19:39:43.377 HospitalData[13813:70b] Resetting plugins due to page load.
+2014-09-13 19:39:43.639 HospitalData[13813:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:40:28.723 HospitalData[13967:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:40:28.729 HospitalData[13967:70b] Unlimited access to network resources
+2014-09-13 19:40:28.732 HospitalData[13967:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:40:28.753 HospitalData[13967:70b] [CDVTimer][splashscreen] 7.246017ms
+2014-09-13 19:40:28.753 HospitalData[13967:70b] [CDVTimer][TotalPluginStartup] 7.661998ms
+2014-09-13 19:40:28.792 HospitalData[13967:70b] Resetting plugins due to page load.
+2014-09-13 19:40:28.976 HospitalData[13967:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 19:41:39.124 HospitalData[14129:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 19:41:39.131 HospitalData[14129:70b] Unlimited access to network resources
+2014-09-13 19:41:39.134 HospitalData[14129:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 19:41:39.159 HospitalData[14129:70b] [CDVTimer][splashscreen] 8.174002ms
+2014-09-13 19:41:39.159 HospitalData[14129:70b] [CDVTimer][TotalPluginStartup] 8.646011ms
+2014-09-13 19:41:39.211 HospitalData[14129:70b] Resetting plugins due to page load.
+2014-09-13 19:41:39.423 HospitalData[14129:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:03:01.126 HospitalData[14596:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:03:01.151 HospitalData[14596:70b] Unlimited access to network resources
+2014-09-13 21:03:01.154 HospitalData[14596:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:03:01.174 HospitalData[14596:70b] [CDVTimer][splashscreen] 7.289052ms
+2014-09-13 21:03:01.175 HospitalData[14596:70b] [CDVTimer][TotalPluginStartup] 7.793009ms
+2014-09-13 21:03:01.261 HospitalData[14596:70b] Resetting plugins due to page load.
+2014-09-13 21:03:01.517 HospitalData[14596:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:04:46.351 HospitalData[14771:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:04:46.357 HospitalData[14771:70b] Unlimited access to network resources
+2014-09-13 21:04:46.360 HospitalData[14771:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:04:46.382 HospitalData[14771:70b] [CDVTimer][splashscreen] 8.491993ms
+2014-09-13 21:04:46.382 HospitalData[14771:70b] [CDVTimer][TotalPluginStartup] 8.957982ms
+2014-09-13 21:04:46.420 HospitalData[14771:70b] Resetting plugins due to page load.
+2014-09-13 21:04:46.595 HospitalData[14771:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:05:57.115 HospitalData[14937:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:05:57.124 HospitalData[14937:70b] Unlimited access to network resources
+2014-09-13 21:05:57.127 HospitalData[14937:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:05:57.152 HospitalData[14937:70b] [CDVTimer][splashscreen] 9.612978ms
+2014-09-13 21:05:57.152 HospitalData[14937:70b] [CDVTimer][TotalPluginStartup] 10.025024ms
+2014-09-13 21:05:57.195 HospitalData[14937:70b] Resetting plugins due to page load.
+2014-09-13 21:05:57.400 HospitalData[14937:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:06:34.931 HospitalData[15092:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:06:34.938 HospitalData[15092:70b] Unlimited access to network resources
+2014-09-13 21:06:34.940 HospitalData[15092:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:06:34.961 HospitalData[15092:70b] [CDVTimer][splashscreen] 7.370949ms
+2014-09-13 21:06:34.961 HospitalData[15092:70b] [CDVTimer][TotalPluginStartup] 7.755995ms
+2014-09-13 21:06:34.998 HospitalData[15092:70b] Resetting plugins due to page load.
+2014-09-13 21:06:35.169 HospitalData[15092:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:10:16.093 HospitalData[15305:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:10:16.099 HospitalData[15305:70b] Unlimited access to network resources
+2014-09-13 21:10:16.101 HospitalData[15305:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:10:16.121 HospitalData[15305:70b] [CDVTimer][splashscreen] 6.934047ms
+2014-09-13 21:10:16.121 HospitalData[15305:70b] [CDVTimer][TotalPluginStartup] 7.348955ms
+2014-09-13 21:10:16.160 HospitalData[15305:70b] Resetting plugins due to page load.
+2014-09-13 21:10:16.342 HospitalData[15305:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:11:22.732 HospitalData[15467:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:11:22.738 HospitalData[15467:70b] Unlimited access to network resources
+2014-09-13 21:11:22.740 HospitalData[15467:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:11:22.761 HospitalData[15467:70b] [CDVTimer][splashscreen] 7.310987ms
+2014-09-13 21:11:22.761 HospitalData[15467:70b] [CDVTimer][TotalPluginStartup] 7.741988ms
+2014-09-13 21:11:22.798 HospitalData[15467:70b] Resetting plugins due to page load.
+2014-09-13 21:11:23.077 HospitalData[15467:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:12:19.842 HospitalData[15628:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:12:19.848 HospitalData[15628:70b] Unlimited access to network resources
+2014-09-13 21:12:19.850 HospitalData[15628:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:12:19.871 HospitalData[15628:70b] [CDVTimer][splashscreen] 7.049024ms
+2014-09-13 21:12:19.872 HospitalData[15628:70b] [CDVTimer][TotalPluginStartup] 7.470965ms
+2014-09-13 21:12:19.910 HospitalData[15628:70b] Resetting plugins due to page load.
+2014-09-13 21:12:20.083 HospitalData[15628:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:13:24.228 HospitalData[15793:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:13:24.234 HospitalData[15793:70b] Unlimited access to network resources
+2014-09-13 21:13:24.236 HospitalData[15793:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:13:24.257 HospitalData[15793:70b] [CDVTimer][splashscreen] 6.977022ms
+2014-09-13 21:13:24.257 HospitalData[15793:70b] [CDVTimer][TotalPluginStartup] 7.420003ms
+2014-09-13 21:13:24.294 HospitalData[15793:70b] Resetting plugins due to page load.
+2014-09-13 21:13:24.475 HospitalData[15793:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:13:40.841 HospitalData[15938:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:13:40.846 HospitalData[15938:70b] Unlimited access to network resources
+2014-09-13 21:13:40.849 HospitalData[15938:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:13:40.870 HospitalData[15938:70b] [CDVTimer][splashscreen] 8.255005ms
+2014-09-13 21:13:40.871 HospitalData[15938:70b] [CDVTimer][TotalPluginStartup] 8.677959ms
+2014-09-13 21:13:40.909 HospitalData[15938:70b] Resetting plugins due to page load.
+2014-09-13 21:13:41.091 HospitalData[15938:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:14:11.232 HospitalData[16089:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:14:11.238 HospitalData[16089:70b] Unlimited access to network resources
+2014-09-13 21:14:11.241 HospitalData[16089:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:14:11.261 HospitalData[16089:70b] [CDVTimer][splashscreen] 7.457018ms
+2014-09-13 21:14:11.261 HospitalData[16089:70b] [CDVTimer][TotalPluginStartup] 7.905960ms
+2014-09-13 21:14:11.300 HospitalData[16089:70b] Resetting plugins due to page load.
+2014-09-13 21:14:11.516 HospitalData[16089:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:14:41.228 HospitalData[16242:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:14:41.234 HospitalData[16242:70b] Unlimited access to network resources
+2014-09-13 21:14:41.236 HospitalData[16242:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:14:41.256 HospitalData[16242:70b] [CDVTimer][splashscreen] 7.043958ms
+2014-09-13 21:14:41.256 HospitalData[16242:70b] [CDVTimer][TotalPluginStartup] 7.466018ms
+2014-09-13 21:14:41.294 HospitalData[16242:70b] Resetting plugins due to page load.
+2014-09-13 21:14:41.465 HospitalData[16242:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:15:32.945 HospitalData[16399:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:15:32.952 HospitalData[16399:70b] Unlimited access to network resources
+2014-09-13 21:15:32.954 HospitalData[16399:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:15:32.977 HospitalData[16399:70b] [CDVTimer][splashscreen] 7.654011ms
+2014-09-13 21:15:32.977 HospitalData[16399:70b] [CDVTimer][TotalPluginStartup] 8.074999ms
+2014-09-13 21:15:33.021 HospitalData[16399:70b] Resetting plugins due to page load.
+2014-09-13 21:15:33.195 HospitalData[16399:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
+2014-09-13 21:16:03.131 HospitalData[16552:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-13 21:16:03.137 HospitalData[16552:70b] Unlimited access to network resources
+2014-09-13 21:16:03.139 HospitalData[16552:70b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-13 21:16:03.161 HospitalData[16552:70b] [CDVTimer][splashscreen] 7.763028ms
+2014-09-13 21:16:03.162 HospitalData[16552:70b] [CDVTimer][TotalPluginStartup] 8.310020ms
+2014-09-13 21:16:03.202 HospitalData[16552:70b] Resetting plugins due to page load.
+2014-09-13 21:16:03.385 HospitalData[16552:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/FD65C1DC-71BE-4494-9C79-32060BAF31DC/HospitalData.app/www/index.html
