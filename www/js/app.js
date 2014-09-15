@@ -68,7 +68,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	};
 
 	HApp.isDataCached = function() {
-
+		
 		HApp.openDb().transaction(function(tx) {
 
 			tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
@@ -235,15 +235,15 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 					HApp.barChart = new Chart(ctx).Bar({
 						labels : [""],
 						datasets : [{
-							fillColor : "green",
+							fillColor : "#223975",
 							strokeColor : "rgba(220,220,220,0.8)",
-							highlightFill : "green",
+							highlightFill : "#223975",
 							highlightStroke : "rgba(220,220,220,1)",
 							data : [$scope.netRevenue]
 						}, {
-							fillColor : "red",
+							fillColor : "#d9af01",
 							strokeColor : "rgba(220,220,220,0.8)",
-							highlightFill : "red",
+							highlightFill : "#d9af01",
 							highlightStroke : "rgba(220,220,220,1)",
 							data : [$scope.netRevenueForecast]
 						}]
@@ -290,11 +290,11 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 					HApp.pieChart = new Chart(ctx).Pie([{
 						value : nowRev,
-						color : "green",
+						color : "#223975",
 						label : "Current"
 					}, {
 						value : forecastRev,
-						color : "red",
+						color : "#d9af01",
 						label : "Forecast"
 					}]);
 
@@ -311,7 +311,6 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	HApp.loadDataFromServer = function() {
 
 		HApp.spinner = new Spinner().spin(document.getElementById('preview'));
-
 		HApp.cache(dummyData.data);
 		HApp.bindModelToView();
 		HApp.spinner.stop();

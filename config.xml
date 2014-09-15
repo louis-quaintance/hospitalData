@@ -13,5 +13,8 @@
     <feature name="SplashScreen">
     	<param name="ios-package" value="CDVSplashScreen" />
     </feature>
+	 
+
+    <preference name="BackupWebStorage" value="none" />
 
 </widget>
