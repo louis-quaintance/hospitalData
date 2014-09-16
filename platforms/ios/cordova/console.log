@@ -7880,3 +7880,9 @@ You could find it at the following address https://developer.apple.com/icloud/do
 2014-09-15 13:41:47.238 HospitalData[58898:70b] [CDVTimer][TotalPluginStartup] 9.696007ms
 2014-09-15 13:41:47.281 HospitalData[58898:70b] Resetting plugins due to page load.
 2014-09-15 13:41:47.887 HospitalData[58898:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A8C24CC3-FDA2-4792-9005-18DCF58A18DE/HospitalData.app/www/index.html
+2014-09-15 14:09:28.053 HospitalData[61973:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 14:09:28.059 HospitalData[61973:70b] Unlimited access to network resources
+2014-09-15 14:09:28.079 HospitalData[61973:70b] [CDVTimer][splashscreen] 6.959021ms
+2014-09-15 14:09:28.079 HospitalData[61973:70b] [CDVTimer][TotalPluginStartup] 7.397950ms
+2014-09-15 14:09:28.288 HospitalData[61973:70b] Resetting plugins due to page load.
+2014-09-15 14:09:28.468 HospitalData[61973:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B0CD0198-15EC-43E1-973F-E0A8F7432C0C/HospitalData.app/www/index.html
