@@ -1,20 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.bareface.media" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HospitalData</name>
-    <description>
-        A sample Apache Cordova application that responds to the deviceready event.
-    </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
+<widget id="com.bareface.media" version="0.0.1"
+	xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+	xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>HospitalData</name>
+	<description>
+		A hospital data app
+	</description>
+	<author email="dev@cordova.apache.org" href="http://cordova.io">
+		Apache Cordova Team
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
 
-    <feature name="SplashScreen">
-    	<param name="ios-package" value="CDVSplashScreen" />
-    </feature>
-	 
+	<feature name="SplashScreen">
+		<param name="ios-package" value="CDVSplashScreen" />
+	</feature>
 
-    <preference name="BackupWebStorage" value="none" />
+	<preference name="BackupWebStorage" value="none" />
+	
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:splash src="res/Default-Portrait~ipad.png"
+		gap:platform="ios" width="768" height="1024" />
+	<gap:splash src="res/Default-Landscape~ipad.png"
+		gap:platform="ios" width="1024" height="768" />
+	<gap:splash src="res/Default-Portrait@2x~ipad.png"
+		gap:platform="ios" width="1536" height="2048" />
+	<gap:splash src="res/Default-Landscape@2x~ipad.png"
+		gap:platform="ios" width="2048" height="1536" />
 
 </widget>
+
+
