@@ -38,7 +38,9 @@
 		gap:platform="ios" width="1536" height="2048" />
 	<gap:splash src="res/screen/ios/Default-Landscape@2x~ipad.png"
 		gap:platform="ios" width="2048" height="1536" />
-
+	
+	<icon src="icon.png" />
+	
 	<icon src="res/screen/ios/Icon-72.png" gap:platform="ios" width="72" height="72" />
 	<icon src="res/screen/ios/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
 
