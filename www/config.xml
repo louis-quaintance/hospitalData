@@ -17,17 +17,24 @@
 	</feature>
 
 	<preference name="BackupWebStorage" value="none" />
-
+	
 	<preference name="orientation" value="landscape" />
+	
+	<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
+        <array>
+            <string>UIInterfaceOrientationLandscapeLeft</string>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+    </gap:config-file>
 
 	<gap:plugin name="org.apache.cordova.splashscreen" />
-	<gap:splash src="res/Default-Portrait~ipad.png"
+	<gap:splash src="res/screen/ios/Default-Portrait~ipad.png"
 		gap:platform="ios" width="768" height="1024" />
-	<gap:splash src="res/Default-Landscape~ipad.png"
+	<gap:splash src="res/screen/ios/Default-Landscape~ipad.png"
 		gap:platform="ios" width="1024" height="768" />
-	<gap:splash src="res/Default-Portrait@2x~ipad.png"
+	<gap:splash src="res/screen/ios/Default-Portrait@2x~ipad.png"
 		gap:platform="ios" width="1536" height="2048" />
-	<gap:splash src="res/Default-Landscape@2x~ipad.png"
+	<gap:splash src="res/screen/ios/Default-Landscape@2x~ipad.png"
 		gap:platform="ios" width="2048" height="1536" />
 
 </widget>
