@@ -39,9 +39,17 @@
         <param name="ios-package" value="CDVSplashScreen" />
     </feature>
     <preference name="BackupWebStorage" value="none" />
+    <preference name="orientation" value="landscape" />
+    <gap:config-file overwrite="true" parent="UISupportedInterfaceOrientations" platform="ios">
+        <array>
+            <string>UIInterfaceOrientationLandscapeLeft</string>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+    </gap:config-file>
     <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:splash gap:platform="ios" height="1024" src="splash/Default-Portrait~ipad.png" width="768" />
-    <gap:splash gap:platform="ios" height="768" src="splash/Default-Landscape~ipad.png" width="1024" />
-    <gap:splash gap:platform="ios" height="2048" src="splash/Default-Portrait@2x~ipad.png" width="1536" />
-    <gap:splash gap:platform="ios" height="1536" src="splash/Default-Landscape@2x~ipad.png" width="2048" />
+    <gap:splash src="splash.png" />
+    <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+    <gap:splash gap:platform="ios" height="2048" src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+    <gap:splash gap:platform="ios" height="1536" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
 </widget>
