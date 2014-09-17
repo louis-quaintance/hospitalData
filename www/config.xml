@@ -39,14 +39,27 @@
 		gap:platform="ios" width="1536" height="2048" />
 	<gap:splash src="res/screen/ios/Default-Landscape@2x~ipad.png"
 		gap:platform="ios" width="2048" height="1536" />
-	
+
 	<icon src="icon.png" />
+
+	<icon src="res/icon/ios/Icon-60.png" gap:platform="ios" width="60" height="60" />
+	<icon src="res/icon/ios/Icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+	<!-- iPad -->
+	<icon src="res/icon/ios/Icon-76.png" gap:platform="ios" width="76" height="76" />
+	<icon src="res/icon/ios/Icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
+	<!-- Settings Icon -->
+	<icon src="res/icon/ios/Icon-Small.png" gap:platform="ios" width="29" height="29" />
+	<icon src="res/icon/ios/Icon-Small@2x.png" gap:platform="ios" width="58"
+		height="58" />
+
+	<!-- Spotlight Icon -->
+	<icon src="res/icon/ios/Icon-40.png" gap:platform="ios" width="40" height="40" />
+	<icon src="res/icon/ios/Icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+
 	
-	<icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="res/icon/ios/icon-57@2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="res/icon/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
-	
+
 
 </widget>
 
