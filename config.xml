@@ -18,6 +18,8 @@
 
 	<preference name="BackupWebStorage" value="none" />
 	
+	<preference name="orientation" value="landscape" />
+	
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:splash src="res/Default-Portrait~ipad.png"
 		gap:platform="ios" width="768" height="1024" />
