@@ -28,6 +28,7 @@
     </gap:config-file>
 
 	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:splash src="splash.png" />
 	<gap:splash src="res/screen/ios/Default-Portrait~ipad.png"
 		gap:platform="ios" width="768" height="1024" />
 	<gap:splash src="res/screen/ios/Default-Landscape~ipad.png"
