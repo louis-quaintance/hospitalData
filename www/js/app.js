@@ -51,11 +51,6 @@ var HApp = {
 
 angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataController', ['$scope', '$compile', '$http', function($scope, $compile, $http) {
 
-	// clear search on click
-	$(".search-input").click(function() {
-		$(this).val("");
-	});
-
 	HApp.cache = function(data) {
 
 		HApp.openDb().transaction(function(tx) {
