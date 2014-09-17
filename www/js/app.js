@@ -18,6 +18,17 @@ var HApp = {
 			// an array that will be populated with substring matches
 			matches = [];
 
+			if (q === "*" || q === "") {
+				$.each(strs, function(i, str) {
+					matches.push({
+						value : str
+					});
+				});
+				cb(matches);
+				$(".typeahead").val("");
+				return;
+			}
+
 			// regex used to determine if a string contains the substring `q`
 			substrRegex = new RegExp(q, 'i');
 
@@ -68,7 +79,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	};
 
 	HApp.isDataCached = function() {
-		
+
 		HApp.openDb().transaction(function(tx) {
 
 			tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
@@ -109,7 +120,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 				$('.typeahead').typeahead({
 					hint : true,
 					highlight : true,
-					minLength : 1
+					minLength : 0,
 				}, {
 					name : 'hospitalNames',
 					displayKey : 'value',
@@ -121,6 +132,8 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 						HApp.hospitalCurrentlySelected = datum.value;
 					}
 				});
+				// trigger all search results to show
+				$(".typeahead").val("*").trigger("input");
 			});
 		});
 	};
