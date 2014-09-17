@@ -17,17 +17,19 @@
 	</feature>
 
 	<preference name="BackupWebStorage" value="none" />
-	
-	<preference name="orientation" value="landscape" />
-	
-	<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
-        <array>
-            <string>UIInterfaceOrientationLandscapeLeft</string>
-            <string>UIInterfaceOrientationLandscapeRight</string>
-        </array>
-    </gap:config-file>
 
-	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<preference name="orientation" value="landscape" />
+
+	<gap:config-file platform="ios"
+		parent="UISupportedInterfaceOrientations" overwrite="true">
+		<array>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+	</gap:config-file>
+
+	<gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7" />
+
 	<gap:splash src="splash.png" />
 	<gap:splash src="res/screen/ios/Default-Portrait~ipad.png"
 		gap:platform="ios" width="768" height="1024" />
@@ -37,6 +39,27 @@
 		gap:platform="ios" width="1536" height="2048" />
 	<gap:splash src="res/screen/ios/Default-Landscape@2x~ipad.png"
 		gap:platform="ios" width="2048" height="1536" />
+
+	<icon src="icon.png" />
+
+	<icon src="res/icon/ios/icon-60.png" gap:platform="ios" width="60" height="60" />
+	<icon src="res/icon/ios/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+	<!-- iPad -->
+	<icon src="res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
+	<icon src="res/icon/ios/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
+	<!-- Settings Icon -->
+	<icon src="res/icon/ios/icon-Small.png" gap:platform="ios" width="29" height="29" />
+	<icon src="res/icon/ios/icon-Small@2x.png" gap:platform="ios" width="58"
+		height="58" />
+
+	<!-- Spotlight Icon -->
+	<icon src="res/icon/ios/icon-40.png" gap:platform="ios" width="40" height="40" />
+	<icon src="res/icon/ios/icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+
+	
+
 
 </widget>
 
