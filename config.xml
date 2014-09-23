@@ -19,6 +19,10 @@
 	<preference name="BackupWebStorage" value="none" />
 
 	<preference name="orientation" value="landscape" />
+	
+	<preference name="DisallowOverscroll" value="true" />
+
+	<preference name="webviewbounce" value="false" />	
 
 	<gap:config-file platform="ios"
 		parent="UISupportedInterfaceOrientations" overwrite="true">
