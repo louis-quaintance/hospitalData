@@ -77,8 +77,6 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 		HApp.openDb().transaction(function(tx) {
 			
-			tx.executeSql('DROP TABLE IF EXISTS CACHEDDATA');
-
 			tx.executeSql('CREATE TABLE IF NOT EXISTS CACHEDDATA (id INTEGER PRIMARY KEY, dateOfCache TEXT, hospitalName TEXT, trust TEXT, description TEXT, opcs TEXT, hrg TEXT, tariffNow REAL, tariffForecast REAL, frequency INTEGER, frequencyForecast INTEGER, revenue REAL, revenueForecast REAL, costOfConsumerablesNow REAL, costOfConsumerablesForecast REAL)');
 
 			tx.executeSql('SELECT DISTINCT dateOfCache FROM CACHEDDATA', [], function(tx, results) {
@@ -106,7 +104,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 		HApp.openDb().transaction(function(tx) {
 
-			tx.executeSql('SELECT DISTINCT hospitalName FROM CACHEDDATA', [], function(tx, results) {
+			tx.executeSql('SELECT DISTINCT hospitalName FROM CACHEDDATA order by hospitalName asc', [], function(tx, results) {
 
 				var hospitalNames = [];
 

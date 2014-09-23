@@ -310,3 +310,15 @@
 2014-09-23 22:12:48.862 HospitalData[51145:70b] [CDVTimer][TotalPluginStartup] 184.720993ms
 2014-09-23 22:12:50.579 HospitalData[51145:70b] Resetting plugins due to page load.
 2014-09-23 22:12:52.203 HospitalData[51145:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/42964738-7117-4FAB-84D0-C3030DE9A3D0/HospitalData.app/www/index.html
+2014-09-23 22:34:27.046 HospitalData[53719:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-23 22:34:27.052 HospitalData[53719:70b] Unlimited access to network resources
+2014-09-23 22:34:27.196 HospitalData[53719:70b] [CDVTimer][splashscreen] 98.759949ms
+2014-09-23 22:34:27.196 HospitalData[53719:70b] [CDVTimer][TotalPluginStartup] 99.200010ms
+2014-09-23 22:34:28.262 HospitalData[53719:70b] Resetting plugins due to page load.
+2014-09-23 22:34:28.886 HospitalData[53719:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/42964738-7117-4FAB-84D0-C3030DE9A3D0/HospitalData.app/www/index.html
+2014-09-23 22:36:45.778 HospitalData[54125:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-23 22:36:45.786 HospitalData[54125:70b] Unlimited access to network resources
+2014-09-23 22:36:45.812 HospitalData[54125:70b] [CDVTimer][splashscreen] 7.888973ms
+2014-09-23 22:36:45.812 HospitalData[54125:70b] [CDVTimer][TotalPluginStartup] 8.410990ms
+2014-09-23 22:36:45.860 HospitalData[54125:70b] Resetting plugins due to page load.
+2014-09-23 22:36:46.488 HospitalData[54125:70b] Finished load of: file:///Users/lquaintance/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/42964738-7117-4FAB-84D0-C3030DE9A3D0/HospitalData.app/www/index.html

@@ -104,7 +104,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 		HApp.openDb().transaction(function(tx) {
 
-			tx.executeSql('SELECT DISTINCT hospitalName FROM CACHEDDATA', [], function(tx, results) {
+			tx.executeSql('SELECT DISTINCT hospitalName FROM CACHEDDATA order by hospitalName asc', [], function(tx, results) {
 
 				var hospitalNames = [];
 
