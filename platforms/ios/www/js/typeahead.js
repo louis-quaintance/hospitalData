@@ -699,7 +699,7 @@
             onSuggestionClick = _.bind(this._onSuggestionClick, this);
             onSuggestionMouseEnter = _.bind(this._onSuggestionMouseEnter, this);
             onSuggestionMouseLeave = _.bind(this._onSuggestionMouseLeave, this);
-            this.$menu = $(o.menu).on("touchend.tt", ".tt-suggestion", onSuggestionClick).on("mouseenter.tt", ".tt-suggestion", onSuggestionMouseEnter).on("mouseleave.tt", ".tt-suggestion", onSuggestionMouseLeave);
+            this.$menu = $(o.menu).on("click", ".tt-suggestion", onSuggestionClick).on("mouseenter.tt", ".tt-suggestion", onSuggestionMouseEnter).on("mouseleave.tt", ".tt-suggestion", onSuggestionMouseLeave);
             _.each(this.datasets, function(dataset) {
                 that.$menu.append(dataset.getRoot());
                 dataset.onSync("rendered", that._onRendered, that);

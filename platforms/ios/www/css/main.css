@@ -223,6 +223,24 @@ textarea {
     float: left;
 }
 
+a.refresh {
+    display:block;
+    background:url(../img/refresh.png) no-repeat;
+    height:40px;
+    width:40px;
+    float:left;
+    margin: 0px 0 0 60px;
+}
+
+a.toggle-nav {
+    float:left;
+    display:block;
+    background:url(../img/menu-icon.png) no-repeat;
+    height:35px;
+    width:45px;
+    margin:5px 0 0 0;
+}
+
 .info-holder {
     margin:30px;
     background:rgba(183,183,183,0.6);
@@ -289,6 +307,57 @@ textarea {
     display:block;
     margin:10px 0;
 }
+
+
+.totals-third .bar-graph-holder {
+    border-left:2px solid #ffffff;
+    width: 190px;
+    height: 110px;
+    position: absolute;
+}
+
+.totals-third .barmore {
+    background: #223975;
+    width: 0%;
+    color: #ffffff;
+    font-size: 1.2em;
+    height: 55px;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+.totals-third .barless {
+    background: #d9af01;
+    width: 0%;
+    color: #ffffff;
+    font-size: 1.2em;
+    height: 55px;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.totals-third .proc-number {
+    font-size:1.2em;
+    right: 0;
+    top: 0;
+    padding-top: 17px;
+    display: block;
+    position: absolute;
+}
+
+.totals-third .proc-number-last {
+    font-size:1.2em;
+    right: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    padding-bottom: 17px;
+}
+
+
+
 
 .twolines {
     line-height:1.2em !important;
@@ -374,32 +443,6 @@ padding-bottom: 25px;
     content: "\e600";
     font-size:35px;
     color:#ffffff;
-}
-
-.totals-third .bar-graph-holder {
-    border-left:2px solid #ffffff;
-}
-
-.totals-third .barmore {
-    background:#223975;
-    width:80%;
-    color:#ffffff;
-    padding: 5px 0;
-    font-size: 1.2em;
-}
-
-.totals-third .barless {
-    background:#d9af01;
-    width:40%;
-    color:#ffffff;
-    padding: 5px 0;
-    font-size: 1.2em;
-}
-
-.net-revenue-graph {
-    clear:both;
-    margin: 15px 0 0 0;
-    display: inline-block;
 }
 
 

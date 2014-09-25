@@ -271,10 +271,10 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 					$scope.$apply();
 
 					$(".barmore").animate({
-						width : (row.f * 100 / (row.ff + row.f)) + "%"
+						width : ((row.f * 100 / (row.ff + row.f)) * 0.85) + "%"
 					}, 1500, function() {
 						$(".barless").animate({
-							width : (row.ff * 100 / (row.ff + row.f)) + "%"
+							width : ((row.ff * 100 / (row.ff + row.f)) * 0.85) + "%"
 						}, 1500, function() {
 							// Animation complete.
 						});
@@ -321,13 +321,23 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	HApp.init = function() {
 		HApp.isDataCached();
 	};
+	
+	HApp.serverLoadInProgress = false;
 
 	HApp.loadDataFromServer = function() {
+		
+		if(HApp.serverLoadInProgress){
+			return;
+		}
+		
+		HApp.serverLoadInProgress = true;
 
 		HApp.spinner = new Spinner().spin(document.getElementById('preview'));
 		HApp.cache(dummyData.data);
 		HApp.bindModelToView();
 		HApp.spinner.stop();
+
+		HApp.serverLoadInProgress = false;
 
 		/**
 		 * $http({ method : 'GET', url : HApp.DATA_URL }).success(function(data,
@@ -343,6 +353,10 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	HApp.init();
 
 }]);
+
+$(".refresh").click(function(){
+	HApp.loadDataFromServer();
+});
 
 var dummyData = {
 	"data" : {

@@ -27,8 +27,9 @@
 
 			<div class="header">
 				<div class="third">
-					<a href="#" class="toggle-nav btn btn-lg btn-success" id="big-sexy"><span
-						class="icon-menu"></span></a>
+					<a href="#" class="toggle-nav btn btn-lg btn-success" id="big-sexy"></a>
+						
+						<a href="#" class="refresh"></a>
 				</div>
 
 				<div class="third">
@@ -48,11 +49,12 @@
 					<div class="totals-third">
 						<h3>Total no. of Procedures</h3>
 
-						<!-- GRAPH - bars to go up and down -->
-						<span class="number-field before barmore">{{totalNumberOfProcs}}</span>
-						<span class="number-field after barless">{{totalNumberOfProcsForecast}}</span>
-						<!-- GRAPH - End -->
-
+						<div class="bar-graph-holder">
+                                <span class="before barmore"></span>
+                                <span class="after barless"></span>
+                                <span class="proc-number">{{totalNumberOfProcs}}</span>
+                                <span class="proc-number-last">{{totalNumberOfProcsForecast}}</span>
+						</div>
 					</div>
 
 					<div class="totals-third">
