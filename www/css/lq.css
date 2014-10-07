@@ -60,8 +60,3 @@
   outline: 0;
   background-color: #428bca;
 }
-
-input:focus::-webkit-input-placeholder {
-        color:transparent;
-
-}

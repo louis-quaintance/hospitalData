@@ -127,10 +127,14 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 						HApp.hospitalCurrentlySelected = datum.value;
 					}
 				});
-				// trigger all search results to show
-				$(".typeahead").val("*").trigger("input");
+				
+				HApp.triggerSearchForAllHospitals();
 			});
 		});
+	};
+	
+	HApp.triggerSearchForAllHospitals = function() {
+		$(".typeahead").val("*").trigger("input");
 	};
 
 	HApp.openDb = function() {
@@ -138,8 +142,6 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	};
 
 	HApp.bindModelToView = function(hospitalNameSelected) {
-
-		// $(".number-field").css("-webkit-animation", "");
 
 		if (hospitalNameSelected) {
 
@@ -269,14 +271,19 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 					$scope.upliftInIncomePercentage = ($scope.upliftInIncome * 100) / $scope.netRevenue;
 
 					$scope.$apply();
-
+					
+					var barMoreWidth = ((row.f * 100 / (row.ff + row.f)) * 0.85);
+					var barLessWidth = ((row.ff * 100 / (row.ff + row.f)) * 0.85);
+					
+					$(".proc-number").css("left", (barMoreWidth + 2) + "%");
+					$(".proc-number-last").css("left", (barLessWidth + 2) + "%");
+					
 					$(".barmore").animate({
-						width : ((row.f * 100 / (row.ff + row.f)) * 0.85) + "%"
+						width : barMoreWidth + "%"
 					}, 1500, function() {
 						$(".barless").animate({
-							width : ((row.ff * 100 / (row.ff + row.f)) * 0.85) + "%"
+							width : barLessWidth + "%"
 						}, 1500, function() {
-							// Animation complete.
 						});
 					});
 
@@ -319,6 +326,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 	};
 
 	HApp.init = function() {
+		
 		HApp.isDataCached();
 	};
 	

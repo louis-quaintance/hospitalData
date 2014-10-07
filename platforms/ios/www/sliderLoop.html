@@ -1,7 +1,7 @@
 <ul class="bxslider">
 	<li ng-repeat="procedureStat in procedureStats">
 		<div class="procedures-div-holder">
-			<h2>Procedure Name</h2>
+			<h2>{{procedureStat.description}}</h2>
 			<div class="hospital-codes">
 				<span class="lower-third">OPCS: {{procedureStat.opcs}}</span> <span
 					class="lower-third">HRG: {{procedureStat.hrg}}</span> <span

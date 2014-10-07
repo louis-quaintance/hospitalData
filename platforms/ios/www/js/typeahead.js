@@ -1065,7 +1065,7 @@
             $input.addClass("tt-input").attr({
                 autocomplete: "off",
                 spellcheck: false
-            }).css(withHint ? css.input : css.inputWithNoHint);
+            }).css(css.inputWithNoHint);
             try {
                 !$input.attr("dir") && $input.attr("dir", "auto");
             } catch (e) {}
