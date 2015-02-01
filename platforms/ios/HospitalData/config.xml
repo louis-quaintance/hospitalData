@@ -25,6 +25,10 @@
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
     </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
     <name>HospitalData</name>
     <description>
 		A hospital data app
@@ -34,10 +38,6 @@
 	</author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="SplashScreen">
-        <param name="onload" value="true" />
-        <param name="ios-package" value="CDVSplashScreen" />
-    </feature>
     <preference name="BackupWebStorage" value="none" />
     <preference name="orientation" value="landscape" />
     <preference name="DisallowOverscroll" value="true" />

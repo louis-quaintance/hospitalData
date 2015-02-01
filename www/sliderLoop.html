@@ -21,22 +21,22 @@
 			<div class="procedure-third">
 				<h3>Total Revenue</h3>
 				<p>Current</p>
-				<span class="number-field before">{{procedureStat.revenue |
-					number:2 | currency:"&#163;"}}</span>
+				<span class="number-field before">£{{procedureStat.revenue |
+					number:2}}</span>
 
 				<p>Forecast</p>
-				<span class="number-field after">{{procedureStat.revenueForecast
-					| number:2 | currency:"&#163;"}}</span>
+				<span class="number-field after">£{{procedureStat.revenueForecast
+					| number:2}}</span>
 			</div>
 			<div class="procedure-third">
 				<h3>Cost of Consumables</h3>
 				<p>Current</p>
-				<span class="number-field before">{{procedureStat.costOfConsumerablesNow
-					| number:2 | currency:"&#163;"}}</span>
+				<span class="number-field before">£{{procedureStat.costOfConsumerablesNow
+					| number:2}}</span>
 
 				<p>Forecast</p>
-				<span class="number-field after">{{procedureStat.costOfConsumerablesForecast
-					| number:2 | currency:"&#163;"}}</span>
+				<span class="number-field after">£{{procedureStat.costOfConsumerablesForecast
+					| number:2}}</span>
 			</div>
 		</div>
 	</li>
