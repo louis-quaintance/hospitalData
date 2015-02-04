@@ -1136,3 +1136,17 @@
 2015-02-01 14:56:49.415 HospitalData[6015:47527] [CDVTimer][TotalPluginStartup] 17.690003ms
 2015-02-01 14:56:49.487 HospitalData[6015:47527] Resetting plugins due to page load.
 2015-02-01 14:56:49.706 HospitalData[6015:47527] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/6F6014D0-69B2-4775-9574-FC40BAD1AD99/HospitalData.app/www/index.html
+2015-02-01 15:01:51.417 HospitalData[6302:49891] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/7B66AAAD-91F1-4024-A886-BD3553A8EF51/Library/Cookies/Cookies.binarycookies
+2015-02-01 15:01:51.606 HospitalData[6302:49891] Multi-tasking -> Device: YES, App: YES
+2015-02-01 15:01:51.613 HospitalData[6302:49891] Unlimited access to network resources
+2015-02-01 15:01:51.926 HospitalData[6302:49891] [CDVTimer][splashscreen] 17.803013ms
+2015-02-01 15:01:51.926 HospitalData[6302:49891] [CDVTimer][TotalPluginStartup] 17.960966ms
+2015-02-01 15:01:51.999 HospitalData[6302:49891] Resetting plugins due to page load.
+2015-02-01 15:01:52.200 HospitalData[6302:49891] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/A78F838C-A709-4960-96F7-507AD525CF94/HospitalData.app/www/index.html
+2015-02-04 21:16:11.354 HospitalData[7256:63367] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/EE482D4D-D595-4583-A6B6-444BB1950C51/Library/Cookies/Cookies.binarycookies
+2015-02-04 21:16:11.916 HospitalData[7256:63367] Multi-tasking -> Device: YES, App: YES
+2015-02-04 21:16:12.634 HospitalData[7256:63367] Unlimited access to network resources
+2015-02-04 21:16:18.064 HospitalData[7256:63367] [CDVTimer][splashscreen] 945.264995ms
+2015-02-04 21:16:18.064 HospitalData[7256:63367] [CDVTimer][TotalPluginStartup] 945.460021ms
+2015-02-04 21:16:18.374 HospitalData[7256:63367] Resetting plugins due to page load.
+2015-02-04 21:16:19.435 HospitalData[7256:63367] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/0E12F700-618D-44A0-9F7B-79856AC35622/HospitalData.app/www/index.html
