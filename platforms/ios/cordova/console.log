@@ -1150,3 +1150,234 @@
 2015-02-04 21:16:18.064 HospitalData[7256:63367] [CDVTimer][TotalPluginStartup] 945.460021ms
 2015-02-04 21:16:18.374 HospitalData[7256:63367] Resetting plugins due to page load.
 2015-02-04 21:16:19.435 HospitalData[7256:63367] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/0E12F700-618D-44A0-9F7B-79856AC35622/HospitalData.app/www/index.html
+2015-02-17 19:17:31.267 HospitalData[14339:64527] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/715D7A48-ECCF-411B-84F3-64EA0EFEF267/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:17:31.457 HospitalData[14339:64527] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:17:31.564 HospitalData[14339:64527] Unlimited access to network resources
+2015-02-17 19:17:35.798 HospitalData[14339:64527] [CDVTimer][splashscreen] 537.027955ms
+2015-02-17 19:17:35.798 HospitalData[14339:64527] [CDVTimer][TotalPluginStartup] 537.271023ms
+2015-02-17 19:17:36.031 HospitalData[14339:64527] Resetting plugins due to page load.
+2015-02-17 19:17:36.738 HospitalData[14339:64527] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/75816A36-0E16-4916-A37F-85DF4E107F8C/HospitalData.app/www/index.html
+2015-02-17 19:19:26.924 HospitalData[14559:65431] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/0E3FA57C-9525-479B-A824-BB20A67881A3/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:19:27.115 HospitalData[14559:65431] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:19:27.123 HospitalData[14559:65431] Unlimited access to network resources
+2015-02-17 19:19:27.441 HospitalData[14559:65431] [CDVTimer][splashscreen] 20.596027ms
+2015-02-17 19:19:27.442 HospitalData[14559:65431] [CDVTimer][TotalPluginStartup] 20.762980ms
+2015-02-17 19:19:27.512 HospitalData[14559:65431] Resetting plugins due to page load.
+2015-02-17 19:19:27.754 HospitalData[14559:65431] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/455FE83D-3ED4-44D5-8D05-87A486F6C845/HospitalData.app/www/index.html
+2015-02-17 19:20:04.644 HospitalData[14747:65961] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/CFE0D8D0-5925-456B-B44B-CAFA61E0C513/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:20:04.807 HospitalData[14747:65961] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:20:04.813 HospitalData[14747:65961] Unlimited access to network resources
+2015-02-17 19:20:05.120 HospitalData[14747:65961] [CDVTimer][splashscreen] 20.219028ms
+2015-02-17 19:20:05.120 HospitalData[14747:65961] [CDVTimer][TotalPluginStartup] 20.372033ms
+2015-02-17 19:20:05.199 HospitalData[14747:65961] Resetting plugins due to page load.
+2015-02-17 19:20:05.674 HospitalData[14747:65961] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/ACE2F3F9-C26E-48A2-B19D-27553BC43586/HospitalData.app/www/index.html
+2015-02-17 19:20:31.175 HospitalData[14939:66562] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/A2B75BF0-8C47-4403-8602-B0AA484203F9/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:20:31.312 HospitalData[14939:66562] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:20:31.318 HospitalData[14939:66562] Unlimited access to network resources
+2015-02-17 19:20:31.616 HospitalData[14939:66562] [CDVTimer][splashscreen] 17.496049ms
+2015-02-17 19:20:31.616 HospitalData[14939:66562] [CDVTimer][TotalPluginStartup] 17.652035ms
+2015-02-17 19:20:31.710 HospitalData[14939:66562] Resetting plugins due to page load.
+2015-02-17 19:20:31.984 HospitalData[14939:66562] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/7C042DCB-3C4E-4EE1-9638-552933F7C33B/HospitalData.app/www/index.html
+2015-02-17 19:21:38.856 HospitalData[15144:67490] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/308ABDD1-E3E7-42D6-9E82-D84CDC3178FE/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:21:39.027 HospitalData[15144:67490] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:21:39.034 HospitalData[15144:67490] Unlimited access to network resources
+2015-02-17 19:21:39.340 HospitalData[15144:67490] [CDVTimer][splashscreen] 20.277023ms
+2015-02-17 19:21:39.340 HospitalData[15144:67490] [CDVTimer][TotalPluginStartup] 20.444989ms
+2015-02-17 19:21:39.412 HospitalData[15144:67490] Resetting plugins due to page load.
+2015-02-17 19:21:39.632 HospitalData[15144:67490] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/71E17C99-F200-4FB0-9AA3-2AE3DF5075E4/HospitalData.app/www/index.html
+2015-02-17 19:23:08.677 HospitalData[15354:68326] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/A3F5CA19-6B2F-412D-BA96-A00FB178C606/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:23:08.950 HospitalData[15354:68326] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:23:08.958 HospitalData[15354:68326] Unlimited access to network resources
+2015-02-17 19:23:09.479 HospitalData[15354:68326] [CDVTimer][splashscreen] 18.114984ms
+2015-02-17 19:23:09.479 HospitalData[15354:68326] [CDVTimer][TotalPluginStartup] 18.262029ms
+2015-02-17 19:23:09.569 HospitalData[15354:68326] Resetting plugins due to page load.
+2015-02-17 19:23:09.963 HospitalData[15354:68326] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/0B1AF4EC-175E-4283-AC63-03F7BEDF8400/HospitalData.app/www/index.html
+2015-02-17 19:23:49.301 HospitalData[15542:68908] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/89466A89-F130-4995-8AEF-3CF04791E67E/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:23:49.477 HospitalData[15542:68908] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:23:49.485 HospitalData[15542:68908] Unlimited access to network resources
+2015-02-17 19:23:49.836 HospitalData[15542:68908] [CDVTimer][splashscreen] 18.577039ms
+2015-02-17 19:23:49.836 HospitalData[15542:68908] [CDVTimer][TotalPluginStartup] 18.735051ms
+2015-02-17 19:23:49.908 HospitalData[15542:68908] Resetting plugins due to page load.
+2015-02-17 19:23:50.118 HospitalData[15542:68908] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/7EBA84C1-CE71-4DB0-8EFF-A564880B93C8/HospitalData.app/www/index.html
+2015-02-17 19:24:15.564 HospitalData[15730:69396] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/C95771F6-6717-4B86-9A59-169DCACC3A0D/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:24:15.820 HospitalData[15730:69396] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:24:15.827 HospitalData[15730:69396] Unlimited access to network resources
+2015-02-17 19:24:16.216 HospitalData[15730:69396] [CDVTimer][splashscreen] 24.230003ms
+2015-02-17 19:24:16.217 HospitalData[15730:69396] [CDVTimer][TotalPluginStartup] 24.401963ms
+2015-02-17 19:24:16.345 HospitalData[15730:69396] Resetting plugins due to page load.
+2015-02-17 19:24:16.934 HospitalData[15730:69396] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/BAEAD976-ACB5-45F0-B2D3-B5F35B866950/HospitalData.app/www/index.html
+2015-02-17 19:24:38.807 HospitalData[15909:69854] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/E206D683-18FB-43ED-B500-F161289847FF/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:24:39.015 HospitalData[15909:69854] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:24:39.025 HospitalData[15909:69854] Unlimited access to network resources
+2015-02-17 19:24:39.358 HospitalData[15909:69854] [CDVTimer][splashscreen] 18.806994ms
+2015-02-17 19:24:39.358 HospitalData[15909:69854] [CDVTimer][TotalPluginStartup] 18.961012ms
+2015-02-17 19:24:39.426 HospitalData[15909:69854] Resetting plugins due to page load.
+2015-02-17 19:24:39.616 HospitalData[15909:69854] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/7D73115D-2A0C-45F1-9C9E-2BEEED8C8803/HospitalData.app/www/index.html
+2015-02-17 19:24:57.228 HospitalData[16095:70282] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/03EA0B3D-E446-4553-8C56-541A5E7E583C/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:24:57.411 HospitalData[16095:70282] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:24:57.419 HospitalData[16095:70282] Unlimited access to network resources
+2015-02-17 19:24:57.746 HospitalData[16095:70282] [CDVTimer][splashscreen] 18.958986ms
+2015-02-17 19:24:57.746 HospitalData[16095:70282] [CDVTimer][TotalPluginStartup] 19.114017ms
+2015-02-17 19:24:57.834 HospitalData[16095:70282] Resetting plugins due to page load.
+2015-02-17 19:24:58.184 HospitalData[16095:70282] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/FD696FFF-84A2-41D8-B933-A7F07EF3E510/HospitalData.app/www/index.html
+2015-02-17 19:25:31.462 HospitalData[16283:70821] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/A1BE8896-2E86-4267-B0CF-8736313178AC/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:25:31.614 HospitalData[16283:70821] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:25:31.622 HospitalData[16283:70821] Unlimited access to network resources
+2015-02-17 19:25:31.918 HospitalData[16283:70821] [CDVTimer][splashscreen] 20.516992ms
+2015-02-17 19:25:31.918 HospitalData[16283:70821] [CDVTimer][TotalPluginStartup] 20.672023ms
+2015-02-17 19:25:31.988 HospitalData[16283:70821] Resetting plugins due to page load.
+2015-02-17 19:25:32.168 HospitalData[16283:70821] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/41B4CFC5-CD4F-4B71-A4EC-EAF76E043B7D/HospitalData.app/www/index.html
+2015-02-17 19:25:53.348 HospitalData[16462:71229] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/9D89B727-E882-4221-938D-34C46B5664F4/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:25:53.507 HospitalData[16462:71229] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:25:53.513 HospitalData[16462:71229] Unlimited access to network resources
+2015-02-17 19:25:53.840 HospitalData[16462:71229] [CDVTimer][splashscreen] 19.697964ms
+2015-02-17 19:25:53.840 HospitalData[16462:71229] [CDVTimer][TotalPluginStartup] 19.854009ms
+2015-02-17 19:25:53.937 HospitalData[16462:71229] Resetting plugins due to page load.
+2015-02-17 19:25:54.220 HospitalData[16462:71229] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/0CC2542C-F364-4C6C-A8BE-2B8EAD71C65C/HospitalData.app/www/index.html
+2015-02-17 19:26:07.968 HospitalData[16647:71635] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/40D41E44-F211-4C1C-9D1F-F6EEBB8317C6/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:26:08.175 HospitalData[16647:71635] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:26:08.182 HospitalData[16647:71635] Unlimited access to network resources
+2015-02-17 19:26:08.494 HospitalData[16647:71635] [CDVTimer][splashscreen] 21.037042ms
+2015-02-17 19:26:08.494 HospitalData[16647:71635] [CDVTimer][TotalPluginStartup] 21.207988ms
+2015-02-17 19:26:08.588 HospitalData[16647:71635] Resetting plugins due to page load.
+2015-02-17 19:26:08.813 HospitalData[16647:71635] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/F0E45A8F-3BAA-4867-9797-FCD5FEA580A8/HospitalData.app/www/index.html
+2015-02-17 19:26:22.223 HospitalData[16826:72022] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/EB3F75F8-08A6-4F12-A231-1F99D1C80F37/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:26:22.402 HospitalData[16826:72022] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:26:22.409 HospitalData[16826:72022] Unlimited access to network resources
+2015-02-17 19:26:22.733 HospitalData[16826:72022] [CDVTimer][splashscreen] 19.362986ms
+2015-02-17 19:26:22.733 HospitalData[16826:72022] [CDVTimer][TotalPluginStartup] 19.520998ms
+2015-02-17 19:26:22.806 HospitalData[16826:72022] Resetting plugins due to page load.
+2015-02-17 19:26:23.037 HospitalData[16826:72022] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/86224F32-9942-4BCF-90DC-CE4BFFFB8DB7/HospitalData.app/www/index.html
+2015-02-17 19:26:47.191 HospitalData[17014:72545] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/CF80D47B-94DD-437E-9E3B-F9CF0CA893F0/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:26:47.348 HospitalData[17014:72545] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:26:47.355 HospitalData[17014:72545] Unlimited access to network resources
+2015-02-17 19:26:47.698 HospitalData[17014:72545] [CDVTimer][splashscreen] 18.330991ms
+2015-02-17 19:26:47.698 HospitalData[17014:72545] [CDVTimer][TotalPluginStartup] 18.496990ms
+2015-02-17 19:26:47.789 HospitalData[17014:72545] Resetting plugins due to page load.
+2015-02-17 19:26:48.133 HospitalData[17014:72545] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/60D30258-4983-4607-826D-CFC4108DADF1/HospitalData.app/www/index.html
+2015-02-17 19:27:02.021 HospitalData[17193:72929] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/4872D25C-0E15-43F4-BA05-C0B906188643/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:27:02.190 HospitalData[17193:72929] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:27:02.195 HospitalData[17193:72929] Unlimited access to network resources
+2015-02-17 19:27:02.511 HospitalData[17193:72929] [CDVTimer][splashscreen] 18.350959ms
+2015-02-17 19:27:02.512 HospitalData[17193:72929] [CDVTimer][TotalPluginStartup] 18.505991ms
+2015-02-17 19:27:02.595 HospitalData[17193:72929] Resetting plugins due to page load.
+2015-02-17 19:27:02.831 HospitalData[17193:72929] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/0E2892AE-4457-43E8-AD73-235F5EFDD738/HospitalData.app/www/index.html
+2015-02-17 19:27:20.358 HospitalData[17379:73380] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/C586DCE6-D351-45B2-97EB-2355AC5E53D0/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:27:20.542 HospitalData[17379:73380] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:27:20.550 HospitalData[17379:73380] Unlimited access to network resources
+2015-02-17 19:27:20.883 HospitalData[17379:73380] [CDVTimer][splashscreen] 19.827008ms
+2015-02-17 19:27:20.883 HospitalData[17379:73380] [CDVTimer][TotalPluginStartup] 19.988000ms
+2015-02-17 19:27:20.965 HospitalData[17379:73380] Resetting plugins due to page load.
+2015-02-17 19:27:21.237 HospitalData[17379:73380] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/A8F7F93D-F44D-4768-BB6A-34FB58F83345/HospitalData.app/www/index.html
+2015-02-17 19:31:29.057 HospitalData[17636:74646] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/650EA9F0-42B5-4725-8147-E608C0A2BDC5/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:31:29.241 HospitalData[17636:74646] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:31:29.248 HospitalData[17636:74646] Unlimited access to network resources
+2015-02-17 19:31:29.774 HospitalData[17636:74646] [CDVTimer][splashscreen] 18.540025ms
+2015-02-17 19:31:29.774 HospitalData[17636:74646] [CDVTimer][TotalPluginStartup] 18.691957ms
+2015-02-17 19:31:29.866 HospitalData[17636:74646] Resetting plugins due to page load.
+2015-02-17 19:31:30.118 HospitalData[17636:74646] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/EB10BB45-607A-4384-A2CB-A36E636543F7/HospitalData.app/www/index.html
+2015-02-17 19:31:56.560 HospitalData[17824:75174] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/80983649-23D9-48E7-8D0C-195558385988/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:31:56.728 HospitalData[17824:75174] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:31:56.734 HospitalData[17824:75174] Unlimited access to network resources
+2015-02-17 19:31:57.052 HospitalData[17824:75174] [CDVTimer][splashscreen] 18.501997ms
+2015-02-17 19:31:57.052 HospitalData[17824:75174] [CDVTimer][TotalPluginStartup] 18.651009ms
+2015-02-17 19:31:57.151 HospitalData[17824:75174] Resetting plugins due to page load.
+2015-02-17 19:31:57.617 HospitalData[17824:75174] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/9C8C7D36-4D69-40B9-A8A8-43B90A7A517D/HospitalData.app/www/index.html
+2015-02-17 19:33:36.150 HospitalData[18037:76080] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/F2428862-98A7-4824-82DC-9CAA10ADAB66/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:33:36.286 HospitalData[18037:76080] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:33:36.292 HospitalData[18037:76080] Unlimited access to network resources
+2015-02-17 19:33:36.601 HospitalData[18037:76080] [CDVTimer][splashscreen] 17.008007ms
+2015-02-17 19:33:36.601 HospitalData[18037:76080] [CDVTimer][TotalPluginStartup] 17.170012ms
+2015-02-17 19:33:36.673 HospitalData[18037:76080] Resetting plugins due to page load.
+2015-02-17 19:33:36.865 HospitalData[18037:76080] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/AE337C76-6969-4DE7-AA8A-93CB87D2E09E/HospitalData.app/www/index.html
+2015-02-17 19:34:03.345 HospitalData[18225:76591] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/AC5A7A21-3A0F-4FF8-9D04-2AEF7E6AE5D5/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:34:03.499 HospitalData[18225:76591] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:34:03.504 HospitalData[18225:76591] Unlimited access to network resources
+2015-02-17 19:34:03.834 HospitalData[18225:76591] [CDVTimer][splashscreen] 21.538019ms
+2015-02-17 19:34:03.834 HospitalData[18225:76591] [CDVTimer][TotalPluginStartup] 21.720946ms
+2015-02-17 19:34:03.912 HospitalData[18225:76591] Resetting plugins due to page load.
+2015-02-17 19:34:04.380 HospitalData[18225:76591] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/07A8B824-E59A-488B-8A27-9BFCC0C79B5B/HospitalData.app/www/index.html
+2015-02-17 19:34:50.055 HospitalData[18421:77282] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/7321D5AF-644A-48F7-8E4A-F888245EDDC3/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:34:50.209 HospitalData[18421:77282] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:34:50.216 HospitalData[18421:77282] Unlimited access to network resources
+2015-02-17 19:34:50.534 HospitalData[18421:77282] [CDVTimer][splashscreen] 16.876996ms
+2015-02-17 19:34:50.534 HospitalData[18421:77282] [CDVTimer][TotalPluginStartup] 17.045975ms
+2015-02-17 19:34:50.610 HospitalData[18421:77282] Resetting plugins due to page load.
+2015-02-17 19:34:50.790 HospitalData[18421:77282] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/3F2AE920-8A0A-4150-93C5-B11B2DB3AD86/HospitalData.app/www/index.html
+2015-02-17 19:35:54.712 HospitalData[18620:77962] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/54AB0993-9FE2-42C4-AA46-BA9D4591B8C2/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:35:54.941 HospitalData[18620:77962] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:35:54.948 HospitalData[18620:77962] Unlimited access to network resources
+2015-02-17 19:35:55.272 HospitalData[18620:77962] [CDVTimer][splashscreen] 18.464029ms
+2015-02-17 19:35:55.272 HospitalData[18620:77962] [CDVTimer][TotalPluginStartup] 18.617988ms
+2015-02-17 19:35:55.347 HospitalData[18620:77962] Resetting plugins due to page load.
+2015-02-17 19:35:55.565 HospitalData[18620:77962] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/E800E1F8-16DB-4A3A-A1CC-11CC6631F1CE/HospitalData.app/www/index.html
+2015-02-17 19:36:29.289 HospitalData[18812:78529] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/56CD8665-B998-44A6-86BE-0DC7AEAA3A3C/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:36:29.462 HospitalData[18812:78529] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:36:29.467 HospitalData[18812:78529] Unlimited access to network resources
+2015-02-17 19:36:29.939 HospitalData[18812:78529] [CDVTimer][splashscreen] 20.390987ms
+2015-02-17 19:36:29.939 HospitalData[18812:78529] [CDVTimer][TotalPluginStartup] 20.539045ms
+2015-02-17 19:36:30.015 HospitalData[18812:78529] Resetting plugins due to page load.
+2015-02-17 19:36:30.196 HospitalData[18812:78529] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/21F6A6AF-748C-47A4-AB85-AE9EF636FA12/HospitalData.app/www/index.html
+2015-02-17 19:36:57.871 HospitalData[19000:79026] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/D518DB62-3641-42AA-A0EF-B192F59560C9/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:36:58.032 HospitalData[19000:79026] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:36:58.037 HospitalData[19000:79026] Unlimited access to network resources
+2015-02-17 19:36:58.354 HospitalData[19000:79026] [CDVTimer][splashscreen] 20.142019ms
+2015-02-17 19:36:58.355 HospitalData[19000:79026] [CDVTimer][TotalPluginStartup] 20.291984ms
+2015-02-17 19:36:58.430 HospitalData[19000:79026] Resetting plugins due to page load.
+2015-02-17 19:36:59.210 HospitalData[19000:79026] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/34A09E2B-BFE5-4839-B69E-6227E8B51FE1/HospitalData.app/www/index.html
+2015-02-17 19:37:28.849 HospitalData[19189:79561] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/8AC2BD22-5CBA-421F-9EA0-AED3FCE8CB35/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:37:29.010 HospitalData[19189:79561] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:37:29.015 HospitalData[19189:79561] Unlimited access to network resources
+2015-02-17 19:37:29.326 HospitalData[19189:79561] [CDVTimer][splashscreen] 20.083964ms
+2015-02-17 19:37:29.326 HospitalData[19189:79561] [CDVTimer][TotalPluginStartup] 20.235002ms
+2015-02-17 19:37:29.396 HospitalData[19189:79561] Resetting plugins due to page load.
+2015-02-17 19:37:29.609 HospitalData[19189:79561] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/C11E1896-091F-4348-9738-0BD1F1416D91/HospitalData.app/www/index.html
+2015-02-17 19:38:07.376 HospitalData[19379:80101] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/16C8967F-3753-4108-931B-6CD6AE06F5D5/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:38:07.541 HospitalData[19379:80101] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:38:07.546 HospitalData[19379:80101] Unlimited access to network resources
+2015-02-17 19:38:07.857 HospitalData[19379:80101] [CDVTimer][splashscreen] 20.907998ms
+2015-02-17 19:38:07.857 HospitalData[19379:80101] [CDVTimer][TotalPluginStartup] 21.072030ms
+2015-02-17 19:38:07.942 HospitalData[19379:80101] Resetting plugins due to page load.
+2015-02-17 19:38:08.187 HospitalData[19379:80101] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/B436C3AE-FA69-4D53-AC78-F8FAC6FE2F01/HospitalData.app/www/index.html
+2015-02-17 19:39:55.753 HospitalData[19599:80896] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/31F43173-C678-4E53-A4A4-1CFC94A948E5/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:39:55.966 HospitalData[19599:80896] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:39:55.974 HospitalData[19599:80896] Unlimited access to network resources
+2015-02-17 19:39:56.315 HospitalData[19599:80896] [CDVTimer][splashscreen] 20.398974ms
+2015-02-17 19:39:56.315 HospitalData[19599:80896] [CDVTimer][TotalPluginStartup] 20.585954ms
+2015-02-17 19:39:56.412 HospitalData[19599:80896] Resetting plugins due to page load.
+2015-02-17 19:39:56.685 HospitalData[19599:80896] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/8715D7CF-7919-44CB-97E2-A814696BA735/HospitalData.app/www/index.html
+2015-02-17 19:40:24.955 HospitalData[19780:81395] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/5CD54886-A4F9-4BD1-AEA4-7F28AE296025/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:40:25.122 HospitalData[19780:81395] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:40:25.128 HospitalData[19780:81395] Unlimited access to network resources
+2015-02-17 19:40:25.452 HospitalData[19780:81395] [CDVTimer][splashscreen] 27.078032ms
+2015-02-17 19:40:25.452 HospitalData[19780:81395] [CDVTimer][TotalPluginStartup] 27.248025ms
+2015-02-17 19:40:25.530 HospitalData[19780:81395] Resetting plugins due to page load.
+2015-02-17 19:40:25.819 HospitalData[19780:81395] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/02EEB9F4-B27E-40F8-9B52-3D66B90D9779/HospitalData.app/www/index.html
+2015-02-17 19:41:18.596 HospitalData[19981:82047] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/31BA268D-1A0C-4CAD-9604-6E078FD2F40C/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:41:18.749 HospitalData[19981:82047] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:41:18.756 HospitalData[19981:82047] Unlimited access to network resources
+2015-02-17 19:41:19.057 HospitalData[19981:82047] [CDVTimer][splashscreen] 18.570006ms
+2015-02-17 19:41:19.057 HospitalData[19981:82047] [CDVTimer][TotalPluginStartup] 18.725991ms
+2015-02-17 19:41:19.147 HospitalData[19981:82047] Resetting plugins due to page load.
+2015-02-17 19:41:19.352 HospitalData[19981:82047] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/82D03688-D8CC-47B0-9CFE-547527EB003A/HospitalData.app/www/index.html
+2015-02-17 19:42:29.372 HospitalData[20220:82787] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/9B6C4C5B-708A-435C-918E-A77B5B2FBEF6/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:42:29.509 HospitalData[20220:82787] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:42:29.516 HospitalData[20220:82787] Unlimited access to network resources
+2015-02-17 19:42:29.825 HospitalData[20220:82787] [CDVTimer][splashscreen] 20.744026ms
+2015-02-17 19:42:29.825 HospitalData[20220:82787] [CDVTimer][TotalPluginStartup] 20.910978ms
+2015-02-17 19:42:29.897 HospitalData[20220:82787] Resetting plugins due to page load.
+2015-02-17 19:42:30.063 HospitalData[20220:82787] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/5740E7D1-B139-467A-8AD4-2758227DBA46/HospitalData.app/www/index.html
+2015-02-17 19:43:56.145 HospitalData[20431:83556] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/935DD07D-288D-4BE9-B73B-264717BFE5A7/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:43:56.321 HospitalData[20431:83556] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:43:56.327 HospitalData[20431:83556] Unlimited access to network resources
+2015-02-17 19:43:56.642 HospitalData[20431:83556] [CDVTimer][splashscreen] 20.346999ms
+2015-02-17 19:43:56.642 HospitalData[20431:83556] [CDVTimer][TotalPluginStartup] 20.497024ms
+2015-02-17 19:43:56.716 HospitalData[20431:83556] Resetting plugins due to page load.
+2015-02-17 19:43:56.935 HospitalData[20431:83556] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/CA2AF740-4DBE-4D0B-95EF-E3FD1E8A883E/HospitalData.app/www/index.html
+2015-02-17 19:44:06.860 HospitalData[20610:83937] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Data/Application/53E25353-478D-45FD-93FE-43D6CCCDA025/Library/Cookies/Cookies.binarycookies
+2015-02-17 19:44:07.055 HospitalData[20610:83937] Multi-tasking -> Device: YES, App: YES
+2015-02-17 19:44:07.062 HospitalData[20610:83937] Unlimited access to network resources
+2015-02-17 19:44:07.382 HospitalData[20610:83937] [CDVTimer][splashscreen] 20.128965ms
+2015-02-17 19:44:07.382 HospitalData[20610:83937] [CDVTimer][TotalPluginStartup] 20.281017ms
+2015-02-17 19:44:07.454 HospitalData[20610:83937] Resetting plugins due to page load.
+2015-02-17 19:44:07.632 HospitalData[20610:83937] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/042166DD-64D3-4D2F-AE33-EF87F1094C5E/data/Containers/Bundle/Application/EA9BA3F3-9FFE-4BCB-A2CC-B3A25FD05FFE/HospitalData.app/www/index.html

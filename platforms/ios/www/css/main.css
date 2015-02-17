@@ -158,6 +158,13 @@ textarea {
     transition: .3s ease all;
 }
 
+#clear-wrapper {
+    float:right;
+    right: 40px;
+    top: 43px;
+    position: absolute;
+}
+
 #site-menu {
     width: 300px;
     height: 100%;
