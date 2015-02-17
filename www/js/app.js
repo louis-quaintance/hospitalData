@@ -18,7 +18,7 @@ var HApp = {
             // an array that will be populated with substring matches
             matches = [];
 
-            if (q === "*" || q === "") {
+            if (q === "*" || q === "" || q === " ") {
                 $.each(strs, function(i, str) {
                     matches.push({
                         value: str
@@ -363,6 +363,13 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
 
 $(".refresh").click(function() {
     HApp.loadDataFromServer();
+});
+
+$("#clear-wrapper").click(function() {
+    if($('.typeahead').val() !== HApp.hospitalCurrentlySelected){
+        $('.typeahead').val("");
+        HApp.triggerSearchForAllHospitals();
+    }
 });
 
 var dummyData = {
