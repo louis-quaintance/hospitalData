@@ -1,0 +1,62 @@
+@-webkit-keyframes fade-in-figures {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.number-field {
+  /*-webkit-animation: fade-in-figures 5s;*/
+  animation-iteration-count: 1;
+  opacity: 0;
+}
+
+#site-menu {
+     padding-top: 30px;
+}
+
+#canvas-holder {
+     padding-top: 30px;
+}
+
+.net-revenue-graph {
+	float: left;
+	margin-left: 30px;
+}
+
+/*Typeahead css*/
+
+.typeahead {
+	min-width: 190px;
+}
+
+
+.tt-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 10;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 240px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+}
+.tt-suggestion > p {
+  display: block;
+  padding: 12px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #ffffff;
+  white-space: nowrap;
+  border-bottom: 1px solid #ffffff;
+}
+.tt-suggestion > p:hover,
+.tt-suggestion > p:focus,
+.tt-suggestion.tt-cursor p {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+}

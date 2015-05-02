@@ -16,7 +16,7 @@
                     "CoreGraphics.framework": [
                         {
                             "xml": "false",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }
@@ -34,7 +34,7 @@
                         },
                         {
                             "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }
@@ -49,6 +49,9 @@
             "PACKAGE_NAME": "com.bareface.media"
         },
         "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "com.bareface.media"
+        },
+        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.bareface.media"
         }
     },

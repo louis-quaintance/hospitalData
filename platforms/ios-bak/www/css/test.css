@@ -1,0 +1,860 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+ @font-face{ 
+    font-family: 'roboto-light';
+    src: url('../fonts/roboto/Roboto-Light-webfont.eot');
+    src: url('../fonts/roboto/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Light-webfont.svg#Roboto-Light-webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?bmiqkk');
+    src:url('../fonts/icomoon.eot?#iefixbmiqkk') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?bmiqkk') format('woff'),
+        url('../fonts/icomoon.ttf?bmiqkk') format('truetype'),
+        url('../fonts/icomoon.svg?bmiqkk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+body {
+    margin:0;
+    padding:0;
+    font-family: 'roboto-light', arial, sans-serif;
+    color:#ffffff;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight:400;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#site-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 1024px;
+    height: 768px;
+    background:url(../img/thd-bg.png) no-repeat;
+}
+
+#site-canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+}
+
+#site-menu {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    background: rgba(214,212,212,0.4);
+    padding: 15px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    overflow:scroll;
+}
+
+#site-menu input {
+    padding: 15px;
+    border: 1px solid #223874;
+    width: 100%;
+}
+
+#site-menu ul {
+    padding:0 20px;
+}
+
+#site-menu ul li {
+    list-style-type: none;
+    margin: 0;
+    border-bottom: 1px solid #ffffff;
+    padding: 15px 0;
+}
+
+#site-menu ul li a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+#site-wrapper.show-nav #site-canvas {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+}
+
+.header {
+    padding:30px;
+    background:#223874;
+    overflow:hidden;
+}
+
+.header a {
+    text-decoration:none;
+}
+
+.header h1 {
+    text-align:center;
+    margin:0;
+}
+
+.header p {
+    text-align:right;
+}
+
+.third {
+    width: 33.3%;
+    float: left;
+}
+
+.info-holder {
+    margin:30px;
+    background:rgba(183,183,183,0.6);
+    overflow:hidden;
+}
+
+.left {
+    width:62%;
+    background:;
+    min-height:500px;
+    float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:30px 0 30px 30px;
+}
+
+.right {
+    width:38%;
+    background:;
+    min-height:500px;
+    float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:30px 30px 30px 15px;
+}
+
+.procedures {
+    min-height:320px;
+    background: rgba(214,212,212,0.35);
+    margin-bottom:15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.totals {
+    min-height:200px;
+    background: rgba(214,212,212,0.45);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:30px;
+}
+
+.totals-third {
+    width:33.33%;
+    float:left;
+    text-align: center;
+}
+
+.totals-third h3 {
+    height: 30px;
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.3);
+    padding: 10px 0;
+    margin: 0 -0.5px;
+    line-height:30px;
+}
+
+.totals-third .number-field {
+    font-size: 1.7rem;
+    display:block;
+    margin:10px 0;
+}
+
+.twolines {
+    line-height:1.2em !important;
+}
+
+.before {
+}
+
+.after {
+}
+
+.net-revenue {
+    min-height:320px;
+    background: rgba(214,212,212,0.45);
+    margin-bottom:15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align:center;
+    padding:20px 30px;
+}
+
+.net-revenue  h3 {
+    font-size: 1.1rem;
+    letter-spacing: -0.04em;
+    margin:0px 35px 5px 35px;
+    background:url(../img/thd-icon-plus.png) no-repeat;
+    line-height:1.8em;
+}
+
+.net-revenue  p {
+    font-size: 0.8rem;
+    margin: 13px 10px 10px 0;
+    float: left;
+    clear: both;
+}
+
+.net-revenue  .number-field {
+    font-size: 1.7rem;
+    float: left;
+}
+
+.income {
+    min-height:200px;
+    background: rgba(214,212,212,0.45);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:20px;
+}
+
+.income .i-left {
+    text-align:center;
+    width:50%;
+    float:left;
+}
+
+.income .i-right {
+    width:50%;
+    float:left;
+}
+
+.income h3 {
+margin: 8px 0 0 0;
+font-size: 0.9rem;
+letter-spacing: -0.04em;
+background: url(../img/thd-icon-uparrow.png) no-repeat center bottom;
+padding-bottom: 25px;
+}
+
+.income .number-field {
+    font-size:1.5rem;
+    display:block;
+    margin:15px 0 0 0;
+}
+
+.income .percent {
+    font-size:2.2rem;
+    margin:5px 0 0 0;
+}
+
+.icon-menu:before {
+    content: "\e600";
+    font-size:35px;
+    color:#ffffff;
+}
+
+.totals-third .bar-graph-holder {
+    border-left:2px solid #ffffff;
+}
+
+.totals-third .barmore {
+    background:#223975;
+    width:80%;
+    color:#ffffff;
+    padding: 5px 0;
+    font-size: 1.2em;
+}
+
+.totals-third .barless {
+    background:#d9af01;
+    width:40%;
+    color:#ffffff;
+    padding: 5px 0;
+    font-size: 1.2em;
+}
+
+.net-revenue-graph {
+    clear:both;
+    margin: 15px 0 0 0;
+    display: inline-block;
+}
+
+
+
+
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 60px;
+    padding: 0;
+    *zoom: 1;
+}
+
+.bx-wrapper img {
+    max-width: 100%;
+    display: block;
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+    min-height:320px;
+    
+    /*fix other elements on the page moving (on Chrome)*/
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+        -ms-transform: translatez(0);
+        -o-transform: translatez(0);
+        transform: translatez(0);
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+    min-height: 50px;
+    background: url(../img/bx_loader.gif) center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000;
+}
+
+ul.bxslider {
+    margin:0;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+    left: 20px;
+    background: url(../img/arrow-left.png) no-repeat;
+    background-size:cover;
+}
+
+.bx-wrapper .bx-next {
+    right: 20px;
+    background: url(../img/arrow-right.png) no-repeat;
+    background-size:cover;
+}
+
+.bx-wrapper .bx-prev:hover {
+    background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+    background-position:;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 35px;
+    height: 35px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+    text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    outline: 0;
+    background: url(../img/controls.png) -86px -11px no-repeat;
+    margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    background: url(../img/controls.png) -86px -44px no-repeat;
+    margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666\9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: .85em;
+    padding: 10px;
+}
+
+.procedures-div-holder {
+    padding:0px 30px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+.procedures-div-holder h2 {
+    margin:20px 120px 0 120px;
+    background:url(../img/thd-icon-search.png) no-repeat;
+}
+
+.procedures-div-holder .small-detail {
+    text-align: center;
+    display: inline-block;
+    margin:0 50px;
+}
+
+.procedures-div-holder .small-detail p {
+    float: left;
+    margin: 6px 10px 15px 10px;
+    font-size: 0.7em;
+    color: #223874;
+}
+
+.procedure-third {
+    width:33.33%;
+    float:left;
+    padding: 0 2%;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.procedure-third h3 {
+    font-size: 0.8rem;
+    background: rgba(255,255,255,0.3);
+    padding:10px 0;
+    margin:0 -10.5px;
+}
+
+.procedure-third p {
+    font-size: 0.8rem;
+    margin: 20px 0 0 0;
+}
+
+.procedure-third .number-field {
+    font-size: 1.7rem;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 850px) {
+        .left {
+    width:100%;
+  }
+    .right {
+    width:100%;
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@media all and (max-width: 850px) {
+
+  }
+}

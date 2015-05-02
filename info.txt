@@ -1,0 +1,87 @@
+Node version: v0.10.33
+
+Cordova version: 4.2.0
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.bareface.media" version="0.0.1"
+	xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+	xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>HospitalData</name>
+	<description>
+		A hospital data app
+	</description>
+	<author email="dev@cordova.apache.org" href="http://cordova.io">
+		Apache Cordova Team
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+
+	<feature name="SplashScreen">
+		<param name="ios-package" value="CDVSplashScreen" />
+	</feature>
+
+	<preference name="BackupWebStorage" value="none" />
+
+	<preference name="orientation" value="landscape" />
+	
+	<preference name="DisallowOverscroll" value="true" />
+
+	<preference name="webviewbounce" value="false" />	
+
+	<gap:config-file platform="ios"
+		parent="UISupportedInterfaceOrientations" overwrite="true">
+		<array>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+	</gap:config-file>
+
+	<gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7" />
+
+	<gap:splash src="splash.png" />
+	<gap:splash src="res/screen/ios/Default-Portrait~ipad.png"
+		gap:platform="ios" width="768" height="1024" />
+	<gap:splash src="res/screen/ios/Default-Landscape~ipad.png"
+		gap:platform="ios" width="1024" height="768" />
+	<gap:splash src="res/screen/ios/Default-Portrait@2x~ipad.png"
+		gap:platform="ios" width="1536" height="2048" />
+	<gap:splash src="res/screen/ios/Default-Landscape@2x~ipad.png"
+		gap:platform="ios" width="2048" height="1536" />
+
+	<icon src="www/icon.png" />
+
+	<icon src="www/res/icon/ios/icon-60.png" gap:platform="ios" width="60" height="60" />
+	<icon src="www/res/icon/ios/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+	<!-- iPad -->
+	<icon src="www/res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
+	<icon src="www/res/icon/ios/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
+	<!-- Settings Icon -->
+	<icon src="www/res/icon/ios/icon-Small.png" gap:platform="ios" width="29" height="29" />
+	<icon src="www/res/icon/ios/icon-Small@2x.png" gap:platform="ios" width="58"
+		height="58" />
+
+	<!-- Spotlight Icon -->
+	<icon src="www/res/icon/ios/icon-40.png" gap:platform="ios" width="40" height="40" />
+	<icon src="www/res/icon/ios/icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+
+	
+
+
+</widget>
+
+
+
+
+Plugins: 
+
+cordova-plugin-splashscreen,org.apache.cordova.console,org.apache.cordova.network-information,org.apache.cordova.splashscreen
+
+iOS platform:
+
+Xcode 6.3.1
+Build version 6D1002
+
