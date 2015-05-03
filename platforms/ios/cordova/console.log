@@ -62,3 +62,266 @@
 2015-05-02 20:07:39.347 HospitalData[6423:48737] [CDVTimer][TotalPluginStartup] 0.423968ms
 2015-05-02 20:07:39.772 HospitalData[6423:48737] Resetting plugins due to page load.
 2015-05-02 20:07:40.038 HospitalData[6423:48737] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Bundle/Application/E11FF753-9F15-49A3-8E95-095CAAE8A0D3/HospitalData.app/www/index.html
+2015-05-02 21:09:52.579 HospitalData[8031:73197] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Data/Application/C6760560-4C71-4F7F-8253-3315FD479C30/Library/Cookies/Cookies.binarycookies
+2015-05-02 21:09:52.711 HospitalData[8031:73197] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-02 21:09:52.712 HospitalData[8031:73197] Multi-tasking -> Device: YES, App: YES
+2015-05-02 21:09:52.726 HospitalData[8031:73197] Unlimited access to network resources
+2015-05-02 21:09:52.909 HospitalData[8031:73197] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-02 21:09:52.910 HospitalData[8031:73197] [CDVTimer][splashscreen] 0.419021ms
+2015-05-02 21:09:52.910 HospitalData[8031:73197] [CDVTimer][TotalPluginStartup] 0.931978ms
+2015-05-02 21:09:53.359 HospitalData[8031:73197] Resetting plugins due to page load.
+2015-05-02 21:09:53.784 HospitalData[8031:73197] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Bundle/Application/41091A61-947B-4F7D-A271-E87A1A42317F/HospitalData.app/www/index.html
+2015-05-02 21:12:40.181 HospitalData[8031:73211] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-02 21:13:34.967 HospitalData[8341:75308] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Data/Application/9C65A8AB-C0DB-4B24-9F4A-06D71486CB35/Library/Cookies/Cookies.binarycookies
+2015-05-02 21:13:35.295 HospitalData[8341:75308] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-02 21:13:35.296 HospitalData[8341:75308] Multi-tasking -> Device: YES, App: YES
+2015-05-02 21:13:35.322 HospitalData[8341:75308] Unlimited access to network resources
+2015-05-02 21:13:35.607 HospitalData[8341:75308] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-02 21:13:35.608 HospitalData[8341:75308] [CDVTimer][splashscreen] 0.558972ms
+2015-05-02 21:13:35.608 HospitalData[8341:75308] [CDVTimer][TotalPluginStartup] 1.098990ms
+2015-05-02 21:13:36.947 HospitalData[8341:75308] Resetting plugins due to page load.
+2015-05-02 21:13:38.032 HospitalData[8341:75308] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Bundle/Application/D97C65D2-19E2-4131-A626-A8FA7574E390/HospitalData.app/www/index.html
+2015-05-02 21:17:25.229 HospitalData[8696:80908] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Data/Application/5A46FC67-89C4-42FA-8521-F274DDC174DA/Library/Cookies/Cookies.binarycookies
+2015-05-02 21:17:25.434 HospitalData[8696:80908] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-02 21:17:25.434 HospitalData[8696:80908] Multi-tasking -> Device: YES, App: YES
+2015-05-02 21:17:25.454 HospitalData[8696:80908] Unlimited access to network resources
+2015-05-02 21:17:25.565 HospitalData[8696:80908] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-02 21:17:25.565 HospitalData[8696:80908] [CDVTimer][splashscreen] 0.163019ms
+2015-05-02 21:17:25.565 HospitalData[8696:80908] [CDVTimer][TotalPluginStartup] 0.301003ms
+2015-05-02 21:17:26.017 HospitalData[8696:80908] Resetting plugins due to page load.
+2015-05-02 21:17:26.315 HospitalData[8696:80908] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Bundle/Application/4A328D38-49D7-4BD8-8A98-71104D56D2E4/HospitalData.app/www/index.html
+2015-05-02 21:19:28.584 HospitalData[8919:82055] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Data/Application/94356314-7498-487B-99CC-5CD73856D096/Library/Cookies/Cookies.binarycookies
+2015-05-02 21:19:28.821 HospitalData[8919:82055] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-02 21:19:28.821 HospitalData[8919:82055] Multi-tasking -> Device: YES, App: YES
+2015-05-02 21:19:28.834 HospitalData[8919:82055] Unlimited access to network resources
+2015-05-02 21:19:28.929 HospitalData[8919:82055] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-02 21:19:28.930 HospitalData[8919:82055] [CDVTimer][splashscreen] 0.164032ms
+2015-05-02 21:19:28.930 HospitalData[8919:82055] [CDVTimer][TotalPluginStartup] 0.298023ms
+2015-05-02 21:19:29.384 HospitalData[8919:82055] Resetting plugins due to page load.
+2015-05-02 21:19:29.694 HospitalData[8919:82055] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/C182BB20-D2F5-4587-A255-EAC792CA6BC4/data/Containers/Bundle/Application/88E2616B-E0E2-49E5-B9EE-A0666D72C407/HospitalData.app/www/index.html
+2015-05-02 21:20:40.987 HospitalData[9164:83181] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/D458B4C4-B7F8-462F-BA4E-ABEE5FE742ED/data/Containers/Data/Application/FF54B235-80A3-4A74-B1E2-C46E2F031256/Library/Cookies/Cookies.binarycookies
+2015-05-02 21:20:41.230 HospitalData[9164:83181] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-02 21:20:41.231 HospitalData[9164:83181] Multi-tasking -> Device: YES, App: YES
+2015-05-02 21:20:41.257 HospitalData[9164:83181] Unlimited access to network resources
+2015-05-02 21:20:41.390 HospitalData[9164:83181] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-02 21:20:41.390 HospitalData[9164:83181] [CDVTimer][splashscreen] 0.150025ms
+2015-05-02 21:20:41.390 HospitalData[9164:83181] [CDVTimer][TotalPluginStartup] 0.285983ms
+2015-05-02 21:20:41.476 HospitalData[9164:83181] Resetting plugins due to page load.
+2015-05-02 21:20:42.152 HospitalData[9164:83181] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/D458B4C4-B7F8-462F-BA4E-ABEE5FE742ED/data/Containers/Bundle/Application/32CFF0BC-FEEF-4366-B3DD-21558380A97E/HospitalData.app/www/index.html
+2015-05-03 14:16:05.354 HospitalData[2181:26265] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/5EF55506-EAAD-487E-9A45-628B9B030652/data/Containers/Data/Application/B33EBC44-75EC-40A5-8FAD-10EE44634887/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:16:05.766 HospitalData[2181:26265] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:16:05.766 HospitalData[2181:26265] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:16:05.832 HospitalData[2181:26265] Unlimited access to network resources
+2015-05-03 14:16:10.438 HospitalData[2181:26265] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:16:10.438 HospitalData[2181:26265] [CDVTimer][splashscreen] 0.169992ms
+2015-05-03 14:16:10.439 HospitalData[2181:26265] [CDVTimer][TotalPluginStartup] 0.321984ms
+2015-05-03 14:16:11.513 HospitalData[2181:26265] Resetting plugins due to page load.
+2015-05-03 14:16:12.560 HospitalData[2181:26265] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/5EF55506-EAAD-487E-9A45-628B9B030652/data/Containers/Bundle/Application/837609A0-FF05-40EF-8FE9-56F364EEDDBC/HospitalData.app/www/index.html
+2015-05-03 14:16:28.785 HospitalData[2419:27139] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/70FA350F-805A-4A84-85F3-21CB7C7B7B20/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:16:28.968 HospitalData[2419:27139] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:16:28.968 HospitalData[2419:27139] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:16:28.982 HospitalData[2419:27139] Unlimited access to network resources
+2015-05-03 14:16:29.158 HospitalData[2419:27139] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:16:29.158 HospitalData[2419:27139] [CDVTimer][splashscreen] 0.145972ms
+2015-05-03 14:16:29.158 HospitalData[2419:27139] [CDVTimer][TotalPluginStartup] 0.275970ms
+2015-05-03 14:16:29.913 HospitalData[2419:27139] Resetting plugins due to page load.
+2015-05-03 14:16:30.261 HospitalData[2419:27139] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/E266747C-B7A5-4D03-915F-91A3999E967B/HospitalData.app/www/index.html
+2015-05-03 14:19:47.098 HospitalData[2732:29565] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/BB3102DB-D14E-4AC2-9F55-E89A05C3A08C/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:19:47.246 HospitalData[2732:29565] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:19:47.246 HospitalData[2732:29565] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:19:47.259 HospitalData[2732:29565] Unlimited access to network resources
+2015-05-03 14:19:47.366 HospitalData[2732:29565] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:19:47.366 HospitalData[2732:29565] [CDVTimer][splashscreen] 0.183046ms
+2015-05-03 14:19:47.366 HospitalData[2732:29565] [CDVTimer][TotalPluginStartup] 0.370026ms
+2015-05-03 14:19:47.938 HospitalData[2732:29565] Resetting plugins due to page load.
+2015-05-03 14:19:48.252 HospitalData[2732:29565] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/A57696DA-C221-4981-BCBC-6589CD802093/HospitalData.app/www/index.html
+2015-05-03 14:23:35.770 HospitalData[2986:31412] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/1D5BB2F5-2056-41A0-9C3D-1695D1765B74/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:23:36.020 HospitalData[2986:31412] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:23:36.020 HospitalData[2986:31412] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:23:36.063 HospitalData[2986:31412] Unlimited access to network resources
+2015-05-03 14:23:36.824 HospitalData[2986:31412] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:23:36.824 HospitalData[2986:31412] [CDVTimer][splashscreen] 0.151038ms
+2015-05-03 14:23:36.824 HospitalData[2986:31412] [CDVTimer][TotalPluginStartup] 0.285029ms
+2015-05-03 14:23:37.170 HospitalData[2986:31412] Resetting plugins due to page load.
+2015-05-03 14:23:37.412 HospitalData[2986:31412] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/7E1C22E0-EA5D-490E-A8DE-2C91FEB2972C/HospitalData.app/www/index.html
+2015-05-03 14:25:04.487 HospitalData[3200:32540] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/D1601EDE-1A7C-45D9-9E7A-AD2B1FAA33EF/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:25:04.697 HospitalData[3200:32540] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:25:04.697 HospitalData[3200:32540] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:25:04.704 HospitalData[3200:32540] Unlimited access to network resources
+2015-05-03 14:25:04.799 HospitalData[3200:32540] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:25:04.799 HospitalData[3200:32540] [CDVTimer][splashscreen] 0.200987ms
+2015-05-03 14:25:04.800 HospitalData[3200:32540] [CDVTimer][TotalPluginStartup] 0.373960ms
+2015-05-03 14:25:05.167 HospitalData[3200:32540] Resetting plugins due to page load.
+2015-05-03 14:25:05.441 HospitalData[3200:32540] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/BE7B80A8-BFB3-465A-97AF-B70D1C2AE01C/HospitalData.app/www/index.html
+2015-05-03 14:26:04.129 HospitalData[3399:33261] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/19952923-0937-41E3-A3BF-5C2E1FF7759C/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:26:04.443 HospitalData[3399:33261] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:26:04.443 HospitalData[3399:33261] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:26:04.449 HospitalData[3399:33261] Unlimited access to network resources
+2015-05-03 14:26:04.546 HospitalData[3399:33261] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:26:04.546 HospitalData[3399:33261] [CDVTimer][splashscreen] 0.153005ms
+2015-05-03 14:26:04.546 HospitalData[3399:33261] [CDVTimer][TotalPluginStartup] 0.330031ms
+2015-05-03 14:26:04.879 HospitalData[3399:33261] Resetting plugins due to page load.
+2015-05-03 14:26:05.253 HospitalData[3399:33261] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/9C44380A-E691-4379-842A-DA3167E12BBF/HospitalData.app/www/index.html
+2015-05-03 14:27:26.018 HospitalData[3602:34159] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/08EC2555-C492-4583-8D03-603A7F726BB6/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:27:26.266 HospitalData[3602:34159] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:27:26.267 HospitalData[3602:34159] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:27:26.279 HospitalData[3602:34159] Unlimited access to network resources
+2015-05-03 14:27:26.361 HospitalData[3602:34159] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:27:26.361 HospitalData[3602:34159] [CDVTimer][splashscreen] 0.328004ms
+2015-05-03 14:27:26.361 HospitalData[3602:34159] [CDVTimer][TotalPluginStartup] 0.585020ms
+2015-05-03 14:27:26.653 HospitalData[3602:34159] Resetting plugins due to page load.
+2015-05-03 14:27:26.885 HospitalData[3602:34159] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/AB1FFD72-C89A-4F99-851B-6C2BFAC171A9/HospitalData.app/www/index.html
+2015-05-03 14:27:55.736 HospitalData[3790:34652] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/595B60E7-13FA-4D87-95F1-1A656E0C2075/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:27:55.788 HospitalData[3790:34652] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:27:55.789 HospitalData[3790:34652] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:27:55.791 HospitalData[3790:34652] Unlimited access to network resources
+2015-05-03 14:27:55.889 HospitalData[3790:34652] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:27:55.889 HospitalData[3790:34652] [CDVTimer][splashscreen] 0.141978ms
+2015-05-03 14:27:55.889 HospitalData[3790:34652] [CDVTimer][TotalPluginStartup] 0.356972ms
+2015-05-03 14:27:56.349 HospitalData[3790:34652] Resetting plugins due to page load.
+2015-05-03 14:27:56.561 HospitalData[3790:34652] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/89BF2E84-82DC-4DED-A74E-B8277F31685C/HospitalData.app/www/index.html
+2015-05-03 14:28:40.625 HospitalData[3983:35329] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/5C671C03-8E93-41F0-9D97-3E15844E121D/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:28:41.280 HospitalData[3983:35329] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:28:41.280 HospitalData[3983:35329] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:28:41.290 HospitalData[3983:35329] Unlimited access to network resources
+2015-05-03 14:28:41.362 HospitalData[3983:35329] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:28:41.362 HospitalData[3983:35329] [CDVTimer][splashscreen] 0.153005ms
+2015-05-03 14:28:41.362 HospitalData[3983:35329] [CDVTimer][TotalPluginStartup] 0.316024ms
+2015-05-03 14:28:41.507 HospitalData[3983:35329] Resetting plugins due to page load.
+2015-05-03 14:28:41.820 HospitalData[3983:35329] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/D4551285-B946-4FBC-84B6-AF17854B08ED/HospitalData.app/www/index.html
+2015-05-03 14:30:26.485 HospitalData[4205:36436] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/B0D971BA-1AC9-455F-BB97-A7C0D7B76D3C/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:30:26.772 HospitalData[4205:36436] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:30:26.772 HospitalData[4205:36436] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:30:26.774 HospitalData[4205:36436] Unlimited access to network resources
+2015-05-03 14:30:26.863 HospitalData[4205:36436] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:30:26.863 HospitalData[4205:36436] [CDVTimer][splashscreen] 0.185966ms
+2015-05-03 14:30:26.863 HospitalData[4205:36436] [CDVTimer][TotalPluginStartup] 0.386953ms
+2015-05-03 14:30:27.164 HospitalData[4205:36436] Resetting plugins due to page load.
+2015-05-03 14:30:27.393 HospitalData[4205:36436] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/EC245CD7-7035-4EB5-A1E7-12044B17EF27/HospitalData.app/www/index.html
+2015-05-03 14:31:13.120 HospitalData[4397:37150] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/99712FF6-5454-4878-AD3D-77D16CD7FB2C/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:31:13.483 HospitalData[4397:37150] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:31:13.483 HospitalData[4397:37150] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:31:13.504 HospitalData[4397:37150] Unlimited access to network resources
+2015-05-03 14:31:13.605 HospitalData[4397:37150] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:31:13.606 HospitalData[4397:37150] [CDVTimer][splashscreen] 0.413001ms
+2015-05-03 14:31:13.606 HospitalData[4397:37150] [CDVTimer][TotalPluginStartup] 0.792980ms
+2015-05-03 14:31:14.017 HospitalData[4397:37150] Resetting plugins due to page load.
+2015-05-03 14:31:14.359 HospitalData[4397:37150] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/8900A7E9-4F24-40B8-81BE-160AA1A5D399/HospitalData.app/www/index.html
+2015-05-03 14:34:57.856 HospitalData[4650:38644] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/3026D118-54AB-43E3-B773-F767348F5F9D/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:34:58.152 HospitalData[4650:38644] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:34:58.152 HospitalData[4650:38644] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:34:58.163 HospitalData[4650:38644] Unlimited access to network resources
+2015-05-03 14:34:58.248 HospitalData[4650:38644] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:34:58.248 HospitalData[4650:38644] [CDVTimer][splashscreen] 0.302017ms
+2015-05-03 14:34:58.249 HospitalData[4650:38644] [CDVTimer][TotalPluginStartup] 0.541031ms
+2015-05-03 14:34:58.539 HospitalData[4650:38644] Resetting plugins due to page load.
+2015-05-03 14:34:58.846 HospitalData[4650:38644] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/250ECEF6-F38A-4A68-B3FC-1C362DA9576E/HospitalData.app/www/index.html
+2015-05-03 14:37:01.182 HospitalData[4873:39642] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/0187C3D6-F2C0-4089-9364-76C1BD25C71F/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:37:01.602 HospitalData[4873:39642] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:37:01.603 HospitalData[4873:39642] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:37:01.641 HospitalData[4873:39642] Unlimited access to network resources
+2015-05-03 14:37:01.708 HospitalData[4873:39642] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:37:01.709 HospitalData[4873:39642] [CDVTimer][splashscreen] 0.149965ms
+2015-05-03 14:37:01.709 HospitalData[4873:39642] [CDVTimer][TotalPluginStartup] 0.324011ms
+2015-05-03 14:37:02.023 HospitalData[4873:39642] Resetting plugins due to page load.
+2015-05-03 14:37:02.357 HospitalData[4873:39642] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/D61F17B3-5FD6-433D-A476-7DDAFCB1C9DA/HospitalData.app/www/index.html
+2015-05-03 14:38:02.937 HospitalData[5068:40327] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/3175A2CE-ED9C-4964-8495-ED2F6AC06A94/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:38:03.231 HospitalData[5068:40327] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:38:03.232 HospitalData[5068:40327] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:38:03.241 HospitalData[5068:40327] Unlimited access to network resources
+2015-05-03 14:38:03.329 HospitalData[5068:40327] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:38:03.329 HospitalData[5068:40327] [CDVTimer][splashscreen] 0.218987ms
+2015-05-03 14:38:03.330 HospitalData[5068:40327] [CDVTimer][TotalPluginStartup] 0.397980ms
+2015-05-03 14:38:03.616 HospitalData[5068:40327] Resetting plugins due to page load.
+2015-05-03 14:38:03.897 HospitalData[5068:40327] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/8702CF4E-955C-4D53-8CB3-DE2CB86D69D6/HospitalData.app/www/index.html
+2015-05-03 14:39:02.268 HospitalData[5271:41187] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/9EB17E85-9906-496A-9F8E-3EB97712EB0D/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:39:02.568 HospitalData[5271:41187] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:39:02.568 HospitalData[5271:41187] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:39:02.571 HospitalData[5271:41187] Unlimited access to network resources
+2015-05-03 14:39:02.748 HospitalData[5271:41187] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:39:02.748 HospitalData[5271:41187] [CDVTimer][splashscreen] 0.185966ms
+2015-05-03 14:39:02.748 HospitalData[5271:41187] [CDVTimer][TotalPluginStartup] 0.326037ms
+2015-05-03 14:39:02.990 HospitalData[5271:41187] Resetting plugins due to page load.
+2015-05-03 14:39:03.243 HospitalData[5271:41187] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/AF17AEAF-1CA8-489D-ACBA-310501BDCEB9/HospitalData.app/www/index.html
+2015-05-03 14:41:53.905 HospitalData[5501:42369] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/70DDFEE3-342F-4DE6-85FB-729E8D2A4041/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:41:54.179 HospitalData[5501:42369] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:41:54.180 HospitalData[5501:42369] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:41:54.196 HospitalData[5501:42369] Unlimited access to network resources
+2015-05-03 14:41:54.287 HospitalData[5501:42369] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:41:54.287 HospitalData[5501:42369] [CDVTimer][splashscreen] 0.198007ms
+2015-05-03 14:41:54.287 HospitalData[5501:42369] [CDVTimer][TotalPluginStartup] 0.378966ms
+2015-05-03 14:41:54.577 HospitalData[5501:42369] Resetting plugins due to page load.
+2015-05-03 14:41:54.873 HospitalData[5501:42369] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/4B87BAFF-0FE9-4E3A-A3FF-DE0D64191B3C/HospitalData.app/www/index.html
+2015-05-03 14:42:54.028 HospitalData[5702:43087] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/45D07B53-A238-4C30-88A9-001B919720E7/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:42:54.320 HospitalData[5702:43087] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:42:54.321 HospitalData[5702:43087] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:42:54.332 HospitalData[5702:43087] Unlimited access to network resources
+2015-05-03 14:42:54.414 HospitalData[5702:43087] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:42:54.414 HospitalData[5702:43087] [CDVTimer][splashscreen] 0.158012ms
+2015-05-03 14:42:54.414 HospitalData[5702:43087] [CDVTimer][TotalPluginStartup] 0.342011ms
+2015-05-03 14:42:54.715 HospitalData[5702:43087] Resetting plugins due to page load.
+2015-05-03 14:42:54.988 HospitalData[5702:43087] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/F353108E-5BC5-4772-A840-CE2D7B7B1418/HospitalData.app/www/index.html
+2015-05-03 14:43:28.662 HospitalData[5892:43738] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/8F01FFE8-500A-49D9-8C8D-7C34507E0A99/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:43:28.969 HospitalData[5892:43738] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:43:28.969 HospitalData[5892:43738] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:43:28.976 HospitalData[5892:43738] Unlimited access to network resources
+2015-05-03 14:43:29.057 HospitalData[5892:43738] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:43:29.058 HospitalData[5892:43738] [CDVTimer][splashscreen] 0.158012ms
+2015-05-03 14:43:29.058 HospitalData[5892:43738] [CDVTimer][TotalPluginStartup] 0.349998ms
+2015-05-03 14:43:29.368 HospitalData[5892:43738] Resetting plugins due to page load.
+2015-05-03 14:43:29.674 HospitalData[5892:43738] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/0348E4A9-D942-42E2-A60D-769DE0F4D795/HospitalData.app/www/index.html
+2015-05-03 14:45:39.118 HospitalData[6110:44759] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/727931B1-31AC-4BFA-9D9D-218B7BE49878/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:45:39.499 HospitalData[6110:44759] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:45:39.500 HospitalData[6110:44759] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:45:39.514 HospitalData[6110:44759] Unlimited access to network resources
+2015-05-03 14:45:39.597 HospitalData[6110:44759] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:45:39.598 HospitalData[6110:44759] [CDVTimer][splashscreen] 0.218987ms
+2015-05-03 14:45:39.598 HospitalData[6110:44759] [CDVTimer][TotalPluginStartup] 0.415981ms
+2015-05-03 14:45:39.946 HospitalData[6110:44759] Resetting plugins due to page load.
+2015-05-03 14:45:40.245 HospitalData[6110:44759] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/0875CA9D-CD78-44AC-B7D2-0D28BE38108C/HospitalData.app/www/index.html
+2015-05-03 14:46:29.800 HospitalData[6308:45389] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/60BACE3B-9822-4F8B-BEFA-4E5176FF069A/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:46:30.107 HospitalData[6308:45389] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:46:30.107 HospitalData[6308:45389] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:46:30.112 HospitalData[6308:45389] Unlimited access to network resources
+2015-05-03 14:46:30.206 HospitalData[6308:45389] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:46:30.206 HospitalData[6308:45389] [CDVTimer][splashscreen] 0.344992ms
+2015-05-03 14:46:30.207 HospitalData[6308:45389] [CDVTimer][TotalPluginStartup] 0.603974ms
+2015-05-03 14:46:30.502 HospitalData[6308:45389] Resetting plugins due to page load.
+2015-05-03 14:46:30.768 HospitalData[6308:45389] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/44AA8C59-0E30-4B91-9ACD-B44DA883A078/HospitalData.app/www/index.html
+2015-05-03 14:48:26.669 HospitalData[6564:46451] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/6DAF574B-929F-44B4-A380-978844DEEF00/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:48:26.944 HospitalData[6564:46451] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:48:26.945 HospitalData[6564:46451] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:48:26.960 HospitalData[6564:46451] Unlimited access to network resources
+2015-05-03 14:48:27.047 HospitalData[6564:46451] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:48:27.047 HospitalData[6564:46451] [CDVTimer][splashscreen] 0.156999ms
+2015-05-03 14:48:27.047 HospitalData[6564:46451] [CDVTimer][TotalPluginStartup] 0.351012ms
+2015-05-03 14:48:27.324 HospitalData[6564:46451] Resetting plugins due to page load.
+2015-05-03 14:48:27.583 HospitalData[6564:46451] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/43F61898-EC05-4BF9-8BD3-F6BAE6C84ED5/HospitalData.app/www/index.html
+2015-05-03 14:49:19.188 HospitalData[6765:47198] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/81F0290F-F8EF-4E4E-8BA0-1C016A27A193/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:49:19.498 HospitalData[6765:47198] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:49:19.499 HospitalData[6765:47198] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:49:19.517 HospitalData[6765:47198] Unlimited access to network resources
+2015-05-03 14:49:19.600 HospitalData[6765:47198] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:49:19.600 HospitalData[6765:47198] [CDVTimer][splashscreen] 0.209987ms
+2015-05-03 14:49:19.601 HospitalData[6765:47198] [CDVTimer][TotalPluginStartup] 0.402987ms
+2015-05-03 14:49:19.898 HospitalData[6765:47198] Resetting plugins due to page load.
+2015-05-03 14:49:20.162 HospitalData[6765:47198] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/89AA39D7-FB67-4839-9D8A-8C9681EA7DEC/HospitalData.app/www/index.html
+2015-05-03 14:50:21.265 HospitalData[6765:47208] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-05-03 14:50:45.939 HospitalData[6969:48138] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/FC4C217E-4FC7-4302-ADEE-8CCFB403324B/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:50:46.095 HospitalData[6969:48138] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:50:46.096 HospitalData[6969:48138] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:50:46.097 HospitalData[6969:48138] Unlimited access to network resources
+2015-05-03 14:50:46.177 HospitalData[6969:48138] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:50:46.177 HospitalData[6969:48138] [CDVTimer][splashscreen] 0.156999ms
+2015-05-03 14:50:46.177 HospitalData[6969:48138] [CDVTimer][TotalPluginStartup] 0.355959ms
+2015-05-03 14:50:46.618 HospitalData[6969:48138] Resetting plugins due to page load.
+2015-05-03 14:50:46.870 HospitalData[6969:48138] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/32F3DE09-5746-47D6-A9C6-0271ECC34F26/HospitalData.app/www/index.html
+2015-05-03 14:51:50.765 HospitalData[7169:48904] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Data/Application/78683912-E6CD-4501-8718-17841F0860D2/Library/Cookies/Cookies.binarycookies
+2015-05-03 14:51:51.179 HospitalData[7169:48904] Apache Cordova native platform version 3.7.0 is starting.
+2015-05-03 14:51:51.180 HospitalData[7169:48904] Multi-tasking -> Device: YES, App: YES
+2015-05-03 14:51:51.197 HospitalData[7169:48904] Unlimited access to network resources
+2015-05-03 14:51:51.269 HospitalData[7169:48904] CDVPlugin class CDVSplashScreen (pluginName: splashscreen) does not exist.
+2015-05-03 14:51:51.270 HospitalData[7169:48904] [CDVTimer][splashscreen] 0.180006ms
+2015-05-03 14:51:51.270 HospitalData[7169:48904] [CDVTimer][TotalPluginStartup] 0.400007ms
+2015-05-03 14:51:51.552 HospitalData[7169:48904] Resetting plugins due to page load.
+2015-05-03 14:51:51.836 HospitalData[7169:48904] Finished load of: file:///Users/lquaintance/Library/Developer/CoreSimulator/Devices/31D5C461-097A-42A5-8628-50D652E2959F/data/Containers/Bundle/Application/2BBA2FF8-DAF6-4F67-AAF1-2DBAF9BFED9C/HospitalData.app/www/index.html

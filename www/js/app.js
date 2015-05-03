@@ -242,6 +242,9 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
                     var canvas = document.getElementById("bar-canvas");
                     var ctx = canvas.getContext("2d");
 
+                    canvas.width = 180;
+                    canvas.height = 200;
+
                     HApp.barChart = new Chart(ctx).Bar({
                         labels: [""],
                         datasets: [{
@@ -287,7 +290,10 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
                     });
 
                     var pieCanvas = document.getElementById("chart-area");
-                    var ctx = pieCanvas.getContext("2d");
+                    var pieCtx = pieCanvas.getContext("2d");
+
+                    pieCanvas.width = 160;
+                    pieCanvas.height = 120;
 
                     var nowRev = ($scope.netRevenue > 0) ? $scope.netRevenue : 0;
                     var forecastRev = ($scope.netRevenueForecast > 0) ? $scope.netRevenueForecast : 0;
@@ -305,7 +311,7 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
                         upliftPortionForecast = 1;
                     }
 
-                    HApp.pieChart = new Chart(ctx).Pie([{
+                    HApp.pieChart = new Chart(pieCtx).Pie([{
                         value: nowRev,
                         color: "#223975",
                         label: "Current",
@@ -347,21 +353,28 @@ angular.module('HospitalDataApp', ['countTo']).controller('HospitalDataControlle
             })
             .success(function(data, status, headers, config) {
 
-                HApp.cache(data.data);
-                HApp.bindModelToView();
-                HApp.spinner.stop();
-
-                HApp.serverLoadInProgress = false;
+                if (data.data) {
+                    HApp.cache(data.data);
+                    HApp.bindModelToView();
+                    HApp.spinner.stop();
+                    HApp.serverLoadInProgress = false;
+                } else {
+                    HApp.httpErrorHandler();
+                }
 
             }).error(function(data, status, headers, config) {
-                HApp.spinner.stop();
-                alert("We are currently unable to retrieve the data from the server, please check your internet connection and click the refresh button in the top left hand corner or try again later");
+                HApp.httpErrorHandler();
             });
     };
 
     HApp.init();
 
 }]);
+
+HApp.httpErrorHandler = function() {
+    HApp.spinner.stop();
+    alert("We are currently unable to retrieve the data from the server, please check your internet connection and click the refresh button in the top left hand corner or try again later");
+};
 
 $(".refresh").click(function() {
     HApp.loadDataFromServer();
